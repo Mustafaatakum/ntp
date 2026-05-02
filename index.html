@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>C# Uygulamaları — NTP</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0d0d0f;
+    --surface: #141418;
+    --surface2: #1c1c22;
+    --border: #2a2a35;
+    --accent: #7c3aed;
+    --accent2: #a855f7;
+    --accent-glow: rgba(124,58,237,0.25);
+    --text: #e8e8f0;
+    --text-muted: #6b6b80;
+    --text-dim: #9999b0;
+    --green: #22c55e;
+    --blue: #3b82f6;
+    --orange: #f97316;
+    --red: #ef4444;
+    --yellow: #eab308;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Syne', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  /* HEADER */
+  header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 24px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(90deg, var(--accent-glow) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .logo {
+    width: 40px; height: 40px;
+    background: var(--accent);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    flex-shrink: 0;
+    box-shadow: 0 0 20px var(--accent-glow);
+  }
+  .header-text h1 {
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+    color: var(--text);
+  }
+  .header-text p {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: 'JetBrains Mono', monospace;
+    margin-top: 1px;
+  }
+  .header-search {
+    margin-left: auto;
+    position: relative;
+  }
+  .header-search input {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 7px 14px 7px 34px;
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    outline: none;
+    width: 220px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .header-search input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+  }
+  .header-search input::placeholder { color: var(--text-muted); }
+  .search-icon {
+    position: absolute;
+    left: 10px; top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    font-size: 13px;
+  }
+  .gh-link {
+    display: flex; align-items: center; gap: 6px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 7px 12px;
+    color: var(--text-dim);
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    transition: all 0.2s;
+  }
+  .gh-link:hover { border-color: var(--accent2); color: var(--text); }
+
+  /* MAIN LAYOUT */
+  .main {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  /* SIDEBAR */
+  .sidebar {
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .sidebar-header {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+  .sidebar-header span {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  .count-badge {
+    background: var(--accent);
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 20px;
+    font-weight: 600;
+  }
+  .tree {
+    overflow-y: auto;
+    flex: 1;
+    padding: 8px 0;
+  }
+  .tree::-webkit-scrollbar { width: 4px; }
+  .tree::-webkit-scrollbar-track { background: transparent; }
+  .tree::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  .unit-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 16px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.15s;
+    position: relative;
+  }
+  .unit-header:hover { background: var(--surface2); }
+  .unit-header.open .chevron { transform: rotate(90deg); }
+  .chevron {
+    color: var(--text-muted);
+    font-size: 10px;
+    transition: transform 0.2s;
+    flex-shrink: 0;
+  }
+  .unit-dot {
+    width: 8px; height: 8px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .unit-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    flex: 1;
+    line-height: 1.3;
+  }
+  .unit-count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--text-muted);
+  }
+
+  .apps-list {
+    display: none;
+    padding-bottom: 4px;
+  }
+  .apps-list.open { display: block; }
+
+  .app-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 16px 7px 36px;
+    cursor: pointer;
+    transition: background 0.15s;
+    border-left: 2px solid transparent;
+    margin-left: 0;
+  }
+  .app-item:hover { background: var(--surface2); }
+  .app-item.active {
+    background: rgba(124,58,237,0.12);
+    border-left-color: var(--accent);
+  }
+  .app-item .app-name {
+    font-size: 12px;
+    color: var(--text-dim);
+    line-height: 1.3;
+    flex: 1;
+  }
+  .app-item.active .app-name { color: var(--text); }
+  .app-item .app-file {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    color: var(--text-muted);
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* CONTENT AREA */
+  .content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: var(--bg);
+  }
+
+  /* EMPTY STATE */
+  .empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 16px;
+    color: var(--text-muted);
+  }
+  .empty-icon {
+    font-size: 48px;
+    opacity: 0.3;
+  }
+  .empty-state h2 {
+    font-size: 18px;
+    color: var(--text-dim);
+    font-weight: 600;
+  }
+  .empty-state p {
+    font-size: 13px;
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  /* APP DETAIL */
+  .app-detail {
+    display: none;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+    padding: 32px 36px;
+  }
+  .app-detail.visible { display: flex; }
+  .app-detail::-webkit-scrollbar { width: 4px; }
+  .app-detail::-webkit-scrollbar-thumb { background: var(--border); }
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 28px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+  }
+  .breadcrumb span { color: var(--text-muted); }
+  .breadcrumb .sep { color: var(--border); }
+  .breadcrumb .current { color: var(--accent2); }
+
+  .app-title-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 12px;
+  }
+  .app-title-icon {
+    width: 52px; height: 52px;
+    background: var(--accent);
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+    box-shadow: 0 0 30px var(--accent-glow);
+  }
+  .app-title h2 {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+  }
+  .app-title .file-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 3px 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--accent2);
+  }
+  .unit-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 28px;
+  }
+  .unit-chip-dot { width: 6px; height: 6px; border-radius: 50%; }
+
+  .section-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 14px;
+    margin-bottom: 32px;
+  }
+
+  .action-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 14px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .action-btn::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .action-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.4); }
+  .action-btn:hover::before { opacity: 1; }
+
+  .btn-run::before { background: radial-gradient(circle at top left, rgba(34,197,94,0.1), transparent 70%); }
+  .btn-run:hover { border-color: var(--green); }
+  .btn-question::before { background: radial-gradient(circle at top left, rgba(59,130,246,0.1), transparent 70%); }
+  .btn-question:hover { border-color: var(--blue); }
+  .btn-pdf::before { background: radial-gradient(circle at top left, rgba(239,68,68,0.1), transparent 70%); }
+  .btn-pdf:hover { border-color: var(--red); }
+  .btn-docx::before { background: radial-gradient(circle at top left, rgba(59,130,246,0.1), transparent 70%); }
+  .btn-docx:hover { border-color: var(--blue); }
+  .btn-rar::before { background: radial-gradient(circle at top left, rgba(249,115,22,0.1), transparent 70%); }
+  .btn-rar:hover { border-color: var(--orange); }
+
+  .btn-icon {
+    width: 38px; height: 38px;
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+  }
+  .btn-run .btn-icon { background: rgba(34,197,94,0.15); }
+  .btn-question .btn-icon { background: rgba(59,130,246,0.15); }
+  .btn-pdf .btn-icon { background: rgba(239,68,68,0.15); }
+  .btn-docx .btn-icon { background: rgba(59,130,246,0.15); }
+  .btn-rar .btn-icon { background: rgba(249,115,22,0.15); }
+
+  .btn-info .btn-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.2;
+  }
+  .btn-info .btn-sub {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--text-muted);
+    margin-top: 2px;
+  }
+  .btn-ext {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-weight: 600;
+    align-self: flex-start;
+  }
+  .btn-run .btn-ext { background: rgba(34,197,94,0.15); color: var(--green); }
+  .btn-question .btn-ext { background: rgba(59,130,246,0.15); color: var(--blue); }
+  .btn-pdf .btn-ext { background: rgba(239,68,68,0.15); color: var(--red); }
+  .btn-docx .btn-ext { background: rgba(59,130,246,0.15); color: var(--blue); }
+  .btn-rar .btn-ext { background: rgba(249,115,22,0.15); color: var(--orange); }
+
+  .url-preview {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+  }
+  .url-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .url-row:last-child { border-bottom: none; }
+  .url-ext {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 700;
+    width: 42px;
+    flex-shrink: 0;
+  }
+  .url-path {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--text-muted);
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .url-copy {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 2px 8px;
+    color: var(--text-muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    cursor: pointer;
+    transition: all 0.15s;
+    flex-shrink: 0;
+  }
+  .url-copy:hover { border-color: var(--accent); color: var(--accent2); }
+
+  /* Search results */
+  .search-results {
+    display: none;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+    padding: 24px 28px;
+  }
+  .search-results.visible { display: flex; }
+  .search-result-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    margin-bottom: 8px;
+    transition: all 0.15s;
+  }
+  .search-result-item:hover { border-color: var(--accent); background: rgba(124,58,237,0.06); }
+  .sr-unit { font-size: 10px; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; }
+  .sr-name { font-size: 13px; font-weight: 600; }
+  .sr-file { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--accent2); }
+
+  /* Scrollbar */
+  .app-detail::-webkit-scrollbar { width: 4px; }
+  .search-results::-webkit-scrollbar { width: 4px; }
+  .search-results::-webkit-scrollbar-thumb { background: var(--border); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">C#</div>
+  <div class="header-text">
+    <h1>C# Uygulamaları</h1>
+    <p>Mustafaatakum / ntp</p>
+  </div>
+  <div class="header-search">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="searchInput" placeholder="Uygulama ara..." oninput="handleSearch(this.value)">
+  </div>
+  <a class="gh-link" href="https://github.com/Mustafaatakum/ntp" target="_blank">
+    ⎈ GitHub
+  </a>
+</header>
+
+<div class="main">
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <span>Konu Listesi</span>
+      <span class="count-badge" id="totalCount">0</span>
+    </div>
+    <div class="tree" id="tree"></div>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content">
+    <!-- Empty state -->
+    <div class="empty-state" id="emptyState">
+      <div class="empty-icon">⌨️</div>
+      <h2>Bir uygulama seçin</h2>
+      <p>Sol menüden bir ünite açın<br>ve uygulama seçin.</p>
+    </div>
+
+    <!-- Search results -->
+    <div class="search-results" id="searchResults"></div>
+
+    <!-- App detail -->
+    <div class="app-detail" id="appDetail"></div>
+  </div>
+</div>
+
+<script>
+// ===================== DATA =====================
+const GITHUB_BASE = "https://mustafaatakum.github.io/ntp/files/";
+
+const UNITS = [
+  {
+    name: "ÇALIŞMA ORTAMI VE TEMEL İŞLEMLER",
+    color: "#7c3aed",
+    icon: "🖥️",
+    apps: [
+      { name: "FORM ZEMİNİ DEĞİŞMESİ buton click", file: "renk_click1" },
+      { name: "FORM RENGİ DEĞİŞME buton hover", file: "renk_hover1" },
+      { name: "LABELE YAZI AKTARMA buton click", file: "labele_aktar1" },
+      { name: "upper_lower_text_change", file: "upper_lower_text_change" },
+      { name: "LABELE YAZI AKTARMA text change", file: "labele_aktar2" },
+      { name: "MESAJ KUTUSU GÖSTERME", file: "mesaj" },
+      { name: "mesajkutusu", file: "mesajkutusu" },
+      { name: "LİSTEYE YAZI EKLEME", file: "liste1" },
+      { name: "RESİM GÖSTER GİZLE radio butıon", file: "picture1" },
+      { name: "GROUPBOX GÖSTER GİZLE radio button", file: "groupBoxVisible" },
+      { name: "SEÇİLEN RESMİ BÜYÜTME SWAP", file: "galeri1" },
+      { name: "mouseleave_mousehover_telefon_tus", file: "mouseleave_mousehover_telefon_tus" },
+      { name: "LİSTE1-LİSTE2 EKLEME, ÇIKARMA, AKTARMA", file: "listbox 1 ve 2 -ekle-çıkar-doubleclick" },
+      { name: "process start picturebox", file: "process_start_picturebox" },
+      { name: "3listboxtan_ayni_satiri_sil", file: "3listboxtan_ayni_satiri_sil" },
+      { name: "click_hover_gs_fb_bjk", file: "click_hover_gs_fb_bjk" },
+      { name: "sender_renk_degisme", file: "sender_renk_degisme" },
+      { name: "sender_galeri", file: "sender_galeri" },
+      { name: "sender_textbox_tab_renk", file: "sender_textbox_tab_renk" },
+      { name: "sender_renk_telefon_tus", file: "sender_renk_telefon_tus" },
+      { name: "sender_selectedindex", file: "sender_selectedindex" },
+    ]
+  },
+  {
+    name: "DEĞİŞKENLER",
+    color: "#2563eb",
+    icon: "📊",
+    apps: [
+      { name: "TOPLAMA buton click", file: "toplama1" },
+      { name: "TOPLAMA change", file: "toplama2" },
+      { name: "4 İŞLEM VE MOD", file: "islem4" },
+      { name: "ORTALAMA HESAPLAMA", file: "ortalama" },
+      { name: "İŞLEM ÖNCELİĞİ", file: "oncelik" },
+      { name: "lokanta", file: "lokanta" },
+      { name: "KENDİ İLE TOPLAMA VE ÇARPMA", file: "self" },
+      { name: "ÇEMBER ALAN ÇEVRE HESABI", file: "cember" },
+      { name: "NET HESAPLAMA", file: "nethesap" },
+      { name: "KDV", file: "kdv" },
+      { name: "İNDİRİM", file: "indirim" },
+      { name: "OHM KANUNU AKIM HESABI", file: "amper" },
+      { name: "OHM KANUNU AKIM DİRENÇ AMPER HESABI", file: "ohm" },
+      { name: "KAREKÖK ALMA", file: "karekok" },
+      { name: "EŞKENAR ÜÇGEN ALAN ÇEVRE HESAPLAMA", file: "ucgen" },
+      { name: "PARALEL DEVREDE EŞDEĞER DİRENÇ", file: "paraleldirenc" },
+      { name: "HİPOTENÜS HESAPLAMA", file: "hipotenus" },
+      { name: "3 BOYUTLU ŞEKİLLERİN HACİMLERİ", file: "hacimler" },
+      { name: "DİRENÇ RENK KODLARI", file: "direncrenk1" },
+      { name: "AYARLI DİRENÇ (GLOBAL DEĞİŞKEN)", file: "direnctrackbar" },
+      { name: "RGB İLE FORM RENGİ DEĞİŞTİRME", file: "rgb" },
+      { name: "PROGRESS BAR TİMER", file: "timerprogresbargenel" },
+      { name: "KRONEMETRE PROGRESSBAR TİMER", file: "kronometre1" },
+      { name: "KRONOMETRE BAŞLA DUR DEVAM", file: "kronometre2" },
+      { name: "TİMER İLE RASTGELE RENK DEĞİŞİMİ", file: "renklerrastgele" },
+      { name: "Şuanki tarih saat farklı yazılışlar", file: "zaman-now" },
+      { name: "Artırma Azaltma ilk son", file: "a++a--" },
+      { name: "combobox_ve_listbox", file: "combobox_ve_listbox" },
+      { name: "listeden_rasgele_sec", file: "listeden_rasgele_sec" },
+      { name: "upper_lover_change", file: "upper_lover_change" },
+      { name: "passwordchar_göster_gizle", file: "passwordchar_göster_gizle" },
+      { name: "ad_soyad_birleştir_ekle", file: "ad_soyad_birletir_ekle" },
+      { name: "vki - vücut kitle boy", file: "vki" },
+      { name: "mesafe_yakit_saat_harita", file: "mesafe_yakit_saat_harita" },
+      { name: "dikdortgen trackbar alan çevre", file: "dikdortgen" },
+      { name: "kredi_hesaplama", file: "kredi_hesaplama" },
+      { name: "zar", file: "zar" },
+      { name: "tavla", file: "tavla" },
+      { name: "sudoku_inputbox_sender", file: "sudoku_inputbox_sender" },
+      { name: "sender_dama_dizisiz", file: "sender_dama_dizisiz" },
+      { name: "sender_sayac", file: "sender_sayac" },
+    ]
+  },
+  {
+    name: "EĞER (İF) BLOĞU",
+    color: "#059669",
+    icon: "🔀",
+    apps: [
+      { name: "ŞİFRE DOĞRU YANLIŞ", file: "sifre" },
+      { name: "SAYI POZİTİF NEGATİF SIFIR (sadece if)", file: "pozitif1" },
+      { name: "SAYI POZİTİF NEGATİF SIFIR (if-else if-else)", file: "pozitif2" },
+      { name: "İKİ SAYI BÜYÜK KÜÇÜK EŞİT", file: "buyukkucukesit" },
+      { name: "TAKIM SKOR GALİP MAĞLÜP BERABERLİK", file: "skor" },
+      { name: "ORTALAMA VE DEVAMSIZLIK (VE)", file: "ortdevamve" },
+      { name: "ORTALAMA VE DEVAMSIZLIK (VEYA)", file: "ortdevamveya" },
+      { name: "PEKİYİ İYİ ORTA", file: "pekiyi" },
+      { name: "COMBOBOX İLE 4 İŞLEM", file: "combo4islem" },
+      { name: "POLİS LAMBASI TİMER", file: "polislambasi" },
+      { name: "RASTGELE SAYIYI TAHMİN ETME", file: "rastgelesayıyıbulma" },
+      { name: "LİSTEYE SAYI EKLEYİP EN BÜYÜK EN KÜÇÜĞÜ BULMA", file: "makmin" },
+      { name: "RASTGELE TABAN VE TAVAN", file: "randomtavantaban" },
+      { name: "bool-üye-girişi", file: "bool-üye-girişi" },
+      { name: "bool-uyarılar", file: "bool-uyarılar" },
+      { name: "İNTERNET CAFE TİMESPAN DATETİME", file: "internetcafe" },
+      { name: "Yön Tuşları ile hareket", file: "yontuslari" },
+      { name: "yontuslari_civciv", file: "yontuslari_civciv" },
+      { name: "rasgele_rengi_bul_oyunu", file: "rasgele_rengi_bul_oyunu" },
+      { name: "trafiklambalari", file: "trafiklambalari" },
+      { name: "tas_kagit_makas", file: "tas_kagit_makas_and_or_random" },
+      { name: "kibrit", file: "kibrit" },
+      { name: "asansor_sender_timer", file: "asansor_sender_timer" },
+      { name: "f16_keycode_if_timer", file: "f16_keycode_if_timer" },
+      { name: "il_tahmini_liste_radio_harita", file: "il_tahmini_liste_radio_harita" },
+    ]
+  },
+  {
+    name: "SWITCH CASE",
+    color: "#d97706",
+    icon: "🔄",
+    apps: [
+      { name: "PEKİYİ İYİ ORTA (switch)", file: "casepekiyi" },
+      { name: "AYLAR OCAK ŞUBAT MART", file: "case_aylar" },
+      { name: "case_wasd_char", file: "case_wasd_char" },
+      { name: "FORMA NUMARASI MEVKİ", file: "case_formano" },
+      { name: "İŞLEM SEÇ HESAPLA", file: "case_7islem" },
+      { name: "sw case zemin yazi rengi", file: "swcase_zeminyazirengi1" },
+      { name: "swcase direnc renk", file: "swcase_direnc_renk" },
+      { name: "process_start_combo_switch", file: "process_start_combo_switch" },
+    ]
+  },
+  {
+    name: "HATA AYIKLAMA",
+    color: "#dc2626",
+    icon: "🐛",
+    apps: [
+      { name: "TRY ÇARPMA TEXTBOX", file: "try_carpma_textbox" },
+      { name: "trt_catch_rasgele", file: "trt_catch_rasgele" },
+      { name: "trt_catch_rgb", file: "trt_catch_rgb" },
+      { name: "trt_catch_kadro_listbox", file: "trt_catch_kadro_listbox" },
+      { name: "trt_catch_uefa_torba", file: "trt_catch_uefa_torba" },
+      { name: "try-catch-process-start", file: "try-catch-process-start" },
+    ]
+  },
+  {
+    name: "FOR DÖNGÜSÜ",
+    color: "#0891b2",
+    icon: "🔁",
+    apps: [
+      { name: "LİSTEYE 10 DEFA SAMSUN YAZMAK", file: "for10samsun" },
+      { name: "LİSTEYE 1-DEN 9-A KADAR SAYI", file: "forlist1-9" },
+      { name: "LİSTEYE TEK SAYILARI EKLEMEK", file: "forlistteksayi" },
+      { name: "LİSTEYE ÇİFT SAYILARI EKLEMEK", file: "forlistciftsayi" },
+      { name: "LİSTEYE SAYI EKLEMEK VE TOPLAMAK", file: "fortoplam" },
+      { name: "faktoriyel", file: "fonksiyon_fakt_paramertesiz" },
+      { name: "permutasyon", file: "fonksiyon_permutasyon_void_parametresiz" },
+      { name: "kombinasyon", file: "fonksiyon_kombinasyon_parametreli_return" },
+      { name: "YAŞ HESAPLAMA NOW", file: "yashesabinow" },
+      { name: "LİSTEYE ÇARPIM TABLOSU", file: "carpimtablosu" },
+      { name: "FOR RENKLİ NESNE EKLEME", file: "for_renkli_nensne_ekleme" },
+      { name: "FOR EACH NESNELERE ULAŞMA", file: "each_nesne" },
+      { name: "OKUL ZİLİ", file: "okulzili" },
+      { name: "hesap makinesi", file: "hesapmakinesi" },
+      { name: "sanal klavye", file: "sanalklavye" },
+      { name: "otopark", file: "otopark" },
+      { name: "tombala", file: "tombala" },
+      { name: "for_sayisal_loto", file: "for_sayisal_loto" },
+      { name: "for_dama_tahtasi", file: "for_dama_tahtasi" },
+      { name: "puzzle_1_15_mavi_bos", file: "puzzle_1_15_mavi_bos" },
+    ]
+  },
+  {
+    name: "WHILE / DO WHILE DÖNGÜSÜ",
+    color: "#7c3aed",
+    icon: "🔃",
+    apps: [
+      { name: "WHILE LİSTBOX A 10 DEFA SAMSUN", file: "WHILE 10 SAMSUN" },
+      { name: "LİSTBOX a 1 den 9 a kadar", file: "WHILE 1-9" },
+      { name: "while kayıt girişi inputbox", file: "while kayıt girişi inputbox" },
+      { name: "do while kayıt girişi inputbox", file: "do while kayıt girişi inputbox" },
+      { name: "do while - topla -input", file: "do while - topla -input" },
+    ]
+  },
+  {
+    name: "FONKSİYONLAR",
+    color: "#be185d",
+    icon: "⚙️",
+    apps: [
+      { name: "fonksiyon_selamla", file: "fonksiyon_selamla" },
+      { name: "FORMUN ZEMİN RENGİ 3 TRACKBAR", file: "renklendirme_procedure" },
+      { name: "fonksiyon_bravo", file: "fonksiyon_bravo" },
+      { name: "fonksiyon_fakt_parametreli", file: "fonksiyon_fakt_parametreli" },
+      { name: "fonksiyon_fakt_parametreli_return", file: "fonksiyon_fakt_parametreli_return" },
+      { name: "fonksiyon_permutasyon_parametreli_return", file: "fonksiyon_permutasyon_parametreli_return" },
+      { name: "fonksiyon_direnc_renk", file: "fonksiyon_direnc_renk" },
+      { name: "fonksiyon_hesapmakinesi", file: "fonksiyon_hesapmakinesi" },
+      { name: "fonksiyon_qklavye", file: "fonksiyon_qklavye" },
+      { name: "return_5_sayi_topla", file: "return_5_sayi_topla" },
+      { name: "return_pekiyi_iyi", file: "return_pekiyi_iyi" },
+      { name: "rekursif_faktoriyel", file: "rekursif_faktoriyel" },
+      { name: "rekursif_fibonacci1", file: "rekursif_fibonacci1" },
+      { name: "ayna_rekursif", file: "ayna_rekursif" },
+    ]
+  },
+  {
+    name: "SERİLER",
+    color: "#0891b2",
+    icon: "∑",
+    apps: [
+      { name: "sigma_i_x_i", file: "sigma_i_x_i" },
+      { name: "sigma_2_uzeri_i", file: "sigma_2_uzeri_i" },
+      { name: "sigma_arti_eksi", file: "sigma_arti_eksi" },
+      { name: "sigma_itoplam_bolum_ifak", file: "sigma_itoplam_bolum_ifak" },
+    ]
+  },
+  {
+    name: "DİZİ",
+    color: "#16a34a",
+    icon: "[]",
+    apps: [
+      { name: "dizi tanımlama", file: "dizi tanımlama" },
+      { name: "DİZİ SIRALAMA LİSTBOXA AKTARMA", file: "dizisiralama" },
+      { name: "DİZİYE ELEMAN EKLEME VE LİSTELEME", file: "dizielemaneklelistele" },
+      { name: "DİZİ SIRALAMA TERS ÇEVİRME", file: "dizisortreverse" },
+      { name: "DİZİ EN BÜYÜK VE EN KÜÇÜK", file: "dizi_array_sort_max_min" },
+      { name: "ŞEHİR TANIMLAMA", file: "dizi_tanımlama_sehir" },
+      { name: "2 BOYUTLU DİZİ KAYIT LİSTE DETAY", file: "dizi_2boyut_kayit_liste_detay" },
+      { name: "DİRENÇ RENKLERİ FORMATLI YAZMA", file: "dizi_direnç_renk_format" },
+      { name: "RENK DİZİSİ - DİRENÇ RENKLENDİRME", file: "direncrenkfonksiyon" },
+      { name: "yilan_oyunu_civciv_yon", file: "yilan_oyunu_civciv_yon" },
+      { name: "dizi_iskambil_1", file: "dizi_iskambil_1" },
+      { name: "dizi_iskambil_2", file: "dizi_iskambil_2" },
+      { name: "yilan_rgb_dizi", file: "yilan_rgb_dizi" },
+      { name: "okey_dizi", file: "okey_dizi" },
+      { name: "dama_dizi_sender", file: "dama_dizi_sender" },
+      { name: "adam_asmaca_dizi_char", file: "adam_asmaca_dizi_char" },
+      { name: "boru_imagelist", file: "boru_imagelist" },
+      { name: "2boyutludizi_datagridview", file: "2boyutludizi_datagridview" },
+    ]
+  },
+  {
+    name: "KOLEKSİYON - ARRAY LIST",
+    color: "#9333ea",
+    icon: "📦",
+    apps: [
+      { name: "KOLEKSİYONA ELEMAN EKLEME VE SİLME", file: "arraylist-add-remove-removeat" },
+      { name: "KOLEKSİYON BUL VE DEĞİŞTİR", file: "arraylist-bul-degistir" },
+      { name: "KOLEKSİYON SIRALA ARAYA EKLE", file: "arraylist-sıralama-temizleme" },
+      { name: "koleksiyon_veri_turleri", file: "koleksiyon_veri_turleri" },
+      { name: "dizi_ve_koleksiyon", file: "dizi_ve_koleksiyon" },
+    ]
+  },
+  {
+    name: "WİNDOWS FORM MENÜ DİALOGS",
+    color: "#b45309",
+    icon: "🪟",
+    apps: [
+      { name: "FORM ENTER - ESC", file: "form_enter_esc" },
+      { name: "FORM CLOSE ÇIKIŞ", file: "form_close_çıkış" },
+      { name: "form2_show_back", file: "form2_show_back" },
+      { name: "DİALOG FORMU GİRİŞ", file: "dialoggiriş" },
+      { name: "rally_formlar", file: "rally_formlar" },
+      { name: "MENÜ KISAYOL", file: "menukısayoltuşu" },
+      { name: "MENÜ MATEMATİK", file: "menumatematik" },
+      { name: "notepad", file: "notepad" },
+      { name: "WORD DOSYA AÇ KAYDET", file: "Word-Dosya aç kaydet-yazıtipi" },
+      { name: "paint_menuler", file: "paint_menuler" },
+      { name: "COLOR DİALOG RENK PENCERESİ", file: "colordialogbutonzemini" },
+      { name: "print_document", file: "print_document" },
+      { name: "acdsee", file: "acdsee" },
+      { name: "menu_kronometre", file: "menu_kronometre" },
+      { name: "menu_direnc", file: "menu_direnc" },
+      { name: "tabkontrol_eokul", file: "tabkontrol_eokul" },
+      { name: "tabkontrol_4islem", file: "tabkontrol_4islem" },
+      { name: "otel_timespan_datetimepicker", file: "otel_timespan_datetimepicker" },
+      { name: "otopark_timespan_datetimepicker", file: "otopark_timespan_datetimepicker" },
+      { name: "winamp", file: "winamp" },
+      { name: "checkedListBox_milli_takim_kadro", file: "checkedListBox_milli_takim_kadro" },
+      { name: "dugun_organizasyon", file: "dugun_organizasyon" },
+      { name: "etkinlik_takvimi", file: "etkinlik_takvimi" },
+      { name: "treevievmenüsahibinden", file: "treevievmenüsahibinden" },
+      { name: "treeview_direnc_rengarenk_liste", file: "treeview_direnc_rengarenk_liste" },
+    ]
+  },
+  {
+    name: "VERİTABANI",
+    color: "#0e7490",
+    icon: "🗄️",
+    apps: [
+      { name: "binding_source_ortalama", file: "binding_source_ortalama" },
+      { name: "binding_source_1", file: "binding_source_1" },
+      { name: "menekse_sql", file: "menekse_sql" },
+      { name: "datagrid_tabloadapter1", file: "datagrid_tabloadapter1" },
+      { name: "datagrid_ekle_sil_ortalama_hesapla", file: "datagrid_ekle_sil_ortalama_hesapla" },
+      { name: "OKUL ÖĞRENCİ KAYIT OTOMASYON", file: "vtokul" },
+      { name: "kullanici_giris ŞİFRE", file: "kullanici_giris" },
+      { name: "DEMİRBAŞ TAKİP", file: "demirbas2" },
+      { name: "araba kiralama", file: "arabakiralama" },
+      { name: "eczane takip", file: "eczane" },
+      { name: "emlak takip", file: "emlak" },
+      { name: "araba_veritabani", file: "araba_veritabani" },
+    ]
+  },
+  {
+    name: "SINIFLAR (CLASS)",
+    color: "#7c3aed",
+    icon: "🏗️",
+    apps: [
+      { name: "ÜÇGEN FORMÜLLERİ", file: "class_ucgenler" },
+      { name: "ÇEMBER FORMÜLLERİ", file: "class_cemberler" },
+      { name: "class_ortalama", file: "class_ortalama" },
+    ]
+  },
+];
+
+// ===================== RENDER TREE =====================
+let selectedApp = null;
+let openUnits = new Set();
+
+function getUrl(file, ext) {
+  return GITHUB_BASE + file + "." + ext;
+}
+
+function renderTree() {
+  const tree = document.getElementById('tree');
+  let totalApps = 0;
+  UNITS.forEach(u => totalApps += u.apps.length);
+  document.getElementById('totalCount').textContent = totalApps;
+
+  tree.innerHTML = UNITS.map((unit, ui) => {
+    const isOpen = openUnits.has(ui);
+    return `
+      <div>
+        <div class="unit-header ${isOpen ? 'open' : ''}" onclick="toggleUnit(${ui})">
+          <span class="chevron">▶</span>
+          <span class="unit-dot" style="background:${unit.color}"></span>
+          <span class="unit-label">${unit.name}</span>
+          <span class="unit-count">${unit.apps.length}</span>
+        </div>
+        <div class="apps-list ${isOpen ? 'open' : ''}" id="unit-${ui}">
+          ${unit.apps.map((app, ai) => `
+            <div class="app-item ${selectedApp && selectedApp.ui === ui && selectedApp.ai === ai ? 'active' : ''}"
+                 onclick="selectApp(${ui}, ${ai})">
+              <span class="app-name">${app.name}</span>
+              <span class="app-file">${app.file}</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function toggleUnit(ui) {
+  if (openUnits.has(ui)) openUnits.delete(ui);
+  else openUnits.add(ui);
+  renderTree();
+}
+
+function selectApp(ui, ai) {
+  selectedApp = { ui, ai };
+  openUnits.add(ui);
+  document.getElementById('searchInput').value = '';
+  showDetail();
+  renderTree();
+}
+
+function showDetail() {
+  document.getElementById('emptyState').style.display = 'none';
+  document.getElementById('searchResults').classList.remove('visible');
+  document.getElementById('appDetail').classList.add('visible');
+
+  const unit = UNITS[selectedApp.ui];
+  const app = unit.apps[selectedApp.ai];
+  const file = app.file;
+
+  const files = [
+    { ext: 'exe', label: 'Programı Çalıştır', sub: '.exe — çalışır dosya', cls: 'btn-run', icon: '▶️', extColor: 'green' },
+    { ext: 'pdf', label: 'Kodları Görüntüle', sub: '.pdf — kaynak kodlar', cls: 'btn-pdf', icon: '📄', extColor: 'red' },
+    { ext: 'docx', label: 'Kodları İndir', sub: '.docx — Word belgesi', cls: 'btn-docx', icon: '📝', extColor: 'blue' },
+    { ext: 'rar', label: 'Projeyi İndir', sub: '.rar — .cs .sln .csproj', cls: 'btn-rar', icon: '📦', extColor: 'orange' },
+    { ext: 'txt', label: 'Soruyu Gör', sub: '.txt — soru dosyası', cls: 'btn-question', icon: '❓', extColor: 'blue' },
+  ];
+
+  const detail = document.getElementById('appDetail');
+  detail.innerHTML = `
+    <div class="breadcrumb">
+      <span>NTP</span>
+      <span class="sep">/</span>
+      <span>${unit.name}</span>
+      <span class="sep">/</span>
+      <span class="current">${app.name}</span>
+    </div>
+
+    <div class="app-title-row">
+      <div class="app-title-icon" style="background:${unit.color}">${unit.icon}</div>
+      <div class="app-title">
+        <h2>${app.name}</h2>
+        <div class="file-tag">📁 ${file}</div>
+      </div>
+    </div>
+
+    <div class="unit-chip" style="background:${unit.color}22; border:1px solid ${unit.color}44; color:${unit.color}">
+      <span class="unit-chip-dot" style="background:${unit.color}"></span>
+      ${unit.name}
+    </div>
+
+    <div class="section-title">DOSYALARA ERİŞ</div>
+    <div class="buttons-grid">
+      ${files.map(f => `
+        <a class="action-btn ${f.cls}" href="${getUrl(file, f.ext)}" target="_blank" download>
+          <div class="btn-icon">${f.icon}</div>
+          <div class="btn-info">
+            <div class="btn-title">${f.label}</div>
+            <div class="btn-sub">${f.sub}</div>
+          </div>
+          <span class="btn-ext">.${f.ext.toUpperCase()}</span>
+        </a>
+      `).join('')}
+    </div>
+
+    <div class="section-title" style="margin-top:8px">URL ÖNİZLEME</div>
+    <div class="url-preview">
+      ${files.map(f => `
+        <div class="url-row">
+          <span class="url-ext" style="color:${f.extColor === 'green' ? 'var(--green)' : f.extColor === 'red' ? 'var(--red)' : f.extColor === 'orange' ? 'var(--orange)' : 'var(--blue)'}">.${f.ext}</span>
+          <span class="url-path">${getUrl(file, f.ext)}</span>
+          <button class="url-copy" onclick="copyUrl('${getUrl(file, f.ext)}', this)">kopyala</button>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function copyUrl(url, btn) {
+  navigator.clipboard.writeText(url).then(() => {
+    btn.textContent = '✓ kopyalandı';
+    setTimeout(() => btn.textContent = 'kopyala', 1500);
+  });
+}
+
+// ===================== SEARCH =====================
+function handleSearch(q) {
+  q = q.trim().toLowerCase();
+  if (!q) {
+    document.getElementById('searchResults').classList.remove('visible');
+    if (selectedApp) showDetail();
+    else {
+      document.getElementById('emptyState').style.display = 'flex';
+      document.getElementById('appDetail').classList.remove('visible');
+    }
+    return;
+  }
+  document.getElementById('emptyState').style.display = 'none';
+  document.getElementById('appDetail').classList.remove('visible');
+  const sr = document.getElementById('searchResults');
+  sr.classList.add('visible');
+
+  let results = [];
+  UNITS.forEach((unit, ui) => {
+    unit.apps.forEach((app, ai) => {
+      if (app.name.toLowerCase().includes(q) || app.file.toLowerCase().includes(q)) {
+        results.push({ unit, ui, app, ai });
+      }
+    });
+  });
+
+  if (results.length === 0) {
+    sr.innerHTML = `<div style="color:var(--text-muted);font-family:'JetBrains Mono',monospace;font-size:13px;padding:40px;text-align:center;">Sonuç bulunamadı: "${q}"</div>`;
+    return;
+  }
+
+  sr.innerHTML = `
+    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text-muted);margin-bottom:16px;">${results.length} sonuç bulundu</div>
+    ${results.map(r => `
+      <div class="search-result-item" onclick="selectApp(${r.ui}, ${r.ai})">
+        <div class="unit-dot" style="background:${r.unit.color};width:10px;height:10px;border-radius:3px;flex-shrink:0"></div>
+        <div style="flex:1">
+          <div class="sr-unit">${r.unit.name}</div>
+          <div class="sr-name">${r.app.name}</div>
+          <div class="sr-file">${r.app.file}</div>
+        </div>
+        <span style="color:var(--text-muted);font-size:18px">›</span>
+      </div>
+    `).join('')}
+  `;
+}
+
+// ===================== INIT =====================
+renderTree();
+</script>
+</body>
+</html>
