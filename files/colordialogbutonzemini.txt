@@ -1,0 +1,13 @@
+SORU: COLOR DİALOG RENK PENCERESİ
+
+ColorDialog ile renk seçimi yapınız.
+
+GÖREV:
+- ColorDialog cd = new ColorDialog();
+- cd.ShowDialog() == DialogResult.OK ise rengi kullanınız
+- Formun BackColor'unu değiştirin
+- Seçilen rengin RGB değerlerini gösterin
+
+SORULAR:
+1. ColorDialog.Color ne döndürür?
+2. AnyColor özelliği ne işe yarar?

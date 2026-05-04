@@ -1,0 +1,12 @@
+SORU: DİZİ EŞLEŞTİRME BULMACASI SAYILAR
+
+int[] dizi ile sayı eşleştirme oyunu yapınız.
+
+GÖREV:
+- 1-8 arası çift sayılar (çift olarak) dizide saklansın
+- Karıştırılıp 4x4 ızgarada gösterilsin
+- Tıklanan iki kart eşleşirse açık kalsın
+
+SORULAR:
+1. Çiftleri içeren diziyi nasıl oluşturursunuz?
+2. Açık/kapalı durumunu bool[] dizisi ile nasıl tutarsınız?

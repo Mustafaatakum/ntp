@@ -1,0 +1,13 @@
+SORU: OHM KANUNU - AKIM HESABI
+
+Gerilim (V) ve Direnç (Ω) giriş TextBox'ları ekleyiniz.
+Akım = Gerilim / Direnç formülüyle hesaplayınız.
+
+GÖREV:
+- double akim = gerilim / direnc;
+- Ölçü birimleriyle gösteriniz: V, A, Ω
+- Sıfır direnç kontrolü yapınız
+
+SORULAR:
+1. Ohm Kanunu nedir? V = I × R formülü nedir?
+2. Direnç 0 girilirse ne olur?

@@ -1,0 +1,12 @@
+SORU: CHILD FORM PUBLIC KISAYOL TUŞU
+
+MDI uygulamasında global kısayol tuşları.
+
+GÖREV:
+- Ana formda global kısayollar (Ctrl+N yeni, Ctrl+W kapat)
+- public metod ile child forma erişim
+- KeyPreview = true ile ana formda tuşları yakala
+
+SORULAR:
+1. KeyPreview ne işe yarar?
+2. Tüm child formlara erişmek için MdiChildren nasıl kullanılır?

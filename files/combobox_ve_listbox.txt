@@ -1,0 +1,15 @@
+SORU: COMBOBOX VE LISTBOX KULLANIMI
+
+ComboBox ve ListBox kontrolleri içeren bir uygulama yapınız.
+ComboBox'tan seçilen eleman ListBox'a eklensin.
+
+GÖREV:
+- ComboBox'a çeşitli şehirler ekleyiniz
+- "Listeye Ekle" butonu: seçilen şehri ListBox'a eklesin
+- "Çıkar" butonu: ListBox'tan seçili elemanı silsin
+- Tekrar eklemeyi kontrol ediniz
+
+SORULAR:
+1. ComboBox ile ListBox arasındaki fark nedir?
+2. DropDownStyle özellikleri nelerdir? (DropDown, DropDownList, Simple)
+3. ComboBox.Items.Contains() ne işe yarar?

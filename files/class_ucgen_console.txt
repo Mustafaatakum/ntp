@@ -1,0 +1,12 @@
+SORU: ÜÇGEN SINIFI CONSOLE UYGULAMASI
+
+Console uygulamasında Üçgen class'ı kullanın.
+
+GÖREV:
+- Console.WriteLine ile çıktı
+- Üçgen nesnesi oluştur, alan ve çevre hesapla
+- Birden fazla üçgen nesnesi karşılaştır
+
+SORULAR:
+1. Console.WriteLine() nasıl kullanılır?
+2. Windows Forms ile Console uygulaması farkı nedir?

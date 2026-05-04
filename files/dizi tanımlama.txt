@@ -1,0 +1,12 @@
+SORU: DİZİ TANIMLAMA VE KULLANIMI
+
+5 elemanlı int dizisi tanımlayın. For ile listeleyin. Max, min, toplam bulun.
+
+GÖREV:
+- int[] sayilar = {10, 25, 8, 42, 17};
+- for (int i=0; i<sayilar.Length; i++) listBox1.Items.Add(sayilar[i]);
+
+SORULAR:
+1. Dizi nedir? Neden kullanılır?
+2. Dizi index'i neden 0'dan başlar?
+3. sayilar.Length ne döndürür?

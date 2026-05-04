@@ -1,0 +1,13 @@
+SORU: DİKDÖRTGEN TRACKBAR ALAN ÇEVRE
+
+İki TrackBar (en ve boy) ekleyiniz.
+TrackBar değişince dikdörtgenin alanı ve çevresi anlık gösterilsin.
+
+GÖREV:
+- Alan = en × boy
+- Çevre = 2 × (en + boy)
+- TrackBar değerlerini Label'larda gösteriniz
+
+SORULAR:
+1. TrackBar.Value ile değer nasıl alınır?
+2. TrackBar.Minimum ve Maximum nasıl ayarlanır?

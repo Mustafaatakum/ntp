@@ -1,0 +1,13 @@
+SORU: KOLEKSİYON BUL VE DEĞİŞTİR
+
+ArrayList'te eleman bulma ve değiştirme işlemleri.
+
+GÖREV:
+- ogrenciler.Contains("Ali"); // var mı?
+- ogrenciler.IndexOf("Ali"); // kaçıncı index?
+- ogrenciler[index] = "Veli"; // değiştir
+
+SORULAR:
+1. Contains() ne döndürür?
+2. IndexOf() bulamazsa ne döndürür?
+3. ArrayList'te arama nasıl yapılır?

@@ -1,0 +1,12 @@
+SORU: DİZİ EN BÜYÜK VE EN KÜÇÜK (Array.Sort)
+
+Array.Sort ile diziyi sıralayıp max ve min bulunuz.
+
+GÖREV:
+- Array.Sort(dizi);
+- max = dizi[dizi.Length-1]; // en sondaki en büyük
+- min = dizi[0]; // en baştaki en küçük
+
+SORULAR:
+1. Sıralama sonrası max ve min neden bu konumda?
+2. For döngüsü ile manuel max/min bulma nasıl yapılır?

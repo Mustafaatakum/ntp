@@ -1,0 +1,13 @@
+SORU: AMİRAL BATTI (Foreach - Sender)
+
+Basit amiral battı oyunu yapınız.
+
+GÖREV:
+- 10x10 ızgara (100 Button) for ile oluşturunuz
+- sender ile tıklanan kareyi belirleyiniz
+- Gemi konumlarını foreach ile kontrol ediniz
+- Isabet/ıska mesajı gösteriniz
+
+SORULAR:
+1. 100 butonu for ile nasıl oluşturursunuz?
+2. Butonun satır/sütun indexini nasıl hesaplarsınız?

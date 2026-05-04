@@ -1,0 +1,13 @@
+SORU: KOLEKSİYON SIRALA VE ARAYA EKLE
+
+ArrayList sıralama, araya eleman ekleme.
+
+GÖREV:
+- ogrenciler.Sort();
+- ogrenciler.Reverse();
+- ogrenciler.Insert(2, "Yeni Öğrenci"); // index 2'ye ekle
+
+SORULAR:
+1. ArrayList.Sort() nasıl çalışır?
+2. Insert() ile Add() farkı nedir?
+3. ArrayList.Reverse() ne yapar?

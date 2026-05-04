@@ -1,0 +1,14 @@
+SORU: ADAM ASMACA (Dizi - char)
+
+Adam asmaca oyunu yapınız. char[] ile kelime yönetimi.
+
+GÖREV:
+- string[] kelimeler = {"PROGRAMLAMA","DÖNGÜ",...};
+- char[] tahmin = new char[kelime.Length]; ('_' ile dolu)
+- Harf tahmini, doğru/yanlış kontrolü
+- 6 yanlışta adam tamamlanır
+
+SORULAR:
+1. char[] nasıl '_' ile doldurulur?
+2. Tahmin edilen harf kelimede var mı kontrolü nasıl yapılır?
+3. Adam çizimi için ne kullanılır?

@@ -1,0 +1,13 @@
+SORU: PEKİYİ İYİ ORTA (Switch Case)
+
+0-100 not giriş alanı ekleyiniz. switch-case ile harf notu veriniz.
+
+GÖREV:
+- switch(not / 10) { case 10: case 9: "AA"; break; ... }
+- default: "GEÇERSİZ NOT"
+- break ifadesini her case'e ekleyiniz
+
+SORULAR:
+1. switch-case ile if-else farkı nedir?
+2. break neden gereklidir?
+3. Birden fazla case aynı bloğu nasıl paylaşır?

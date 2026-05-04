@@ -1,0 +1,11 @@
+SORU: COLOR DİALOG FOREACH LABELS BUTONS
+
+ColorDialog ile seçilen rengi foreach ile tüm Label/Button'lara uygulayınız.
+
+GÖREV:
+- ColorDialog ile renk seçin
+- foreach ile Label'ları boyayın (ForeColor veya BackColor)
+
+SORULAR:
+1. Label.ForeColor ile BackColor farkı?
+2. foreach içinde hangisi boyanır, nasıl seçilir?

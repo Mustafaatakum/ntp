@@ -1,0 +1,13 @@
+SORU: ASANSÖR SİMÜLASYONU (Sender - Timer)
+
+Çok katlı asansör simülasyonu yapınız.
+
+GÖREV:
+- Kat butonları sender ile tek olaya bağlı
+- Timer ile asansör yavaşça hareket etsin
+- Mevcut kat Label'da gösterilsin
+- Kapı açılma/kapanma animasyonu
+
+SORULAR:
+1. Hedef kata doğru hareket nasıl hesaplanır?
+2. Asansör meşgulken yeni istek nasıl işlenir?

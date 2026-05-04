@@ -1,0 +1,12 @@
+SORU: WASD KARAKTER KONTROLÜ (Switch Case - char)
+
+W/A/S/D veya yön tuşlarıyla nesneyi hareket ettirin.
+
+GÖREV:
+- switch(e.KeyCode) { case Keys.W: case Keys.Up: yukarı; break; ... }
+- Her yön için nesnenin konumunu değiştirin
+- Form sınırı kontrolü yapın
+
+SORULAR:
+1. char türü nedir?
+2. switch ile Keys enum nasıl kullanılır?

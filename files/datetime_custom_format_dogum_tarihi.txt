@@ -1,0 +1,12 @@
+SORU: DATETIME CUSTOM FORMAT DOĞUM TARİHİ
+
+Doğum tarihi için özel format kullanınız.
+
+GÖREV:
+- DateTimePicker.CustomFormat = "dd MMMM yyyy dddd"
+- DateTimePicker.Format = DateTimePickerFormat.Custom
+- Türkçe gün/ay adları gösteriniz
+
+SORULAR:
+1. CustomFormat nasıl ayarlanır?
+2. Türkçe format için CultureInfo nasıl ayarlanır?

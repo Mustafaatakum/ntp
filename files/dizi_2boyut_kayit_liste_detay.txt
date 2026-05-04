@@ -1,0 +1,12 @@
+SORU: 2 BOYUTLU DİZİ KAYIT LİSTE DETAY
+
+2 boyutlu dizi ile öğrenci kayıtları (ad, not1, not2, not3) tutunuz.
+
+GÖREV:
+- string[,] kayitlar = new string[20,4];
+- kayitlar[i,0] = ad; kayitlar[i,1] = not1;
+- Listbox'ta göster, seçilince detay Label'da göster
+
+SORULAR:
+1. 2 boyutlu dizinin boyutları nasıl belirlenir?
+2. kayitlar.GetLength(0) ve GetLength(1) ne döndürür?

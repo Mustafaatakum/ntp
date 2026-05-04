@@ -1,0 +1,15 @@
+SORU: ARTIRMA AZALTMA (İLK SON - ++, --)
+
+Sayı gösteren bir Label ve 4 buton ekleyiniz: İlk, Son, ++, --
+
+GÖREV:
+- "İlk" butonu: sayıyı 0'a sıfırlasın
+- "Son" butonu: sayıyı maksimum değere çeksin
+- "++" butonu: sayaç++;
+- "--" butonu: sayaç--;
+- Her işlemden sonra Label güncellensin
+
+SORULAR:
+1. ++ ve -- operatörleri ne işe yarar?
+2. sayac++ ile ++sayac arasındaki fark nedir?
+3. Sayaç negatife veya maksimuma geçmesin nasıl sınırlanır?

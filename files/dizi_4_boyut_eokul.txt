@@ -1,0 +1,13 @@
+SORU: 4 BOYUTLU DİZİ E-OKUL
+
+4 boyutlu dizi ile e-okul sistemi simüle ediniz.
+[Sınıf][Öğrenci][Ders][Dönem]
+
+GÖREV:
+- int[,,,] notlar = new int[4,30,5,2];
+- Sınıf, öğrenci, ders ve dönem seçimleri ekleyiniz
+- İlgili notu gösteriniz
+
+SORULAR:
+1. 4 boyutlu dizi nasıl tanımlanır?
+2. Her boyutun anlamı nedir?

@@ -1,0 +1,15 @@
+SORU: AD SOYAD BİRLEŞTİR VE EKLE
+
+Ad ve Soyad TextBox'ları, "Ekle" butonu ve ListBox ekleyiniz.
+Tam ad oluşturup listeye ekleyiniz.
+
+GÖREV:
+- string tamAd = textBox1.Text + " " + textBox2.Text;
+- veya $"{textBox1.Text} {textBox2.Text}"
+- Boş kontrolü yapınız
+- Büyük/küçük harf düzenlemesi yapınız (ToTitleCase)
+
+SORULAR:
+1. String birleştirme yöntemleri nelerdir? (+, $"", String.Format)
+2. String.IsNullOrEmpty() ne işe yarar?
+3. string.Trim() ne işe yarar?

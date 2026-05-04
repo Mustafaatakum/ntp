@@ -1,0 +1,14 @@
+SORU: ARTIRMA AZALTMA (b=++a)
+
+Prefix (++a) ve postfix (a++) artırma işlemlerinin farkını gösteren uygulama yapınız.
+
+GÖREV:
+- int a = 5; int b = ++a; → a=6, b=6
+- int a = 5; int b = a++; → a=6, b=5
+- Her iki durumu Label'larda gösteriniz
+- Farkı açıklayan bir Label ekleyiniz
+
+SORULAR:
+1. Prefix (++a) ile postfix (a++) farkı nedir?
+2. b = ++a; sonucunda a ve b'nin değerleri ne olur?
+3. b = a++; sonucunda a ve b'nin değerleri ne olur?

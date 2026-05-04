@@ -1,0 +1,14 @@
+SORU: 3 LİSTBOX'TAN AYNI SATIRI SİLME
+
+3 adet ListBox ekleyiniz (eşleşik veriler). Herhangi birinde seçilen satır 3'ünden de silinsin.
+
+GÖREV:
+- int index = listBox1.SelectedIndex;
+- listBox1.Items.RemoveAt(index);
+- listBox2.Items.RemoveAt(index);
+- listBox3.Items.RemoveAt(index);
+
+SORULAR:
+1. SelectedIndex ile SelectedItem farkı nedir?
+2. -1 index ne anlama gelir?
+3. RemoveAt() ile Remove() farkı nedir?

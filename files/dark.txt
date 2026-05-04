@@ -1,0 +1,13 @@
+SORU: DARK TEMA UYGULAMASI
+
+Tüm form kontrollerini for/foreach ile dark temaya geçirin.
+
+GÖREV:
+- "Dark Mod" butonu ile tüm kontrolleri boyayınız
+- BackColor = Color.FromArgb(30,30,30); (koyu)
+- ForeColor = Color.White;
+- foreach (Control ctrl in this.Controls) ile döngü
+
+SORULAR:
+1. Tüm kontrolleri foreach ile nasıl dolaşırsınız?
+2. Nested (iç içe) kontrollere (GroupBox içindekiler) nasıl ulaşırsınız?

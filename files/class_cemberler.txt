@@ -1,0 +1,11 @@
+SORU: ÇEMBER SINIFLARI (Class)
+
+Çember class'ı oluşturun. Alan, çevre, çap metodları yazın.
+
+GÖREV:
+- class Cember { public double Yariçap; public double Alan() { return Math.PI * Yariçap * Yariçap; } }
+- Constructor ekleyiniz: public Cember(double r) { Yariçap = r; }
+
+SORULAR:
+1. Constructor (yapıcı metod) nedir?
+2. this.Yaricap ile Yaricap farkı nedir?

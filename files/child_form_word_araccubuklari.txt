@@ -1,0 +1,13 @@
+SORU: CHILD FORM WORD ARAÇ ÇUBUKLARI
+
+MDI uygulamasında Word gibi araç çubukları.
+
+GÖREV:
+- ToolStrip ile araç çubuğu ekleyiniz
+- Bold, Italic, Underline butonları
+- Yazı tipi ComboBox
+- Child formdaki RichTextBox'a uygulayın
+
+SORULAR:
+1. ToolStrip ile MenuStrip farkı nedir?
+2. Aktif child forma nasıl erişilir? (ActiveMdiChild)

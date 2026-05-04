@@ -1,0 +1,13 @@
+SORU: AYLAR OCAK ŞUBAT MART (Switch Case)
+
+1-12 ay numarası giriş alanı ekleyiniz.
+switch-case ile ay adı, mevsim ve gün sayısı gösterilsin.
+
+GÖREV:
+- case 1: "Ocak - Kış - 31 gün"
+- case 2: "Şubat" (artık yıl kontrolü)
+- Mevsimler: 12-1-2: Kış, 3-4-5: İlkbahar...
+
+SORULAR:
+1. Artık yıl nasıl hesaplanır?
+2. 3 ay aynı mevsimi paylaşırsa case nasıl yazılır?

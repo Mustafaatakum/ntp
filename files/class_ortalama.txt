@@ -1,0 +1,11 @@
+SORU: ORTALAMA SINIFI (Class)
+
+Öğrenci class'ı oluşturun. Ortalama ve değerlendirme metodları yazın.
+
+GÖREV:
+- class Ogrenci { public string Ad; public int[] Notlar; public double OrtalamaHesapla() {...} public string Degerlendir() {...} }
+- Nesne oluşturup metodları çağırın
+
+SORULAR:
+1. Class içinde dizi nasıl tanımlanır?
+2. Metodları çağırmak için nesne nasıl kullanılır?

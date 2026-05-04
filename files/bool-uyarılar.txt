@@ -1,0 +1,12 @@
+SORU: BOOL İLE UYARILAR
+
+Form üzerinde çeşitli doğrulama kontrolleri için bool değişkenler kullanınız.
+
+GÖREV:
+- bool adDolu, soyadDolu, emailGecerli gibi bool değişkenler
+- Her TextBox Leave olayında ilgili bool güncellenir
+- Hepsi true ise "Kaydet" butonu aktif olur
+
+SORULAR:
+1. Her Leave olayında bool nasıl güncellenir?
+2. Birden fazla bool'u AND (&&) ile nasıl kontrol edersiniz?

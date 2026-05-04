@@ -1,0 +1,15 @@
+SORU: KOLEKSİYONA ELEMAN EKLEME VE SİLME
+
+ArrayList kullanarak öğrenci listesi oluşturunuz.
+
+GÖREV:
+- ArrayList ogrenciler = new ArrayList();
+- ogrenciler.Add("Ali Veli");
+- ogrenciler.Remove("Ali Veli"); // değere göre
+- ogrenciler.RemoveAt(0); // indexe göre
+- ogrenciler.Clear();
+
+SORULAR:
+1. ArrayList ile int[] farkı nedir?
+2. Remove() ile RemoveAt() farkı nedir?
+3. ArrayList kaç farklı türde veri tutabilir?

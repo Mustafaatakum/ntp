@@ -1,0 +1,12 @@
+SORU: CHILD FORM (Form İçinde Form)
+
+MDI (Multiple Document Interface) uygulaması yapınız.
+
+GÖREV:
+- Ana form: IsMdiContainer = true;
+- Child form: MdiParent = this;
+- Menüden yeni child form açılsın
+
+SORULAR:
+1. MDI nedir? Ne için kullanılır?
+2. IsMdiContainer özelliği ne yapar?

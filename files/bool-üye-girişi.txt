@@ -1,0 +1,13 @@
+SORU: BOOL İLE ÜYE GİRİŞİ
+
+bool değişkeni kullanan üye giriş sistemi yapınız.
+
+GÖREV:
+- bool girisYapildi = false; (global)
+- Giriş yapılınca true olsun
+- Bazı butonlar sadece giriş yapılmışsa aktif olsun
+- "Çıkış" butonu: girisYapildi = false;
+
+SORULAR:
+1. bool değişkeni hangi değerleri alır?
+2. Buton Enabled özelliği bool ile nasıl bağlanır?

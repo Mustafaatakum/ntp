@@ -1,0 +1,14 @@
+SORU: İŞLEM SEÇ HESAPLA (Switch Case - 7 İşlem)
+
+İki sayı ve işlem ComboBox ekleyiniz.
+switch-case ile 7 farklı işlem yapılsın.
+
+GÖREV:
+- Toplama, Çıkarma, Çarpma, Bölme, Mod
+- Üs alma: Math.Pow()
+- Karekök: Math.Sqrt()
+- Sıfıra bölme ve negatif karekök kontrolü
+
+SORULAR:
+1. switch-case'de string değer kullanılabilir mi?
+2. Math.Sqrt negatif değer için ne döndürür?

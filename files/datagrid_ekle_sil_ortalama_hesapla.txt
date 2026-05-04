@@ -1,0 +1,14 @@
+SORU: DATAGRID EKLE SİL ORTALAMA HESAPLA
+
+DataGridView ile CRUD ve hesaplama.
+
+GÖREV:
+- Yeni satır ekleme (INSERT)
+- Seçili satırı silme (DELETE)
+- Güncelleme (UPDATE)
+- Seçili satırın notları ortalaması
+
+SORULAR:
+1. DataGridView'e satır nasıl eklenir?
+2. Seçili satırı silmek için ne yapılır?
+3. SQL INSERT komutu nasıl yazılır?

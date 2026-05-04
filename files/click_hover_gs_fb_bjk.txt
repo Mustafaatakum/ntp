@@ -1,0 +1,12 @@
+SORU: CLICK VE HOVER İLE TAKIM UYGULAMASI
+
+GS, FB, BJK için 3 buton veya PictureBox oluşturunuz.
+Hover'da form takım rengine boyansın, tıklamada bilgi gösterilsin.
+
+GÖREV:
+- GS: Sarı-Kırmızı, FB: Sarı-Lacivert, BJK: Siyah-Beyaz
+- Color.FromArgb() ile özel renkler tanımlayınız
+
+SORULAR:
+1. MouseEnter ve Click olaylarını birlikte nasıl kullanırsınız?
+2. Color.FromArgb() parametreleri nedir?

@@ -1,0 +1,12 @@
+SORU: BOOL GÖRÜNÜM
+
+Nesnelerin görünürlüğünü bool ile kontrol eden uygulama yapınız.
+
+GÖREV:
+- bool[] gorunur = new bool[5]; (nesneler için)
+- "Hepsini Göster" / "Hepsini Gizle" butonları
+- Toggle butonu ile durumu değiştirme
+
+SORULAR:
+1. bool dizisi nasıl tanımlanır?
+2. Toggle (aç/kapat) mantığı: flag = !flag;

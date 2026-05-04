@@ -1,0 +1,13 @@
+SORU: ARABA VERİTABANI
+
+Araç bilgileri veritabanı uygulaması.
+
+GÖREV:
+- Araçlar tablosu: Plaka, Marka, Model, Yıl, Renk, Fiyat
+- CRUD işlemleri
+- Markaya ve yıla göre filtreleme
+- İstatistik: Ortalama fiyat, en pahalı/en ucuz
+
+SORULAR:
+1. SQL AVG(), MAX(), MIN() fonksiyonları nasıl kullanılır?
+2. Yıl aralığına göre filtreleme için BETWEEN nasıl yazılır?

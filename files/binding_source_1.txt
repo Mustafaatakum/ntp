@@ -1,0 +1,12 @@
+SORU: BINDING SOURCE 1
+
+BindingSource temel kullanımı.
+
+GÖREV:
+- DataTable veya List ile BindingSource oluşturun
+- DataGridView'e bağlayın
+- Ekleme, silme, güncelleme yapın
+
+SORULAR:
+1. BindingSource.Add() nasıl çalışır?
+2. DataGridView değişiklikleri BindingSource'a otomatik yansır mı?

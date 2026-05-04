@@ -1,0 +1,12 @@
+SORU: 2 BOYUTLU DİZİ DATAGRIDVIEW
+
+2 boyutlu dizi verilerini DataGridView'de gösteriniz.
+
+GÖREV:
+- int[,] matris = new int[5,5];
+- DataGridView sütun ve satır ekleyiniz
+- Diziyi DataGridView'e aktarınız
+
+SORULAR:
+1. DataGridView'e manuel veri nasıl eklenir?
+2. DataGridView sütun sayısı nasıl ayarlanır?

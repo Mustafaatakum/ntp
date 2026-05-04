@@ -1,0 +1,13 @@
+SORU: İSKAMBİL OYUNU 1 (Dizi)
+
+52 kartlık iskambil destesi dizi ile oluşturunuz.
+
+GÖREV:
+- string[] kartlar = yeni deste (4 renk × 13 değer)
+- Karıştırınız (shuffle)
+- Üstten kartlar çekiniz
+- Çekilen kartları gösteriniz
+
+SORULAR:
+1. 52 kartı nasıl dizi ile oluşturursunuz?
+2. Karıştırma algoritması nasıl yazılır?

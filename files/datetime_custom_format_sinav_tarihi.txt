@@ -1,0 +1,12 @@
+SORU: DATETIME CUSTOM FORMAT SINAV TARİHİ
+
+Sınav tarihi seçimi ve kalan gün hesabı.
+
+GÖREV:
+- DateTimePicker ile sınav tarihi seçin
+- Kalan gün = seçilen tarih - DateTime.Today
+- Geri sayım Label'ında gösterin
+
+SORULAR:
+1. DateTime.Today ile DateTime.Now farkı?
+2. Geçmiş tarih seçilirse ne yapılmalı?

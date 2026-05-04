@@ -1,0 +1,13 @@
+SORU: DATAGRID TABLEADAPTER 1
+
+TableAdapter ile veritabanı bağlantısı ve DataGridView.
+
+GÖREV:
+- DataSet ve TableAdapter ekleyiniz
+- TableAdapter.Fill(dataSet.tablo);
+- dataGridView.DataSource = dataSet.tablo;
+
+SORULAR:
+1. TableAdapter nedir?
+2. Fill() metodu ne işe yarar?
+3. DataSource nasıl ayarlanır?

@@ -1,0 +1,13 @@
+SORU: EŞLEŞTİRME BULMACASI (Wingdings Simgeleri)
+
+Wingdings yazı tipi simgeleri ile eşleştirme bulmacası yapınız.
+
+GÖREV:
+- char[] semboller = {'✈','★','♥','♦','♣','♠','☀','☎'};
+- Her sembolden 2 adet (çift)
+- Butonların Font = Wingdings
+- Eşleştirme oyunu mantığı
+
+SORULAR:
+1. Wingdings fontu nasıl ayarlanır?
+2. char[] dizisi nasıl tanımlanır?

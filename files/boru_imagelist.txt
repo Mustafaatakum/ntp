@@ -1,0 +1,13 @@
+SORU: BORU PUZZLE (ImageList)
+
+ImageList ile boru parçaları içeren puzzle oyunu.
+
+GÖREV:
+- ImageList'e boru görüntüleri ekleyiniz
+- PictureBox veya Button'lara görüntü atayınız
+- Tıklayınca boru dönsün (90° dönüşler)
+- Boru bağlantısını kontrol ediniz
+
+SORULAR:
+1. ImageList nasıl kullanılır?
+2. Boru yönlerini int dizi ile nasıl temsil edersiniz?

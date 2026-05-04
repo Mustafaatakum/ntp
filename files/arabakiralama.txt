@@ -1,0 +1,13 @@
+SORU: ARABA KİRALAMA SİSTEMİ
+
+Araç kiralama veritabanı uygulaması.
+
+GÖREV:
+- Araçlar tablosu (Plaka, Model, Günlük Ücret, Durum)
+- Müşteriler tablosu
+- Kiralama tablosu (kim, ne zaman, kaç gün)
+- Toplam ücret hesabı
+
+SORULAR:
+1. İki tablo arasında JOIN nasıl yapılır?
+2. Tarihe göre araç müsaitliği nasıl kontrol edilir?

@@ -1,0 +1,12 @@
+SORU: RENK DİZİSİ DİRENÇ RENKLENDİRME VE HESAPLAMA
+
+Direnç renk bantlarını dizi ve fonksiyon ile yönetiniz.
+
+GÖREV:
+- Color[] bantRenkleri ile Panel'leri boyayınız
+- string[] renkAdlari dizisi ile ComboBox'ları doldurunuz
+- Fonksiyon ile direnç değerini hesaplayınız
+
+SORULAR:
+1. Direnç renk kodu hesaplama formülü nedir?
+2. Renk dizisi ve değer dizisi nasıl senkron tutulur?

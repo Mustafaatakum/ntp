@@ -1,0 +1,13 @@
+SORU: DEMİRBAŞ TAKİP SİSTEMİ
+
+Veritabanı ile demirbaş takip uygulaması.
+
+GÖREV:
+- Demirbaş: Kod, Ad, Kategori, Konum, Durum
+- CRUD işlemleri
+- Kategoriye göre filtreleme
+- Raporlama
+
+SORULAR:
+1. ComboBox'tan kategori seçimi ile filtreleme nasıl yapılır?
+2. SQL WHERE AND koşulu nasıl yazılır?

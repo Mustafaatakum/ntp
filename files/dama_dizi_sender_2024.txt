@@ -1,0 +1,12 @@
+SORU: DAMA OYUNU 2024 (Güncel)
+
+Güncel dama oyunu. Taş alma, kral olma kuralları dahil.
+
+GÖREV:
+- Taş alma: atlayarak geçme
+- Kral: son sıraya ulaşınca kral olur
+- Kral 4 yönde hareket eder
+
+SORULAR:
+1. Taş atlama hamlesi nasıl kontrol edilir?
+2. Kral taşı nasıl gösterilir?

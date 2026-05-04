@@ -1,0 +1,15 @@
+SORU: FORMA NUMARASI MEVKİ (Switch Case)
+
+Forma numarası giriş alanı ekleyiniz.
+switch-case ile futbolda o numaranın mevkisini gösteriniz.
+
+GÖREV:
+- case 1: "Kaleci"
+- case 2: case 3: "Defans"
+- case 6: case 8: "Orta Saha"
+- case 9: "Forvet"
+- default: "Bilinmeyen Numara"
+
+SORULAR:
+1. Birden fazla numara aynı mevkide ise nasıl yazılır?
+2. Geçersiz numara için default nasıl kullanılır?

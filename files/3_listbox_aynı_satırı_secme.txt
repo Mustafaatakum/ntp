@@ -1,0 +1,12 @@
+SORU: 3 TANE LİSTBOX İÇİN AYNI SATIRI SEÇME (Fonksiyon)
+
+3 ListBox ekleyiniz. Birinde seçim yapılınca diğerleri de aynı satırı seçsin. Fonksiyon kullanınız.
+
+GÖREV:
+- private void SatiriSec(int index)
+- { listBox1.SelectedIndex = index; listBox2.SelectedIndex = index; listBox3.SelectedIndex = index; }
+- SelectedIndexChanged olayında SatiriSec(listBox1.SelectedIndex); çağırınız
+
+SORULAR:
+1. int parametreli fonksiyon nasıl tanımlanır?
+2. Döngüsel güncellemeyi (3 listbox birbirini tetiklemesini) nasıl önlersiniz?

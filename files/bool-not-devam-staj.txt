@@ -1,0 +1,17 @@
+SORU: BOOL İLE NOT DEVAM STAJ DEĞERLENDİRME
+
+Öğrenci mezuniyet kriterlerini bool değişkenlerle kontrol ediniz.
+
+GÖREV:
+- bool notGecerli = (ortalama >= 50);
+- bool devamGecerli = (devamsizlik <= 14);
+- bool stajTamamlandi = checkBoxStaj.Checked;
+- if (notGecerli && devamGecerli && stajTamamlandi)
+-     label.Text = "MEZUN OLABİLİR";
+- else label.Text = "Eksik var!";
+- Hangi kriterin sağlanmadığını ayrıca gösteriniz.
+
+SORULAR:
+1. bool değişkeni bir karşılaştırma sonucundan nasıl üretilir?
+2. Üç bool'un hepsinin true olması için && nasıl kullanılır?
+3. Hangi kriterin eksik olduğu nasıl gösterilir?

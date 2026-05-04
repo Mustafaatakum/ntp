@@ -1,0 +1,12 @@
+SORU: COLORDIALOG DİRENÇ RENKLENDİRME
+
+ColorDialog ile direnç bant renklerini özelleştirin.
+
+GÖREV:
+- Kullanıcı her bant için ColorDialog ile renk seçsin
+- Seçilen renklerden direnç değeri hesaplansın
+- Renk-değer eşleşmesi label'da gösterilsin
+
+SORULAR:
+1. Kullanıcının seçtiği rengi nasıl bir direnç değerine dönüştürürsünüz?
+2. ColorDialog ile standart renk seçimi garantilenebilir mi?

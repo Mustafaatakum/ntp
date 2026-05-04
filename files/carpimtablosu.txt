@@ -1,0 +1,12 @@
+SORU: ÇARPIM TABLOSU OLUŞTURMA (For)
+
+Bir sayı giriş TextBox ve "Oluştur" butonu ekleyiniz.
+for döngüsü ile çarpım tablosu ListBox'a eklensin.
+
+GÖREV:
+- for (int i=1; i<=10; i++)
+- listBox1.Items.Add($"{sayi} × {i} = {sayi*i}");
+
+SORULAR:
+1. String interpolation ($"") nasıl kullanılır?
+2. Tüm çarpım tablosu (1-10) için iç içe döngü nasıl yazılır?

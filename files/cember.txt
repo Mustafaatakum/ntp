@@ -1,0 +1,14 @@
+SORU: ÇEMBER ALAN VE ÇEVRE HESABI
+
+Yarıçap giriş TextBox ve "Hesapla" butonu ekleyiniz.
+Çemberin alanını ve çevresini hesaplayıp gösteriniz.
+
+GÖREV:
+- Alan = Math.PI * r * r
+- Çevre = 2 * Math.PI * r
+- Sonuçları 2 ondalık basamakla gösteriniz: .ToString("F2")
+
+SORULAR:
+1. Math.PI nedir ve değeri kaçtır?
+2. Math.Pow(r,2) ile r*r farkı var mıdır?
+3. "F2" format kodu ne anlama gelir?

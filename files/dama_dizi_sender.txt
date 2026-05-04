@@ -1,0 +1,13 @@
+SORU: DAMA OYUNU (Dizi - Sender)
+
+8x8 dama tahtasını 2 boyutlu dizi ile yönetiniz.
+
+GÖREV:
+- int[,] tahta = new int[8,8]; (0:boş, 1:beyaz, 2:siyah)
+- sender ile tıklanan kareyi belirleyiniz
+- Geçerli hamle kontrolü
+- Taş yeme kuralı
+
+SORULAR:
+1. Dizi ile Button matrisini nasıl senkronize edersiniz?
+2. Dama taşı hareket kuralı nasıl kontrol edilir?

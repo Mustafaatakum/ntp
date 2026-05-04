@@ -1,0 +1,14 @@
+SORU: DİRENÇ RENK KODLARI (Global Değişken)
+
+İki ComboBox ekleyiniz (1. ve 2. bant rengi).
+Siyah=0, Kahve=1, Kırmızı=2, ... Beyaz=9 değerleriyle direnç hesaplayınız.
+
+GÖREV:
+- Global değişken ile seçilen renk kodlarını saklayınız
+- Değer = (1.Bant × 10 + 2.Bant)
+- ComboBox.SelectedIndex ile renk kodunu alınız
+
+SORULAR:
+1. Global (genel) değişken nasıl tanımlanır? (sınıf düzeyinde)
+2. ComboBox'a eleman nasıl eklenir?
+3. SelectedIndex ile SelectedItem farkı nedir?

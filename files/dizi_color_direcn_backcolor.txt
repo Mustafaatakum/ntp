@@ -1,0 +1,11 @@
+SORU: RENK DİZİSİ NEW COLOR[]
+
+Color dizisi oluşturup butonlara atayınız.
+
+GÖREV:
+- Color[] renkler = {Color.Red, Color.Green, Color.Blue,...};
+- for ile butonlara BackColor atayınız
+
+SORULAR:
+1. Color[] nasıl tanımlanır?
+2. Dizide kaç farklı Color saklanabilir?

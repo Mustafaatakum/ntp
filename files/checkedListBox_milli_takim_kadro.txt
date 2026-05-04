@@ -1,0 +1,12 @@
+SORU: CHECKEDLISTBOX MİLLİ TAKIM KADRO
+
+CheckedListBox ile milli takım kadrosu seçimi.
+
+GÖREV:
+- Tüm oyuncular CheckedListBox'ta
+- Maksimum 23 oyuncu seçilebilir
+- Seçilen oyuncuları ayrı ListBox'ta göster
+
+SORULAR:
+1. CheckedListBox'ta seçim sayısını nasıl sınırlarsınız?
+2. ItemCheck olayı ne zaman tetiklenir?

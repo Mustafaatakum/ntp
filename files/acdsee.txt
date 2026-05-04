@@ -1,0 +1,13 @@
+SORU: ACDSEE FOTOĞRAF GÖRÜNTÜLEYICI
+
+Basit fotoğraf görüntüleyici (ACDSee benzeri) yapınız.
+
+GÖREV:
+- OpenFileDialog ile fotoğraf açınız
+- PictureBox ile gösteriniz
+- Önceki/Sonraki butonları ile dosyalar arası geçiş
+- Klasördeki tüm resimleri listeleyin
+
+SORULAR:
+1. Directory.GetFiles() ile klasördeki dosyalar nasıl listelenir?
+2. PictureBox.SizeMode seçenekleri nelerdir?

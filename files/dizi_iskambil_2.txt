@@ -1,0 +1,12 @@
+SORU: İSKAMBİL OYUNU 2 (El Değerlendirme)
+
+İskambil oyununda el değerlendirmesi yapınız.
+
+GÖREV:
+- 5 kart çekiniz
+- Çift, üçlü, dörtlü, flush kontrolleri
+- Kart değerlerini dizi ile karşılaştırınız
+
+SORULAR:
+1. Aynı renkten 5 kart (flush) nasıl kontrol edilir?
+2. Dizi sıralama bu oyunda nasıl yardımcı olur?

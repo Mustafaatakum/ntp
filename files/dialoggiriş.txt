@@ -1,0 +1,12 @@
+SORU: DİALOG FORMU GİRİŞ
+
+Ana formdan dialog form açıp bilgi alınız.
+
+GÖREV:
+- Dialog form: ad, soyad, yaş TextBox'ları
+- Ana form: "Yeni Kayıt" butonuyla dialog açar
+- Dialog OK'ye basılınca veriler ana forma aktarılır
+
+SORULAR:
+1. Dialog form'da "public string Ad" nasıl tanımlanır?
+2. ShowDialog() sonucunda veriye nasıl erişilir?

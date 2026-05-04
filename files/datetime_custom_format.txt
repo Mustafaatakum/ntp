@@ -1,0 +1,13 @@
+SORU: DATETIME CUSTOM FORMAT GENEL
+
+Çeşitli özel tarih-saat formatlarını gösteriniz.
+
+GÖREV:
+- "dd/MM/yyyy" → 03.05.2026
+- "d MMMM yyyy, dddd" → 3 Mayıs 2026, Pazar
+- "HH:mm:ss" → 14:30:00
+- "dd-MM-yy" → 03-05-26
+
+SORULAR:
+1. d ve dd formatları arasındaki fark nedir?
+2. M ile MM ve MMM ve MMMM arasındaki fark nedir?

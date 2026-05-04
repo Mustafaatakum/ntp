@@ -1,0 +1,12 @@
+SORU: BINDING SOURCE ORTALAMA
+
+BindingSource ile DataGridView bağlantısı ve ortalama hesabı.
+
+GÖREV:
+- DataGridView ve BindingSource ekleyiniz
+- Öğrenci adı ve notlar için sütunlar
+- Seçilen satırın ortalamasını hesaplayınız
+
+SORULAR:
+1. BindingSource nedir? Neden kullanılır?
+2. DataGridView.CurrentRow nasıl alınır?

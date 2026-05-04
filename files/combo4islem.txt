@@ -1,0 +1,13 @@
+SORU: COMBOBOX İLE 4 İŞLEM
+
+İki sayı TextBox ve işlem seçici ComboBox ekleyiniz.
+Seçilen işleme göre sonuç hesaplansın.
+
+GÖREV:
+- ComboBox: Toplama, Çıkarma, Çarpma, Bölme
+- if-else ile işlem seçimi
+- Bölmede sıfır kontrolü
+
+SORULAR:
+1. ComboBox.SelectedItem ile SelectedIndex farkı?
+2. Sıfıra bölme nasıl kontrol edilir?

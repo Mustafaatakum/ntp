@@ -1,0 +1,12 @@
+SORU: DİRENÇ RENKLERİ FORMATLI YAZMA
+
+Direnç renk kodlarını dizi ile saklayıp formatlı gösteriniz.
+
+GÖREV:
+- string[] renkler = {"Siyah","Kahverengi","Kırmızı",...};
+- int[] degerler = {0,1,2,...};
+- ComboBox ile seçip değer gösteriniz
+
+SORULAR:
+1. Paralel dizi nedir?
+2. Dictionary ile paralel dizi farkı nedir?

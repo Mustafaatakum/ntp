@@ -1,0 +1,13 @@
+SORU: COLOR DİZİ DİRENÇ COLORDIALOG
+
+ColorDialog ile kullanıcının seçtiği renkleri dizi ile saklayınız.
+
+GÖREV:
+- Color[] secimler = new Color[5];
+- "Renk Seç" butonu ile ColorDialog açılsın
+- Seçilen renk diziye eklensin
+- Panel'lere atanıp gösterilsin
+
+SORULAR:
+1. ColorDialog.Color ne döndürür?
+2. Seçilen rengi dizide saklamanın avantajı nedir?

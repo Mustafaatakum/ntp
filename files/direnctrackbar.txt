@@ -1,0 +1,13 @@
+SORU: AYARLI DİRENÇ (TrackBar - Global Değişken)
+
+3 TrackBar (R, G, B - 0-255) ekleyiniz.
+TrackBar değerleriyle form arka planını boyayınız. Global değişken kullanınız.
+
+GÖREV:
+- TrackBar.Value ile değeri alınız
+- Color.FromArgb(r, g, b) ile renk oluşturunuz
+- Global değişkenlerde r, g, b değerlerini saklayınız
+
+SORULAR:
+1. TrackBar.Scroll olayı ne zaman tetiklenir?
+2. Global değişkenin avantajı nedir?

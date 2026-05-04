@@ -1,0 +1,12 @@
+SORU: AYNA (Rekürsif - String Tersi)
+
+Rekürsif fonksiyon ile string'i tersine çeviriniz.
+
+GÖREV:
+- private string Tersi(string s) { if (s.Length <= 1) return s; return Tersi(s.Substring(1)) + s[0]; }
+- "MERHABA" → "ABAHREM"
+
+SORULAR:
+1. Substring() nasıl kullanılır?
+2. String'in ilk karakteri s[0] mıdır?
+3. Bu işlemi döngü ile nasıl yapardınız?

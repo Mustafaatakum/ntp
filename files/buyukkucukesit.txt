@@ -1,0 +1,14 @@
+SORU: İKİ SAYI BÜYÜK KÜÇÜK EŞİT
+
+İki sayı giriş TextBox ve "Karşılaştır" butonu ekleyiniz.
+Hangisinin büyük/küçük ya da eşit olduğunu Label'da gösteriniz.
+
+GÖREV:
+- if (a > b) "1. sayı büyük"
+- else if (a < b) "2. sayı büyük"
+- else "İki sayı eşit"
+- Sonuca göre Label rengi değişsin
+
+SORULAR:
+1. Karşılaştırma operatörleri nelerdir?
+2. == ile = arasındaki fark nedir?

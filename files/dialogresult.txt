@@ -1,0 +1,13 @@
+SORU: DIALOGRESULT MESSAGEBOX CEVAP
+
+MessageBox ile kullanıcı kararına göre farklı işlemler yapılsın.
+
+GÖREV:
+- DialogResult cevap = MessageBox.Show(..., MessageBoxButtons.YesNoCancel);
+- if (cevap == DialogResult.Yes) { ... }
+- else if (cevap == DialogResult.No) { ... }
+- else { ... } // Cancel
+
+SORULAR:
+1. YesNoCancel MessageBox 3 farklı sonuç döndürür. Bunlar nelerdir?
+2. MessageBox.Show() neden DialogResult döndürür?

@@ -1,0 +1,13 @@
+SORU: ÜÇGEN SINIFLARI (Class)
+
+Üçgen class'ı oluşturun. Alan ve çevre metodları yazın.
+
+GÖREV:
+- class Ucgen { public double a, b, c; public double Cevre() {...} public double Alan() {...} }
+- Ucgen u = new Ucgen(); u.a=3; u.b=4; u.c=5;
+- label.Text = u.Alan().ToString();
+
+SORULAR:
+1. Class nedir? Neden kullanılır?
+2. Nesne (object) nasıl oluşturulur?
+3. Field ile Property farkı nedir?
