@@ -1,0 +1,12 @@
+SORU: SANAL KLAVYE UYGULAMASI
+
+Ekranda tıklanabilen bir sanal klavye oluşturunuz.
+
+GÖREV:
+- for ile harfler (A-Z) için Button'lar oluşturunuz
+- Tıklanan harfi TextBox'a ekleyiniz
+- Büyük/küçük harf tuşu, backspace, space ekleyiniz
+
+SORULAR:
+1. A-Z arası karakterleri for ile nasıl üretirsiniz? ((char)('A'+i))
+2. Sanal klavye düzeni (QWERTY) nasıl ayarlanır?

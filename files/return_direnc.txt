@@ -1,0 +1,10 @@
+SORU: RETURN İLE DİRENÇ HESABI
+
+Direnç değerini hesaplayan ve döndüren fonksiyon yazınız.
+
+GÖREV:
+- private double DirenHesapla(int bant1, int bant2, int carpan) { return (bant1*10+bant2) * Math.Pow(10,carpan); }
+
+SORULAR:
+1. Direnç renk kodu formülü nedir?
+2. Math.Pow() bu formülde nasıl kullanılır?

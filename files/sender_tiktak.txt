@@ -1,0 +1,13 @@
+SORU: SENDER İLE TİK-TAK OYUNU
+
+Tic-Tac-Toe (XOX) oyunu yapınız. 9 butonla sender kullanınız.
+
+GÖREV:
+- 9 buton tek Click olayına bağlı
+- sender ile tıklanan butonu belirleyiniz
+- Sırayla X ve O yazılsın
+- Kazanan kombinasyonları kontrol ediniz
+
+SORULAR:
+1. 9 butonu tek olaya bağlamanın avantajı?
+2. Kazanan kombinasyonları nasıl kontrol edersiniz?

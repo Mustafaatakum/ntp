@@ -1,0 +1,11 @@
+SORU: RETURN İLE PEKİYİ İYİ DEĞERLENDİRME
+
+Not alan, harf notu string döndüren fonksiyon yazınız.
+
+GÖREV:
+- private string HarfNotu(int not) { if (not>=90) return "AA"; ... }
+- Fonksiyonu çağırarak sonucu Label'da gösteriniz
+
+SORULAR:
+1. Birden fazla return ifadesi olabilir mi?
+2. Her if için return yazılması zorunlu mudur? (return guarantee)

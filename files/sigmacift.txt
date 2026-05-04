@@ -1,0 +1,10 @@
+SORU: İKİ SAYI ARASINDAKİ ÇİFT SAYILARIN TOPLAMI
+
+İki sayı TextBox ekleyiniz. Arasındaki ÇİFT sayıların toplamını for ile hesaplayınız.
+
+GÖREV:
+- for + if (i%2==0) kontrolü
+
+SORULAR:
+1. 0 dahil mi? Kullanıcıya sormalı mısınız?
+2. Tek ve çift toplamlarının genel toplama oranı nedir?

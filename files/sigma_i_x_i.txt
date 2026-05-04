@@ -1,0 +1,12 @@
+SORU: SİGMA: i × x^i SERİSİ
+
+Σ(i=1→n) i × x^i serisini hesaplayınız.
+
+GÖREV:
+- n ve x için TextBox ekleyiniz
+- for (int i=1; i<=n; i++) toplam += i * Math.Pow(x,i);
+- Her adımı ListBox'ta gösteriniz
+
+SORULAR:
+1. Math.Pow(x,i) ne hesaplar?
+2. Toplam değişkeninin başlangıç değeri ne olmalıdır?

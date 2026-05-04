@@ -1,0 +1,15 @@
+SORU: SENDER İLE SAYAÇ
+
+Birden fazla sayaç butonu ekleyiniz. Hepsini aynı olaya bağlayınız.
+Her buton kendi sayacını tutsun ve Label'ını güncellesin.
+
+GÖREV:
+- Button btn = (Button)sender;
+- btn.Tag ile sayacı saklayınız
+- int sayac = (int)btn.Tag;
+- sayac++; btn.Tag = sayac;
+- btn.Text = "Tıklama: " + sayac;
+
+SORULAR:
+1. Tag özelliği ne işe yarar?
+2. Tag'den değer alırken neden cast gerekir?

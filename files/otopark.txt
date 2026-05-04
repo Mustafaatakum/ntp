@@ -1,0 +1,13 @@
+SORU: OTOPARK UYGULAMASI
+
+Otopark giriş-çıkış ve ücret hesabı yapan uygulama.
+
+GÖREV:
+- Araç plaka giriş TextBox
+- Giriş saati otomatik alınsın (DateTime.Now)
+- "Çıkış" butonu ile süre ve ücret hesaplansın
+- TimeSpan ile süre bulunur, ücret = süre × saat ücreti
+
+SORULAR:
+1. DateTime.Now ile giriş saatini nasıl saklarsınız?
+2. TimeSpan.TotalHours ne döndürür?

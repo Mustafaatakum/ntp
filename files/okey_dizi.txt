@@ -1,0 +1,12 @@
+SORU: OKEY OYUNU (Dizi)
+
+Okey oyunu taşlarını dizi ile oluşturunuz ve dağıtınız.
+
+GÖREV:
+- 106 taş (4 renk × 13 sayı × 2 adet + 2 joker)
+- Taşları karıştırıp her oyuncuya 14 dağıtınız
+- Göster ve el yönetimi
+
+SORULAR:
+1. 106 taşlık okey destesi nasıl oluşturulur?
+2. Joker taşı nasıl ayrı tutulur?

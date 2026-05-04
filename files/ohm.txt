@@ -1,0 +1,13 @@
+SORU: OHM KANUNU - AKIM DİRENÇ AMPER HESABI
+
+3 TextBox (V, I, R) ekleyiniz. Her biri için hesaplama butonu olsun.
+İki değer girilince üçüncüsü hesaplansın.
+
+GÖREV:
+- Gerilim = Akım × Direnç
+- Akım = Gerilim / Direnç
+- Direnç = Gerilim / Akım
+
+SORULAR:
+1. Ohm Kanununun 3 farklı formülü nelerdir?
+2. Hangi durumda sıfıra bölme hatası oluşur?

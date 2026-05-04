@@ -1,0 +1,14 @@
+SORU: MONAROZA AKROSTİŞ
+
+"MONAROZA" kelimesinin her harfini ListBox'ta gösterin.
+Her harf için anlamlı bir kelime yazın (akrostiş).
+
+GÖREV:
+- string kelime = "MONAROZA";
+- for (int i=0; i<kelime.Length; i++)
+- listBox1.Items.Add(kelime[i] + ": " + ..açıklama..);
+
+SORULAR:
+1. string.Length ne döndürür?
+2. string[i] ile kaçıncı harfe erişilir?
+3. Akrostiş ne demektir?

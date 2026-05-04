@@ -1,0 +1,14 @@
+SORU: FORM RENGİ DEĞİŞME (Buton Hover)
+
+Form üzerine en az 3 adet Button ekleyiniz.
+Fare butona GELDİĞİNDE form rengi değişmeli, AYRILDIĞINDA eski rengine dönmelidir.
+
+GÖREV:
+- Her buton için MouseEnter ve MouseLeave olaylarını oluşturunuz
+- MouseEnter: Formun rengini değiştirin
+- MouseLeave: Formu eski rengine döndürün (SystemColors.Control)
+
+SORULAR:
+1. MouseEnter ile MouseHover arasındaki fark nedir?
+2. MouseLeave olayı ne zaman tetiklenir?
+3. Orijinal form rengini nasıl saklarsınız?

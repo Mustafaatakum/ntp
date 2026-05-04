@@ -1,0 +1,13 @@
+SORU: TAKIM SKOR GALİP MAĞLUP BERABERLİK
+
+İki takım adı ve gol sayısı giriş alanları ekleyiniz.
+Sonuç Label'da gösterilsin, renkle vurgulanmasın.
+
+GÖREV:
+- if (gol1 > gol2) "Ev sahibi kazandı!"
+- else if (gol1 < gol2) "Deplasman kazandı!"
+- else "Beraberlik!"
+
+SORULAR:
+1. Gol sayısı negatif girilirse ne yapmalısınız?
+2. Sonucu renkle nasıl vurgularsınız?

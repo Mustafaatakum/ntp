@@ -1,0 +1,12 @@
+SORU: NESNE EKLEME HİZALAMA ÇAPRAZ
+
+Kod ile eklenen nesneleri çapraz olarak hizalayınız.
+
+GÖREV:
+- for ile nesneleri çapraz konumlara yerleştirin
+- Location = new Point(i*50, i*50);
+- Her nesneye farklı boyut ve renk atayınız
+
+SORULAR:
+1. Çapraz yerleştirme formülü nedir?
+2. Boyutu nasıl ayarlarsınız? (Size = new Size(w,h))

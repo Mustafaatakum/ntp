@@ -1,0 +1,14 @@
+SORU: SUDOKU (InputBox - Sender)
+
+9x9 sudoku tahtası oluşturunuz. Hücrelere tıklandığında InputBox ile değer girilsin.
+
+GÖREV:
+- 81 adet Button veya TextBox oluşturunuz (for döngüsü ile)
+- sender ile tıklanan hücreyi belirleyiniz
+- 1-9 arası geçerli değer kontrolü yapınız
+- Aynı satır/sütun/3x3 kutu kontrolü yapınız
+
+SORULAR:
+1. 81 hücreyi for ile nasıl oluşturursunuz?
+2. sender ile hangi hücreye tıklandığı nasıl anlaşılır?
+3. Satır/sütun index'i nasıl hesaplanır?

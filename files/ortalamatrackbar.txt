@@ -1,0 +1,12 @@
+SORU: ORTALAMA TRACKBAR RENK DEĞİŞME
+
+TrackBar ile not girilsin. Nota göre form rengi değişsin.
+
+GÖREV:
+- TrackBar.Value ile notu alınız
+- 0-44: kırmızı, 45-54: turuncu, 55-69: sarı, 70-84: yeşil, 85-100: mavi
+- if-else if ile renk belirleyiniz
+
+SORULAR:
+1. TrackBar.Value ile Label nasıl güncellenir?
+2. Renk geçişini nasıl yumuşatırsınız?

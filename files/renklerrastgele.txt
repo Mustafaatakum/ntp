@@ -1,0 +1,14 @@
+SORU: TİMER İLE RASTGELE RENK DEĞİŞİMİ
+
+Timer ekleyiniz. Her tetiklemede form rengi rastgele değişsin.
+Hızlandır/Yavaşlat butonları ile hız ayarı yapılsın.
+
+GÖREV:
+- Random rnd = new Random(); (global)
+- this.BackColor = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
+- timer1.Interval değerini butonlarla değiştiriniz
+
+SORULAR:
+1. Random nesnesini neden global tanımlamalısınız?
+2. rnd.Next(256) hangi değerleri üretir? (0-255)
+3. Timer.Interval dinamik olarak nasıl değiştirilir?

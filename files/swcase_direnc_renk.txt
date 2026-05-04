@@ -1,0 +1,12 @@
+SORU: SWCASE DİRENÇ RENK
+
+switch-case ile direnç renk bandı hesaplaması yapınız.
+
+GÖREV:
+- ComboBox'tan renk seçilsin
+- switch ile renk kodu (0-9) atansin
+- İki bant seçiminden direnç değeri hesaplansın
+
+SORULAR:
+1. switch-case'de enum kullanılabilir mi?
+2. Renk kodlarını switch ile if-else karşılaştırınız.

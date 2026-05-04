@@ -1,0 +1,14 @@
+SORU: OKUL ZİLİ (DateTime - Process.Start - mp3)
+
+Günlük ders programına göre otomatik zil çalan uygulama yapınız.
+
+GÖREV:
+- Timer ile her dakika saati kontrol edin
+- Ders başlangıç saatlerini dizide saklayın
+- foreach ile saatleri karşılaştırın
+- Eşleşince ses çalın (Process.Start veya SoundPlayer)
+
+SORULAR:
+1. DateTime.Now.ToString("HH:mm") ile saat nasıl alınır?
+2. SoundPlayer nasıl kullanılır?
+3. Ders programını nasıl saklarsınız?

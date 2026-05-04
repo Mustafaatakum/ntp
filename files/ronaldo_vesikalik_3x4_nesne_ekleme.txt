@@ -1,0 +1,12 @@
+SORU: RONALDO VESİKALIK 3x4 NESNE EKLEME
+
+3x4 ızgara şeklinde PictureBox'lar ekleyiniz.
+
+GÖREV:
+- for ile 12 PictureBox oluşturun (3 satır × 4 sütun)
+- Her birine aynı resmi yükleyin
+- Tıklananı büyük PictureBox'ta gösterin
+
+SORULAR:
+1. 3x4 ızgara için Location hesabı nasıl yapılır?
+2. Dinamik PictureBox'a resim nasıl yüklenir?

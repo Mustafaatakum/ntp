@@ -1,0 +1,13 @@
+SORU: REFERANDUM PROGRESSBAR TİMER
+
+Referandum oy sayım simülasyonu.
+
+GÖREV:
+- Timer ile oylar kademeli sayılsın
+- Evet/Hayır ProgressBar'lar
+- Anlık yüzde gösterimi
+- Sonuç animasyonu
+
+SORULAR:
+1. İki ProgressBar nasıl ters yönde gösterilir?
+2. Timer ile kademeli artış nasıl sağlanır?

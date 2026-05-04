@@ -1,0 +1,13 @@
+SORU: OTOPARK DİZİ 2024
+
+Dizi ile otopark yönetim sistemi yapınız.
+
+GÖREV:
+- string[] plakalar = new string[50]; (kapasiteli)
+- Giriş: boş yer bul, plaka kaydet
+- Çıkış: plakayı sil
+- Doluluk oranını göster
+
+SORULAR:
+1. Boş yer (null/boş string) nasıl bulunur?
+2. Doluluk yüzdesini hesaplayınız.

@@ -1,0 +1,15 @@
+SORU: SİGMA i×x^i (t=1'DEN)
+
+Σ(i=1→n) i × x^i / i! serisini hesaplayınız.
+
+GÖREV:
+- n ve x için TextBox ekleyiniz
+- for döngüsü ile her terimi hesaplayınız
+- Her adımda: terim = i * Math.Pow(x,i) / Faktoriyel(i)
+- Toplam ve her adımı ListBox'ta gösteriniz
+- Faktoriyel için ayrı fonksiyon yazınız
+
+SORULAR:
+1. i! (faktöriyel) her adımda nasıl hesaplanır?
+2. Bu seri hangi matematiksel fonksiyona yakınsar?
+3. Büyük i değerlerinde taşma (overflow) nasıl önlenir?

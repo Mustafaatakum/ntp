@@ -1,0 +1,12 @@
+SORU: REKÜRSİF FİBONACCİ DİZİSİ
+
+Rekürsif Fibonacci fonksiyonu yazınız.
+
+GÖREV:
+- private long Fib(int n) { if (n<=1) return n; return Fib(n-1) + Fib(n-2); }
+- İlk 15 terimi ListBox'ta gösteriniz
+
+SORULAR:
+1. Fibonacci dizisi nedir? İlk 10 terimi nedir?
+2. Rekürsif Fibonacci büyük N için neden yavaştır?
+3. Döngü ile daha verimli nasıl yazılır?

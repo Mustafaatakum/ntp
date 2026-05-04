@@ -1,0 +1,10 @@
+SORU: REKÜRSİF İKİLİK TABANA ÇEVİRME
+
+Onluk sayıyı ikilik tabana rekürsif fonksiyon ile çeviriniz.
+
+GÖREV:
+- private string IkilikTabana(int n) { if (n==0) return "0"; if (n==1) return "1"; return IkilikTabana(n/2) + (n%2).ToString(); }
+
+SORULAR:
+1. İkilik (binary) taban sistemi nedir?
+2. Onluk'tan ikiliye nasıl çevrilir? (2'ye böl, kalanı yaz)

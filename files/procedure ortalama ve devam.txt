@@ -1,0 +1,11 @@
+SORU: KARNE NOTLAR DEVAMSIZLIK (TextChange - Prosedür)
+
+Notlar ve devamsızlık TextBox'ları ekleyiniz. Hesaplama prosedür ile yapılsın.
+
+GÖREV:
+- private void HesaplaVeGoster() { ... ortalama ve devamsızlık hesabı ... }
+- Her TextChanged olayında HesaplaVeGoster(); çağırınız
+
+SORULAR:
+1. Prosedürü TextChanged'dan çağırmanın avantajı nedir?
+2. TextBox boşken TryParse() neden önemlidir?

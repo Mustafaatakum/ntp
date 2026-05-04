@@ -1,0 +1,12 @@
+SORU: SW CASE ZEMİN YAZI RENGİ 1
+
+ComboBox ile renk seçilsin. switch-case ile form/Label rengi değişsin.
+
+GÖREV:
+- switch(comboBox1.SelectedIndex)
+- case 0: BackColor = Color.Red; break;
+- Her seçenek için farklı renk atayınız
+
+SORULAR:
+1. switch'te integer mi, string mi kullanmak daha kolaydır?
+2. SelectedIndex ile SelectedItem farkı nedir?

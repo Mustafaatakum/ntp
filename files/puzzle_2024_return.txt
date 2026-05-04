@@ -1,0 +1,11 @@
+SORU: PUZZLE 2024 (return Fonksiyon)
+
+Puzzle oyununu fonksiyon return değerleriyle yönetiniz.
+
+GÖREV:
+- private bool KomsuMu(int i1, int j1, int i2, int j2) { return Math.Abs(i1-i2)+Math.Abs(j1-j2)==1; }
+- private bool Kazandi() { ... tüm yerler doğruysa true ... }
+
+SORULAR:
+1. Manhattan mesafesi nedir? (|x1-x2|+|y1-y2|)
+2. Kazanma kontrolü için dizi nasıl dolaşılır?

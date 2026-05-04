@@ -1,0 +1,14 @@
+SORU: FARE OLAYLARI İLE TELEFON TUŞLARI
+
+Telefon tuş takımı (0-9, *, #) oluşturunuz.
+Fare üzerine gelince renk değişsin, ayrılınca eski rengine dönsün, tıklayınca TextBox'a eklensin.
+
+GÖREV:
+- MouseEnter: buton rengini değiştirin
+- MouseLeave: eski renge döndürün
+- Click: btn.Text'i TextBox'a ekleyin
+
+SORULAR:
+1. MouseEnter, MouseLeave, MouseHover farkları nelerdir?
+2. Tuşları düzenli hizalamak için ne kullanırsınız? (TableLayoutPanel)
+3. sender ile tüm tuşları tek olaya bağlayabilir misiniz?

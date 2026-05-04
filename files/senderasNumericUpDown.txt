@@ -1,0 +1,14 @@
+SORU: SENDER AS NUMERICUPDOWN (5 Numeric)
+
+5 adet NumericUpDown ekleyiniz. Hepsini aynı ValueChanged olayına bağlayınız.
+Sender ile hangisinin değiştiğini anlayıp toplam Label'da gösteriniz.
+
+GÖREV:
+- NumericUpDown nud = sender as NumericUpDown;
+- Tüm NumericUpDown değerlerini toplayınız
+- Sonucu Label'da gösteriniz
+
+SORULAR:
+1. "as" operatörü ile casting farkı nedir?
+2. "as" başarısız olursa ne döndürür? (null)
+3. NumericUpDown.Value ile TextBox.Text farkı nedir?

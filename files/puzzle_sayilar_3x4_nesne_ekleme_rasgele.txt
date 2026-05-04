@@ -1,0 +1,11 @@
+SORU: PUZZLE 3x4 RASTGELE BAŞLANGIÇ
+
+Puzzle oyununu rastgele başlangıç düzenlemesiyle başlatınız.
+
+GÖREV:
+- Başlangıç düzenini karıştırınız (çözülebilir permütasyon)
+- Karıştırma: rastgele swap'lar
+
+SORULAR:
+1. Çözülebilir puzzle permütasyonu nasıl garantilenir?
+2. Kaç swap yapılmalı?

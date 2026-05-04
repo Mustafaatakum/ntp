@@ -1,0 +1,12 @@
+SORU: OTOPARK DİZİ DATAGRIDVIEW 2024
+
+Otopark verilerini dizi ile tutup DataGridView'de gösteriniz.
+
+GÖREV:
+- Plaka, giriş saati, çıkış saati, ücret sütunları
+- Giriş/çıkış işlemleri DataGridView'i güncellesin
+- Toplam gelir gösterilsin
+
+SORULAR:
+1. DataGridView'e satır nasıl eklenir?
+2. Seçili satırdan veri nasıl okunur?

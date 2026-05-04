@@ -1,0 +1,14 @@
+SORU: MESAJ KUTUSU GÖSTERME
+
+Birkaç buton ekleyiniz. Her buton farklı türde MessageBox açsın.
+
+GÖREV:
+- Information türü MessageBox gösteriniz
+- Warning türü MessageBox gösteriniz
+- Error türü MessageBox gösteriniz
+- MessageBox.Show("Mesaj","Başlık",MessageBoxButtons.OK,MessageBoxIcon.Information);
+
+SORULAR:
+1. MessageBox.Show() metodunun parametreleri nelerdir?
+2. MessageBoxButtons enum'u hangi değerleri içerir?
+3. MessageBoxIcon enum'u hangi değerleri içerir?

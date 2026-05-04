@@ -1,0 +1,14 @@
+SORU: MESAFE YAKIT SAAT HARİTA (if ile)
+
+İki şehir ComboBox ve araç tipi seçimi ekleyiniz.
+if-else ile mesafe tablosundan değer alıp hesaplamalar yapın.
+
+GÖREV:
+- Şehir çiftlerine göre if-else ile mesafe atayın
+- Yakıt = Mesafe × tüketim / 100
+- Süre = Mesafe / hız
+- Google Maps link oluşturun
+
+SORULAR:
+1. İki ComboBox seçimine göre if nasıl yazılır?
+2. Büyük bir if-else yerine Dictionary kullanmanın avantajı nedir?

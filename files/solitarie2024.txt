@@ -1,0 +1,12 @@
+SORU: SOLİTAİRE (Klondike) 2024
+
+Basit solitaire kartı oyunu yapınız.
+
+GÖREV:
+- 7 sütun ve 4 temel yığın
+- Kart çekme ve yerleştirme kuralları
+- Renk ve sıra kontrolü (kırmızı-siyah alternatifleri)
+
+SORULAR:
+1. Solitaire yerleştirme kuralı nedir?
+2. Kart desteleri için hangi veri yapısı uygundur? (Stack)

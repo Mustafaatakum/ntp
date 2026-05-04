@@ -1,0 +1,13 @@
+SORU: SEÇİM SANDIK TÜRKİYE
+
+Seçim simülasyonu.
+
+GÖREV:
+- Partiler ve oy oranları
+- "Oy Ver" butonu ile rastgele simüle et
+- ProgressBar ile oy oranlarını göster
+- %10 barajını kontrol et
+
+SORULAR:
+1. Oy oranı ProgressBar'da nasıl gösterilir?
+2. Baraj kontrolü nasıl uygulanır?

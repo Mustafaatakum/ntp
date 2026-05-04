@@ -1,0 +1,15 @@
+SORU: SİGMA i² / i! SERİSİ
+
+Σ(i=1→n) i² / i! serisini hesaplayınız.
+
+GÖREV:
+- n için TextBox ekleyiniz
+- for (int i=1; i<=n; i++)
+- terim = (double)(i*i) / Faktoriyel(i)
+- toplam += terim
+- Her adımı ListBox'ta gösteriniz
+
+SORULAR:
+1. Integer bölmede kayıp olmaması için (double) cast neden gerekir?
+2. Büyük i değerlerinde i! ne kadar büyür?
+3. Bu seri 2e'ye yakınsar. e ≈ 2.718 olduğunu doğrulayınız.

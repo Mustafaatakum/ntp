@@ -1,0 +1,13 @@
+SORU: SENDER İLE RENK VE TELEFON TUŞLARI
+
+Telefon tuş takımı oluşturunuz. Tüm tuşları TEK Click olayına bağlayınız.
+sender ile basılan tuşun metnini TextBox'a ekleyiniz + hover renk efekti.
+
+GÖREV:
+- Button btn = (Button)sender;
+- textBox1.Text += btn.Text;
+- MouseEnter/MouseLeave ile hover rengi ekleyiniz
+
+SORULAR:
+1. Çok sayıda butonu tek olaya bağlamanın faydası nedir?
+2. btn.Text ile butonun yazısına nasıl ulaşılır?

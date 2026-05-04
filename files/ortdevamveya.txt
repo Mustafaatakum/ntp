@@ -1,0 +1,10 @@
+SORU: ORTALAMA VE DEVAMSIZLIK (VEYA - ||)
+
+GÖREV:
+- if (ortalama < 50 || devamsizlik > 14) "KALDI"
+- else "GEÇTİ"
+
+SORULAR:
+1. || operatörü ne zaman true döndürür?
+2. && ile || farkı nedir?
+3. De Morgan kanunları nedir?

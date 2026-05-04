@@ -1,0 +1,13 @@
+SORU: RASTGELE TABAN VE TAVAN
+
+Min ve Max değer TextBox, "Üret" butonu ekleyiniz.
+Belirlenen aralıkta rastgele sayı üretilip ListBox'a eklensin.
+
+GÖREV:
+- rnd.Next(min, max + 1)
+- Çift mi tek mi kontrolü ekleyiniz
+- Min > Max kontrolü yapınız
+
+SORULAR:
+1. rnd.Next(min, max) neden max dahil değil?
+2. Çift/tek kontrolü nasıl yapılır?

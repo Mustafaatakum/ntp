@@ -1,0 +1,11 @@
+SORU: SAYI POZİTİF NEGATİF SIFIR (if-else if-else)
+
+GÖREV:
+- if (sayi > 0) "POZİTİF"
+- else if (sayi < 0) "NEGATİF"
+- else "SIFIR"
+
+SORULAR:
+1. if-else if-else yapısının avantajı nedir?
+2. Koşulların sırası önemli midir?
+3. else bloğu ne zaman çalışır?

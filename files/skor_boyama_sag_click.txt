@@ -1,0 +1,12 @@
+SORU: SKOR BOYAMA SAĞ CLICK
+
+Sağ tıklama menüsü (ContextMenu) ile skor boyama.
+
+GÖREV:
+- ContextMenuStrip ile sağ tık menüsü
+- Tıklanan skoru kırmızı, yeşil, sarı boyama seçenekleri
+- Bir Label'a sağ tıklayınca menü çıksın
+
+SORULAR:
+1. ContextMenuStrip nasıl oluşturulur?
+2. Hangi Label'a sağ tıklandığı nasıl anlaşılır?

@@ -1,0 +1,14 @@
+SORU: NODE0 - TREEVIEW TEMEL DÜĞÜMLERİ
+
+TreeView kontrolüne kök düğümler (root nodes) ekleyiniz.
+
+GÖREV:
+- TreeView'a en az 3 kök düğüm ekleyiniz
+- Her kök düğüme alt düğümler ekleyiniz
+- TreeNode nesnesini manuel oluşturunuz
+- treeView1.Nodes.Add("Kök Düğüm");
+
+SORULAR:
+1. TreeView ile ListBox arasındaki fark nedir?
+2. Kök düğüm (root node) nedir?
+3. Alt düğüm (child node) nasıl eklenir?

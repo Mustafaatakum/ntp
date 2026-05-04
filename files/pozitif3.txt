@@ -1,0 +1,12 @@
+SORU: SAYI POZİTİF NEGATİF SIFIR (Süslü Parantez)
+
+Her if-else bloğunu süslü parantezle yazınız.
+
+GÖREV:
+- if (sayi > 0) { label1.Text = "POZİTİF"; }
+- else if (sayi < 0) { label1.Text = "NEGATİF"; }
+- else { label1.Text = "SIFIR"; }
+
+SORULAR:
+1. Süslü parantez olmadan ne olur? (Tek satır kural)
+2. Süslü parantez kullanmanın önemi nedir?

@@ -1,0 +1,13 @@
+SORU: PUZZLE SAYILAR 3x4 NESNE EKLEME
+
+3x4 ızgara (12 buton) ile sayı puzzlesi.
+
+GÖREV:
+- for ile 12 Button oluşturun (3×4)
+- 1-11 sayı + 1 boş
+- Boş kareye komşu tıklanınca yer değiştir
+- Kazanma kontrolü
+
+SORULAR:
+1. 3x4 ızgara için index-konum hesabı nasıl yapılır?
+2. Komşu kontrol formülü nedir?

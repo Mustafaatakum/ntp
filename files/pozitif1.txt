@@ -1,0 +1,14 @@
+SORU: SAYI POZİTİF NEGATİF SIFIR (Sadece if)
+
+Bir sayı giriş alanı ekleyiniz. SADECE if blokları kullanarak değerlendirme yapınız.
+
+GÖREV:
+- Üç bağımsız if bloğu kullanınız
+- if (sayi > 0) "POZİTİF"
+- if (sayi < 0) "NEGATİF"
+- if (sayi == 0) "SIFIR"
+
+SORULAR:
+1. Sadece if kullanmanın dezavantajı nedir? (Hepsi kontrol edilir)
+2. Sıfır kontrolü için neden == kullanırız?
+3. Bu yapıyı if-else ile nasıl yazardınız?

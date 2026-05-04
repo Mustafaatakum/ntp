@@ -1,0 +1,11 @@
+SORU: TAB KONTROL 4 İŞLEM
+
+TabControl ile 4 işlem uygulaması.
+
+GÖREV:
+- Her işlem için ayrı sekme (Toplama, Çıkarma, Çarpma, Bölme)
+- Her sekmede kendi TextBox ve Label'ları
+
+SORULAR:
+1. Her sekmenin içeriği birbirinden bağımsız mı?
+2. Aktif sekmeyi SelectedTab ile nasıl anlarsınız?

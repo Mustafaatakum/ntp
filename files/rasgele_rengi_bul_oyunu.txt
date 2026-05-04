@@ -1,0 +1,13 @@
+SORU: RASTGELE RENGİ BUL OYUNU
+
+Rastgele bir renk seçilsin. Kullanıcı 4 seçenekten doğru rengi bulsun.
+
+GÖREV:
+- Rastgele renk Panel'de gösterilsin
+- 4 buton farklı renk adı içersin (biri doğru)
+- Doğru seçimde puan eklensin, yanlışta azaltsın
+- Timer ile süre sınırı ekleyiniz
+
+SORULAR:
+1. Rastgele renk nasıl seçilir?
+2. 4 butondan biri doğru, diğerleri yanlış nasıl atanır?

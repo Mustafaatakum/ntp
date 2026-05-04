@@ -1,0 +1,13 @@
+SORU: ORTALAMA VE DEVAMSIZLIK (VE - &&)
+
+Not ortalaması ve devamsızlık gün sayısı giriş alanları ekleyiniz.
+Ortalama>=50 VE devamsızlık<=14 ise GEÇTİ, aksi halde KALDI.
+
+GÖREV:
+- if (ortalama >= 50 && devamsizlik <= 14) "GEÇTİ"
+- else "KALDI"
+- GEÇTİ: yeşil, KALDI: kırmızı
+
+SORULAR:
+1. && operatörü ne zaman true döndürür?
+2. Sadece not yeterliyse ama devamsızlık fazlaysa ne olur?

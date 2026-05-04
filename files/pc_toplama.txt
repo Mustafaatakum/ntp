@@ -1,0 +1,13 @@
+SORU: PC TOPLAMA UYGULAMASI
+
+PC parçalarını seçip toplam fiyat hesaplayan uygulama.
+
+GÖREV:
+- İşlemci, RAM, Disk, Ekran Kartı seçimleri (ComboBox)
+- Her seçim için fiyat listesi
+- Toplam fiyat anlık hesaplansın
+- Seçilen konfigürasyon kaydedilsin
+
+SORULAR:
+1. ComboBox seçimine göre fiyat nasıl belirlenir?
+2. Seçilen konfigürasyonu dosyaya nasıl kaydedersiniz?

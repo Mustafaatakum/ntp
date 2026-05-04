@@ -1,0 +1,14 @@
+SORU: MESAJ KUTUSU (Evet/Hayır Onayı)
+
+"Çıkış" butonu ekleyiniz. Tıklandığında Evet/Hayır sorusu sorulsun.
+Evet: program kapansın. Hayır: devam etsin.
+
+GÖREV:
+- MessageBoxButtons.YesNo kullanınız
+- DialogResult sonucu kontrol ediniz
+- Application.Exit() ile programı kapatınız
+
+SORULAR:
+1. DialogResult ne işe yarar?
+2. MessageBoxButtons.YesNo ile hangi butonlar çıkar?
+3. Application.Exit() ne yapar?

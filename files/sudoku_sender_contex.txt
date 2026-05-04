@@ -1,0 +1,12 @@
+SORU: SUDOKU (Sender - ContextMenu)
+
+Sudoku oyunu. sender ile hücre seçimi, ContextMenu ile değer girişi.
+
+GÖREV:
+- 9x9 Label veya Button ızgarası (81 kontrol)
+- Sağ tık → ContextMenu → 1-9 seçenekleri
+- Aynı satır/sütun/3x3 kutu tekrar kontrolü
+
+SORULAR:
+1. ContextMenuStrip ile 1-9 seçeneği nasıl oluşturulur?
+2. sender ile 81 hücreden hangisine sağ tıklandığı nasıl anlaşılır?

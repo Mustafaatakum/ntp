@@ -1,0 +1,14 @@
+SORU: RGB İLE FORM RENGİ DEĞİŞTİRME
+
+3 TrackBar (R, G, B, 0-255) ve değer Label'ları ekleyiniz.
+Herhangi TrackBar değişince form rengi anlık güncellensin.
+
+GÖREV:
+- Her TrackBar için Scroll olayı oluşturunuz
+- this.BackColor = Color.FromArgb(r, g, b);
+- Hex kodu da gösteriniz: r.ToString("X2")
+
+SORULAR:
+1. 0,0,0 hangi renk? 255,255,255 hangi renk?
+2. Hexadecimal (onaltılık) sayı sistemi nedir?
+3. "X2" format kodu ne anlama gelir?

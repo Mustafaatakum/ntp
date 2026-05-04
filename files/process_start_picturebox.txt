@@ -1,0 +1,13 @@
+SORU: PROCESS START VE PİCTUREBOX
+
+PictureBox ve birkaç Button ekleyiniz. Butonlarla harici programlar açılsın.
+
+GÖREV:
+- System.Diagnostics.Process.Start("calc.exe");
+- System.Diagnostics.Process.Start("notepad.exe");
+- System.Diagnostics.Process.Start("https://www.google.com");
+
+SORULAR:
+1. Process.Start() ne işe yarar?
+2. Hangi uzantılar doğrudan açılabilir?
+3. using System.Diagnostics; neden gerekir?

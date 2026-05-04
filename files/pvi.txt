@@ -1,0 +1,13 @@
+SORU: PARALEL DEVREDE EŞDEĞER DİRENÇ VE AKIM GÜÇ HESABI
+
+3 direnç ve gerilim değeri giriş alanları ekleyiniz.
+Eşdeğer direnç, toplam akım ve güç hesaplayınız.
+
+GÖREV:
+- Req hesabı (paralel): 1/Req = 1/R1 + 1/R2 + 1/R3
+- Toplam akım: I = V / Req
+- Güç: P = V × I
+
+SORULAR:
+1. Güç formülü P = V × I nedir?
+2. Her direnç üzerindeki akım nasıl hesaplanır?

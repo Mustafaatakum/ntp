@@ -1,0 +1,13 @@
+SORU: SEVİNEN TAKIMI GÖSTER (3 TAKIM)
+
+3 takım için skor girişi yapılsın.
+Kazanan takımın resmi/logosu gösterilsin.
+
+GÖREV:
+- 3 takım skoru karşılaştırınız
+- if-else ile kazananı bulunuz
+- Kazananın PictureBox'ını görünür, diğerlerini gizli yapınız
+
+SORULAR:
+1. 3 değeri karşılaştırmak için kaç if gerekir?
+2. Beraberlik durumlarını nasıl kontrol edersiniz?

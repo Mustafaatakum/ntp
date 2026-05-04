@@ -1,0 +1,13 @@
+SORU: RENK ŞAŞIRTMA (Dizi - TreeView)
+
+Renk ismi ve gerçek renk farklı olan, kullanıcıyı şaşırtan oyun.
+
+GÖREV:
+- string[] renkIsimleri, Color[] gercekRenkler
+- Label'ın metni bir renk, BackColor'u başka bir renk
+- Kullanıcı doğru ismi veya doğru rengi seçsin
+- TreeView ile skor/istatistik
+
+SORULAR:
+1. Stroop etkisi nedir?
+2. Paralel diziler nasıl senkron çalışır?

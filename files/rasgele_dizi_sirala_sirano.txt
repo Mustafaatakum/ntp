@@ -1,0 +1,13 @@
+SORU: RASTGELE DİZİ SIRALA VE SIRA NO
+
+Rastgele dizi oluşturup sıralayın. Her elemanın orijinal dizideki sırasını gösterin.
+
+GÖREV:
+- Rastgele dizi oluşturunuz
+- Orijinal indexleri saklayınız (int[] orijinalIndex)
+- Diziyi sıralayınız
+- Her elemanın orijinal sırasını gösteriniz
+
+SORULAR:
+1. Sıralandıktan sonra orijinal index nasıl korunur?
+2. Array.Sort(keys, values) nasıl çalışır?

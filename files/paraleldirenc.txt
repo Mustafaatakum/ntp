@@ -1,0 +1,12 @@
+SORU: PARALEL DEVREDE EŞDEĞER DİRENÇ
+
+3 direnç değeri TextBox ekleyiniz.
+Paralel ve seri eşdeğer dirençleri hesaplayınız.
+
+GÖREV:
+- Paralel: 1/Req = 1/R1 + 1/R2 + 1/R3  →  Req = 1/(1/R1+1/R2+1/R3)
+- Seri: Req = R1 + R2 + R3
+
+SORULAR:
+1. Paralel bağlı dirençlerde toplam direnç neden küçülür?
+2. Dirençlerden biri 0 girilirse ne olur?

@@ -1,0 +1,16 @@
+SORU: PUZZLE 1-15 MAVİ BOŞ KARE
+
+15 sayılı ve 1 boş kareden oluşan kaydırma puzzlesi yapınız.
+
+GÖREV:
+- 4x4 = 16 Button oluşturunuz (for ile)
+- 1-15 arası sayılar ve 1 boş (beyaz) kare
+- Boş kareye komşu bir butona tıklanınca yer değiştirsin
+- Boş kare: button.Text = ""; button.BackColor = Color.White;
+- Sayılar: button.BackColor = Color.LightBlue;
+- Kazanma: 1-15 sıralı dizilince "Tebrikler!"
+
+SORULAR:
+1. 4x4 ızgarada boş karenin konumunu nasıl takip edersiniz?
+2. Komşuluk kontrolü: |satır1-satır2| + |sütun1-sütun2| == 1
+3. Kazanma kontrolü nasıl yapılır?

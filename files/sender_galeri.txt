@@ -1,0 +1,12 @@
+SORU: SENDER İLE GALERİ
+
+Birden fazla küçük PictureBox ekleyiniz, hepsini AYNI Click olayına bağlayınız.
+sender ile tıklanan PictureBox'ın resmini büyük PictureBox'ta gösteriniz.
+
+GÖREV:
+- PictureBox pic = (PictureBox)sender;
+- pictureBuyuk.Image = pic.Image;
+
+SORULAR:
+1. sender kullanmanın avantajı nedir?
+2. PictureBox'u sender'dan cast etmek neden gerekir?

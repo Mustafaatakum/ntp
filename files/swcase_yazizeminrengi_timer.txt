@@ -1,0 +1,12 @@
+SORU: SW CASE YAZI ZEMİN RENGİ (Timer)
+
+Timer ile otomatik renk değişimi. switch-case ile renk seçimi.
+
+GÖREV:
+- int renk = 0; (global)
+- Timer Tick: renk = (renk + 1) % 5; (5 renk döngüsü)
+- switch(renk) ile renk atayınız
+
+SORULAR:
+1. Modulo (%) ile döngüsel sayaç nasıl yapılır?
+2. switch ile if-else'i karşılaştırınız.

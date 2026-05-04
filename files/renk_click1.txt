@@ -1,0 +1,14 @@
+SORU: FORM ZEMİNİ DEĞİŞMESİ (Buton Click)
+
+Form üzerine en az 3 adet Button ekleyiniz (Kırmızı, Yeşil, Mavi).
+Her butona tıklandığında formun arka plan rengi (BackColor) değişmelidir.
+
+GÖREV:
+- Butonlara uygun isimler veriniz
+- Her buton için Click olayı oluşturunuz
+- this.BackColor = Color.Red; gibi kodları yazınız
+
+SORULAR:
+1. Buton Click olayı nasıl oluşturulur?
+2. this.BackColor ne işe yarar?
+3. Color sınıfından kaç farklı renk kullanabilirsiniz?

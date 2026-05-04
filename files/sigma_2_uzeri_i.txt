@@ -1,0 +1,11 @@
+SORU: SİGMA: 2^i SERİSİ
+
+Σ(i=0→n) 2^i serisini hesaplayınız.
+
+GÖREV:
+- for (int i=0; i<=n; i++) toplam += Math.Pow(2,i);
+- Kapalı form: 2^(n+1) - 1 ile karşılaştırınız
+
+SORULAR:
+1. 2^0 + 2^1 + ... + 2^n = 2^(n+1) - 1 formülü doğru mu?
+2. Bu seri ne kadar hızlı büyür?

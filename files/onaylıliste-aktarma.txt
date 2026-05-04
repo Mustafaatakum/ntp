@@ -1,0 +1,12 @@
+SORU: ONAYLI LİSTE AKTARMA
+
+CheckedListBox ile onaylanan öğeleri aktarma.
+
+GÖREV:
+- CheckedListBox ile seçenekler listesi
+- "Aktar" butonu: sadece işaretlileri diğer ListBox'a aktar
+- "Hepsini İşaretle" / "Hepsini Kaldır" butonu
+
+SORULAR:
+1. CheckedListBox'ta işaretli elemanlar nasıl alınır? (.CheckedItems)
+2. CheckedListBox ile ListBox farkı nedir?

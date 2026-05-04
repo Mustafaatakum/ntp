@@ -1,0 +1,11 @@
+SORU: İKİ SAYI ARASINDAKİ TÜM SAYILARIN TOPLAMI
+
+İki sayı TextBox ekleyiniz. Aralarındaki tüm sayıların toplamını for ile hesaplayınız.
+
+GÖREV:
+- for (int i=a; i<=b; i++) toplam += i;
+- Formülle karşılaştırınız: (b-a+1)*(a+b)/2
+
+SORULAR:
+1. Değerler negatif olabilir mi?
+2. a > b ise nasıl davranırsınız?

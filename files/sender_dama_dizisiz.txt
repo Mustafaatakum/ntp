@@ -1,0 +1,13 @@
+SORU: DAMA OYUNU (Sender - Dizisiz)
+
+8x8 dama tahtası oluşturunuz. sender ile taş hareketi yapılsın.
+
+GÖREV:
+- 64 Button ile dama tahtası oluşturunuz
+- Alternatif siyah/beyaz renklendirme
+- sender ile seçilen taşı ve hedef kareyi belirleyiniz
+- Geçerli hamle kontrolü yapınız
+
+SORULAR:
+1. 8x8 tahtayı iç içe for ile nasıl oluşturursunuz?
+2. Seçili taşı vurgulamak için BackColor nasıl değiştirilir?

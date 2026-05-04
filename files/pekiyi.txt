@@ -1,0 +1,15 @@
+SORU: PEKİYİ İYİ ORTA (if-else if)
+
+0-100 not giriş alanı ekleyiniz. Not aralığına göre değerlendirme yapınız.
+
+GÖREV:
+- 85-100: PEKİYİ (mavi)
+- 70-84: İYİ (yeşil)
+- 55-69: ORTA (sarı)
+- 45-54: GEÇERLİ (turuncu)
+- 0-44: ZAYIF (kırmızı)
+- Dışı: GEÇERSİZ (gri)
+
+SORULAR:
+1. Koşul sırasının önemi nedir?
+2. 85-100 aralığını nasıl kontrol edersiniz? (>=85 && <=100)

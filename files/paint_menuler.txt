@@ -1,0 +1,13 @@
+SORU: PAINT MENÜLERI
+
+Basit boyama uygulaması ile menüler.
+
+GÖREV:
+- Panel üzerinde mouse ile çizim (MouseMove)
+- Menü: Araçlar (Kalem, Silgi, Çizgi, Daire)
+- Menü: Renkler (ColorDialog)
+- Menü: Dosya (Temizle, Kaydet - SaveFileDialog)
+
+SORULAR:
+1. Panel üzerinde MouseMove ile nasıl çizim yapılır?
+2. Graphics nesnesi nasıl kullanılır?

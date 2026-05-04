@@ -1,0 +1,12 @@
+SORU: SİGMA: (1+2+...+i) / i! SERİSİ
+
+Σ(i=1→n) [i*(i+1)/2] / i! serisini hesaplayınız.
+
+GÖREV:
+- Her terimde pay: i*(i+1)/2
+- Her terimde payda: Faktoriyel(i)
+- toplam += (double)(i*(i+1)/2) / Faktoriyel(i);
+
+SORULAR:
+1. Integer bölmede kayıp olmaması için (double) cast neden gerekir?
+2. Büyük i değerlerinde faktöriyel taşarsa ne yapılmalı?

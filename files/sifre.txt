@@ -1,0 +1,15 @@
+SORU: ŞİFRE DOĞRU YANLIŞ
+
+Kullanıcı adı ve şifre TextBox'ları ekleyiniz.
+Doğru girişte hoş geldin mesajı, 3 yanlış girişte hesap kilitlensin.
+
+GÖREV:
+- Şifre TextBox için PasswordChar = '*'
+- if (textBox1.Text == "admin" && textBox2.Text == "1234")
+- Hatalı giriş sayacı ile kilitleme
+- Kilitlenince TextBox ve Button'u Enabled=false yapınız
+
+SORULAR:
+1. PasswordChar özelliği ne işe yarar?
+2. && (VE) operatörü ne zaman true döndürür?
+3. Hatalı giriş sayacı için hangi değişken türü kullanılır?

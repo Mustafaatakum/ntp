@@ -1,0 +1,13 @@
+SORU: NET HESAPLAMA
+
+Doğru ve yanlış sayısı giriş alanları ekleyiniz.
+Net = Doğru - (Yanlış / 4) formülüyle hesaplayınız.
+
+GÖREV:
+- Net sonucunu Label'da gösteriniz
+- Net eksi çıkarsa uyarı veriniz
+- 20 doğru 8 yanlış → Net = 20 - 2 = 18 olmalıdır
+
+SORULAR:
+1. Neden yanlış sayısı 4'e bölünür?
+2. Net eksi çıkabilir mi? Bu durumda ne yapılmalı?

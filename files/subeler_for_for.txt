@@ -1,0 +1,14 @@
+SORU: ŞUBELER İÇ İÇE FOR DÖNGÜSÜ
+
+Bir şirketin şubelerini ve çalışanlarını iç içe for ile listeleyin.
+
+GÖREV:
+- string[] subeler = {"Ankara Şubesi", "İstanbul Şubesi", "İzmir Şubesi"};
+- Her şube için 5 çalışan olduğunu varsayınız
+- İç içe for: dış döngü şubeler, iç döngü çalışanlar
+- ListBox'a "Ankara Şubesi - Çalışan 1" formatında ekleyiniz
+
+SORULAR:
+1. İç içe for döngüsünde dış ve iç değişkenler aynı isim olabilir mi?
+2. Kaç satır toplam eklenir? (3 şube × 5 çalışan = ?)
+3. TreeView ile aynı yapıyı nasıl oluştururdunuz?

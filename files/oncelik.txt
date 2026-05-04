@@ -1,0 +1,14 @@
+SORU: İŞLEM ÖNCELİĞİ
+
+Farklı matematiksel ifadelerin sonuçlarını hesaplayıp ListBox'ta gösteriniz.
+Parantezli ve parantezsiz sonuçları karşılaştırınız.
+
+GÖREV:
+- 2 + 3 * 4 = ? ve (2 + 3) * 4 = ? farkını gösteriniz
+- Math.Pow() ve Math.Sqrt() kullanınız
+- ListBox'a her ifadeyi ve sonucunu ekleyiniz
+
+SORULAR:
+1. C#'ta işlem önceliği nasıldır?
+2. Math.Pow(2,3) ne döndürür?
+3. Parantez kullanmanın önemi nedir?

@@ -1,0 +1,12 @@
+SORU: RALLY YARIŞI FORMLARI
+
+Rally yarışı simülasyonu. Birden fazla form ile araç yönetimi.
+
+GÖREV:
+- Ana form: yarış durumu
+- Araç formu: hız, yakıt, konum
+- Timer ile güncellemeler
+
+SORULAR:
+1. Birden fazla form aynı anda nasıl çalışır?
+2. Formlar arası Timer senkronizasyonu nasıl sağlanır?

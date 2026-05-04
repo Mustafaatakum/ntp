@@ -1,0 +1,13 @@
+SORU: OTOPARK TİMESPAN DATETİMEPICKER
+
+Otopark giriş-çıkış zamanlaması ile ücret hesabı.
+
+GÖREV:
+- Araç giriş zamanı: DateTimePicker
+- Araç çıkış zamanı: DateTimePicker veya DateTime.Now
+- TimeSpan ile süre
+- Ücret = süre.TotalHours × saatlik_ucret
+
+SORULAR:
+1. TimeSpan.TotalHours ondalıklı değer verir mi?
+2. Minimum ücret uygulaması nasıl yapılır?

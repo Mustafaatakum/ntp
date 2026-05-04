@@ -1,0 +1,12 @@
+SORU: SENDER İLE TEXTBOX TAB RENK
+
+Birden fazla TextBox ekleyiniz. Odak alınca (Enter) sarıya boyansın, kaybolunca (Leave) normale dönsün.
+
+GÖREV:
+- Tüm TextBox'ları aynı Enter ve Leave olayına bağlayınız
+- TextBox tb = (TextBox)sender;
+- tb.BackColor = Color.Yellow; / Color.White;
+
+SORULAR:
+1. Enter ve Leave olayları ne zaman tetiklenir?
+2. sender ile hangi TextBox'ın aktif olduğu nasıl anlaşılır?

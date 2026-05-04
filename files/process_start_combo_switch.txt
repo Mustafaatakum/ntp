@@ -1,0 +1,13 @@
+SORU: PROCESS START COMBO SWITCH
+
+ComboBox'tan program seçilsin. switch-case ile ilgili program açılsın.
+
+GÖREV:
+- ComboBox: Hesap Makinesi, Not Defteri, Boyama, Görev Yöneticisi
+- switch(comboBox1.SelectedIndex)
+- case 0: Process.Start("calc.exe");
+- case 1: Process.Start("notepad.exe");
+
+SORULAR:
+1. Process.Start() hangi parametreleri alır?
+2. Program bulunamazsa try-catch nasıl kullanılır?

@@ -1,0 +1,11 @@
+SORU: İKİ SAYI ARASINDAKİ TEK SAYILARIN TOPLAMI
+
+İki sayı TextBox ekleyiniz. Arasındaki TEK sayıların toplamını for ile hesaplayınız.
+
+GÖREV:
+- for + if (i%2!=0) kontrolü
+- veya başlangıcı tek yapıp i+=2
+
+SORULAR:
+1. Başlangıç çift ise ilk tek sayıyı nasıl bulursunuz?
+2. Kaç adet tek sayı olduğunu da gösterin.

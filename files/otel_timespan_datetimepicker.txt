@@ -1,0 +1,13 @@
+SORU: OTEL REZERVASYON (TimeSpan - DateTimePicker)
+
+Otel rezervasyon sistemi.
+
+GÖREV:
+- Giriş ve çıkış tarihi DateTimePicker
+- TimeSpan ile gece sayısı
+- Oda tipi ve fiyatı × gece = toplam
+- Çıkış giriş tarihinden önce olamaz
+
+SORULAR:
+1. DateTimePicker.Value nasıl alınır?
+2. iki DateTime'ı karşılaştırma nasıl yapılır?

@@ -1,0 +1,11 @@
+SORU: FORMUN ZEMİN RENGİ (3 TrackBar - Prosedür)
+
+3 TrackBar (R, G, B) ekleyiniz. Renk güncellemeyi AYRI bir prosedür olarak yazınız.
+
+GÖREV:
+- private void RenkGuncelle() { this.BackColor = Color.FromArgb(rBar.Value, gBar.Value, bBar.Value); }
+- Her TrackBar Scroll olayında RenkGuncelle(); çağırınız
+
+SORULAR:
+1. Prosedür (void metod) nedir?
+2. Aynı kodu 3 farklı yerde yazmak yerine prosedür kullanmanın avantajı?

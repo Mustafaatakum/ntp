@@ -1,0 +1,14 @@
+SORU: RASTGELE SAYIYI TAHMİN ETME OYUNU
+
+Program başladığında 1-100 arası rastgele sayı üretilsin.
+Kullanıcı tahminini yapıp "Tahmin Et" butonuna bassın.
+
+GÖREV:
+- "Daha büyük bir sayı deneyin!" / "Daha küçük!" / "Tebrikler!"
+- Deneme sayısını sayınız
+- "Yeni Oyun" butonu ekleyiniz
+
+SORULAR:
+1. Rastgele sayıyı nerede üretmelisiniz? (Form Load)
+2. Deneme sayacı için hangi değişken türü?
+3. Yeni oyun başlatmak için ne sıfırlanmalı?

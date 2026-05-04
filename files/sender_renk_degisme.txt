@@ -1,0 +1,13 @@
+SORU: SENDER İLE RENK DEĞİŞME
+
+Farklı renklerde birkaç Button ekleyiniz. Hepsini AYNI Click olayına bağlayınız.
+sender ile hangi butona basıldığını anlayıp formun rengini değiştiriniz.
+
+GÖREV:
+- Button btn = (Button)sender;
+- this.BackColor = btn.BackColor;
+
+SORULAR:
+1. sender nesnesi ne işe yarar?
+2. Neden (Button)sender cast yapılır?
+3. Aynı olayı birden fazla kontrole nasıl bağlarsınız?

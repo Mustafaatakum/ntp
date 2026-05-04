@@ -1,0 +1,12 @@
+SORU: OKEY SENDER RANDOM PAINT
+
+Okey taşlarını sender ve Paint olayıyla çiziniz.
+
+GÖREV:
+- Panel.Paint olayında taş çizimi
+- sender ile tıklanan taşı belirle
+- Rastgele taş dağıtımı
+
+SORULAR:
+1. Panel.Paint olayı ne zaman tetiklenir?
+2. e.Graphics ile dikdörtgen nasıl çizilir?

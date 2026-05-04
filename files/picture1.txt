@@ -1,0 +1,13 @@
+SORU: RESİM GÖSTER GİZLE (Radio Button)
+
+Bir PictureBox ve iki RadioButton (Göster/Gizle) ekleyiniz.
+RadioButton seçimine göre PictureBox görünür veya gizli olsun.
+
+GÖREV:
+- pictureBox1.Visible = true/false kullanınız
+- PictureBox'a bir resim yükleyiniz
+
+SORULAR:
+1. RadioButton ile CheckBox farkı nedir?
+2. Visible özelliği ne işe yarar?
+3. PictureBox SizeMode seçenekleri nelerdir?

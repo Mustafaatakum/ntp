@@ -1,0 +1,13 @@
+SORU: PRINT DOCUMENT (Yazdırma)
+
+PrintDocument ile sayfa yazdırma uygulaması.
+
+GÖREV:
+- PrintDocument pd = new PrintDocument();
+- pd.PrintPage olayında içeriği çiziniz (e.Graphics)
+- PrintPreviewDialog ile önizleme
+- PrintDialog ile yazıcı seçimi
+
+SORULAR:
+1. PrintDocument nasıl kullanılır?
+2. e.Graphics ile metin nasıl çizilir?

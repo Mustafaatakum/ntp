@@ -1,0 +1,12 @@
+SORU: SHOW VE SHOWDIALOG İLE TAKIMLAR
+
+Takım seçim dialog formu yapınız.
+
+GÖREV:
+- Ana form: "Takım Seç" butonu
+- Dialog form: 3 takım seçeneği, Seç ve İptal butonu
+- Seçilen takım ana forma aktarılsın
+
+SORULAR:
+1. Show() açık form kapatılmadan diğer forma geçilebilir mi?
+2. ShowDialog() ile Show() hangisi daha güvenli? Neden?

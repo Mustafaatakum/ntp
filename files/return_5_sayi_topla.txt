@@ -1,0 +1,11 @@
+SORU: RETURN İLE 5 SAYI TOPLAMA
+
+5 sayı parametresi alan, toplamı döndüren fonksiyon yazınız.
+
+GÖREV:
+- private double BesTopla(double a, double b, double c, double d, double e) { return a+b+c+d+e; }
+- params double[] ile daha esnek yazınız
+
+SORULAR:
+1. params anahtar kelimesi ne işe yarar?
+2. Değişken sayıda parametre nasıl alınır?

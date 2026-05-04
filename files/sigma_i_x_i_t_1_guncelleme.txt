@@ -1,0 +1,13 @@
+SORU: SİGMA SERİSİ GÜNCELLEME YAKLAŞIMI
+
+Her terimi bir öncekinden türeterek seri hesaplayınız.
+
+GÖREV:
+- t(i) = t(i-1) × x / i formülü ile güncelleme
+- Başlangıç: t(1) = x
+- Bu yaklaşım her adımda faktöriyel hesabından daha verimlidir
+- Verimlilik farkını ListBox'ta karşılaştırınız
+
+SORULAR:
+1. Güncelleme yaklaşımı neden daha verimlidir?
+2. t(i) = t(i-1) × x / i formülü nasıl türetilir?

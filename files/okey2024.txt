@@ -1,0 +1,12 @@
+SORU: OKEY 2024
+
+Güncel Okey oyunu. Taş gruplandırma ve dizi yönetimi.
+
+GÖREV:
+- El düzeni (sorting) için dizi sıralama
+- Takım grupları ve seri kontrolü
+- Joker taşı yerine koyma
+
+SORULAR:
+1. Elde taşları renk+sayı'ya göre nasıl sıralarsınız?
+2. Seri (ardışık sayılar) kontrolü nasıl yapılır?

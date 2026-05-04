@@ -1,0 +1,12 @@
+SORU: REKÜRSİF FAKTÖRİYEL
+
+Rekürsif (özyinelemeli) faktöriyel fonksiyonu yazınız.
+
+GÖREV:
+- private long FaktRekursif(int n) { if (n <= 1) return 1; return n * FaktRekursif(n-1); }
+- Normal (döngülü) versiyonla karşılaştırınız
+
+SORULAR:
+1. Rekürsiyon nedir?
+2. Temel durum (base case) neden zorunludur?
+3. Stack Overflow ne zaman oluşur?

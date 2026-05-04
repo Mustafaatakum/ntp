@@ -1,0 +1,13 @@
+SORU: SKOR TABLOSU (Scoreboard)
+
+Oyun skor tablosu uygulaması.
+
+GÖREV:
+- Oyuncu adı ve puanı giriş
+- "Ekle" ile sıralı skor listesine ekle
+- ListView veya DataGridView ile listele
+- En yüksek skoru vurgula
+
+SORULAR:
+1. ListView ile DataGridView farkı nedir?
+2. Sıralı ekleme (insertion sort) nasıl yapılır?

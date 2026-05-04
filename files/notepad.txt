@@ -1,0 +1,14 @@
+SORU: NOT DEFTERİ (Notepad Klonu)
+
+Basit not defteri uygulaması yapınız.
+
+GÖREV:
+- RichTextBox ile yazı alanı
+- Dosya: Yeni, Aç (OpenFileDialog), Kaydet (SaveFileDialog)
+- Düzen: Kes, Kopyala, Yapıştır
+- Biçim: Yazı Tipi (FontDialog)
+
+SORULAR:
+1. OpenFileDialog ile dosya nasıl açılır?
+2. SaveFileDialog ile dosya nasıl kaydedilir?
+3. File.ReadAllText() ve File.WriteAllText() nasıl kullanılır?

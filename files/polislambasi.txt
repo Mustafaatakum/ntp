@@ -1,0 +1,13 @@
+SORU: POLİS LAMBASI TİMER
+
+İki Panel (kırmızı/mavi) ve Timer ekleyiniz.
+Timer'da lambalar sırayla yansın/sönsün.
+
+GÖREV:
+- bool solAktif = true; (global)
+- Tick olayında: solAktif = !solAktif;
+- Panel renkleri buna göre değişsin
+
+SORULAR:
+1. bool değişkeni nasıl tersine çevrilir? (!= operatörü)
+2. Timer.Interval ile yanma hızı nasıl ayarlanır?

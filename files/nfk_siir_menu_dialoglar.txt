@@ -1,0 +1,13 @@
+SORU: NFK ŞİİR MENÜ DİALOGLAR
+
+Şiir koleksiyonu uygulaması. Menü ve dialoglar ile.
+
+GÖREV:
+- Şiirler TreeView'da kategorilere göre listelenir
+- Menü: Yeni Şiir, Düzenle, Sil, Kaydet
+- FontDialog ile yazı tipi seçimi
+- PrintDocument ile yazdırma
+
+SORULAR:
+1. RichTextBox ile şiir nasıl formatlanır?
+2. TreeView ile RichTextBox nasıl senkronize çalışır?

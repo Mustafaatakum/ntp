@@ -1,0 +1,14 @@
+SORU: ORTALAMA HESAPLAMA
+
+5 ders notu için TextBox, "Hesapla" butonu ekleyiniz.
+Ortalama hesaplanıp Label'da gösterilsin. Geçti/kaldı durumu renkle belirtilsin.
+
+GÖREV:
+- double ort = (not1+not2+not3+not4+not5) / 5.0;
+- 50 ve üzeri: GEÇTİ (yeşil), altı: KALDI (kırmızı)
+- label.ForeColor = Color.Green;
+
+SORULAR:
+1. 5 ile değil 5.0 ile neden bölüyoruz?
+2. Label'ın metin rengini nasıl değiştirirsiniz?
+3. Boş TextBox varken hesaplama nasıl önlenir?

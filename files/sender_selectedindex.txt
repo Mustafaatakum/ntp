@@ -1,0 +1,12 @@
+SORU: SENDER İLE SEÇİLİ İNDEX
+
+Birden fazla ListBox veya ComboBox ekleyiniz. Hepsini aynı SelectedIndexChanged olayına bağlayınız.
+sender ile hangisinin değiştiğini anlayıp Label'ı güncelleyiniz.
+
+GÖREV:
+- ListBox lb = (ListBox)sender;
+- label1.Text = lb.SelectedItem.ToString();
+
+SORULAR:
+1. SelectedIndexChanged ne zaman tetiklenir?
+2. SelectedIndex -1 olduğunda ne anlama gelir?

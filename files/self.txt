@@ -1,0 +1,13 @@
+SORU: KENDİ İLE TOPLAMA VE ÇARPMA (+=, *=)
+
+Bir sayı için TextBox ve birkaç buton ekleyiniz: +=1, -=1, *=2, /=2
+
+GÖREV:
+- int sayi = int.Parse(textBox1.Text);
+- sayi += 1; (sayi = sayi + 1 ile aynı)
+- textBox1.Text = sayi.ToString();
+
+SORULAR:
+1. += operatörünün uzun hali nedir?
+2. *=, -=, /= operatörlerinin uzun halleri?
+3. ++ ile += 1 arasındaki fark var mıdır?
