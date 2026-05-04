@@ -1,0 +1,12 @@
+SORU: TOPLAMA İŞLEMİ (Text Change)
+
+İki TextBox ve bir Label ekleyiniz. TextBox'a yazılırken toplam anlık gösterilsin.
+
+GÖREV:
+- TextChanged olayını kullanınız
+- double.TryParse() ile güvenli dönüşüm yapınız
+- Geçersiz girişte uyarı mesajı gösteriniz
+
+SORULAR:
+1. TryParse() ile Parse() farkı nedir?
+2. TextChanged her tuşa basışta mı tetiklenir?

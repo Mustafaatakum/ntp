@@ -1,0 +1,12 @@
+SORU: TREEVIEW SEÇİM SONUÇLARI
+
+TreeView ile seçim sonuçları görüntüleme.
+
+GÖREV:
+- Kök düğümler: İller
+- Alt düğümler: Partiler ve oy sayıları
+- Seçilen ilde kazananı vurgula
+
+SORULAR:
+1. TreeView düğümüne renk nasıl atanır? (ForeColor, BackColor)
+2. Tüm düğümleri foreach ile nasıl dolaşırsınız?

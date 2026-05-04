@@ -1,0 +1,13 @@
+SORU: UPPER LOWER CHANGE (Combo ile)
+
+ComboBox ile dönüşüm türü seçilsin (Büyük, Küçük, Başharf Büyük).
+TextBox'a yazılırken seçilen türe göre anlık dönüşüm yapılsın.
+
+GÖREV:
+- ToUpper(), ToLower()
+- System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase()
+- TextChanged + ComboBox.SelectedIndex ile kontrol
+
+SORULAR:
+1. ToTitleCase() ne işe yarar?
+2. Türkçe karakterlerde (İ, ı) ToUpper() sorunu nasıl çözülür?

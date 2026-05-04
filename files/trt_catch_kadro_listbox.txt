@@ -1,0 +1,12 @@
+SORU: TRY-CATCH İLE KADRO LİSTBOX
+
+Futbol kadrosu giriş uygulaması yapınız. try-catch ile hataları yakalayınız.
+
+GÖREV:
+- İsim ve forma numarası giriş
+- Aynı numara girilirse özel hata fırlatınız
+- try-catch ile yakala ve uyarı ver
+
+SORULAR:
+1. Listedeki öğeyi kontrol için Contains() nasıl kullanılır?
+2. Özel Exception sınıfı nasıl oluşturulur?

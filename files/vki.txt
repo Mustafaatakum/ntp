@@ -1,0 +1,14 @@
+SORU: VKİ - VÜCUT KİTLE İNDEKSİ
+
+Boy (cm) ve kilo (kg) giriş alanları ekleyiniz.
+VKİ = Kilo / Boy² hesaplayıp sınıflandırınız.
+
+GÖREV:
+- double boyMetre = boy / 100.0;
+- double vki = kilo / (boyMetre * boyMetre);
+- <18.5:Zayıf, 18.5-25:Normal, 25-30:Kilolu, ≥30:Obez
+- Her kategori için farklı renk kullanınız
+
+SORULAR:
+1. Boy cm'den m'ye nasıl çevrilir?
+2. Her kategori için renk nasıl belirlenir?

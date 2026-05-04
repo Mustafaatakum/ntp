@@ -1,0 +1,12 @@
+SORU: YILAN-KURBAĞA-DAMA REPLAY (void Fonksiyon)
+
+Oyun replay (tekrar oynat) sistemi kurunuz.
+
+GÖREV:
+- Her hamleyi bir List'te saklayınız
+- "Replay" butonu ile hamleleri sırayla Timer ile tekrar oynatınız
+- void Replay() fonksiyonu yazınız
+
+SORULAR:
+1. Hamleleri nasıl kayıt edersiniz? (struct veya List)
+2. Replay sırasında kullanıcı girişi nasıl engellenir?

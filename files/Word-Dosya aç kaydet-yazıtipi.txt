@@ -1,0 +1,14 @@
+SORU: WORD DOSYA AÇ KAYDET YAZITİPİ
+
+Word benzeri uygulama. Dosya aç/kaydet ve yazı tipi değiştirme.
+
+GÖREV:
+- OpenFileDialog ile .rtf veya .txt aç
+- SaveFileDialog ile kaydet
+- FontDialog ile yazı tipi seçimi
+- RichTextBox.SelectionFont ile uygula
+
+SORULAR:
+1. RichTextBox ile TextBox farkı nedir?
+2. FontDialog nasıl kullanılır?
+3. .rtf dosyasını RichTextBox.LoadFile() nasıl açar?

@@ -1,0 +1,13 @@
+SORU: TAB KONTROL E-OKUL
+
+TabControl ile e-okul sistemi yapınız.
+
+GÖREV:
+- Sekme 1: Öğrenci Bilgileri
+- Sekme 2: Notlar
+- Sekme 3: Devamsızlık
+- Sekme 4: Sonuç/Değerlendirme
+
+SORULAR:
+1. TabControl nasıl eklenir?
+2. Sekmeler arası veri nasıl paylaşılır?

@@ -1,0 +1,12 @@
+SORU: WHILE İLE 1'DEN 9'A SAYI EKLEME
+
+while döngüsü ile 1-9 arası sayıları ListBox'a ekleyiniz.
+
+GÖREV:
+- int i = 1;
+- while (i <= 9) { listBox1.Items.Add(i); i++; }
+- Toplamı da hesaplayınız
+
+SORULAR:
+1. while koşulu ne zaman kontrol edilir?
+2. do-while ile farkı nedir?

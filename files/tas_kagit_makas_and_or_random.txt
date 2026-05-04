@@ -1,0 +1,13 @@
+SORU: TAŞ KAĞIT MAKAS (&&, ||, Random)
+
+Taş-Kağıt-Makas oyunu yapınız. Bilgisayar rastgele seçsin.
+
+GÖREV:
+- Kullanıcı: 3 buton (Taş, Kağıt, Makas)
+- Bilgisayar: Random ile seçim
+- Kazanma koşulları: && ve || ile yazınız
+- Skor tablosu tutunuz
+
+SORULAR:
+1. Taş kağıdı mı yener? if ((kullanici=="Taş" && bilgisayar=="Makas") || ...) mantığı?
+2. Random ile 3 seçenekten biri nasıl seçilir?

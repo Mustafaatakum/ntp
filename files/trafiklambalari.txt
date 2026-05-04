@@ -1,0 +1,13 @@
+SORU: TRAFİK LAMBALARI SİMÜLASYONU
+
+3 yuvarlak Panel/Label (kırmızı, sarı, yeşil) ve Timer ekleyiniz.
+Otomatik geçiş yapılsın.
+
+GÖREV:
+- int durum = 0; (global) 0:kırmızı, 1:yeşil, 2:sarı
+- Her fazın süresi farklı olabilir
+- Sönük lamba koyu renk, açık lamba parlak renk
+
+SORULAR:
+1. Lamba durumunu int ile nasıl takip edersiniz?
+2. Her fazın süresi farklıysa nasıl ayarlarsınız?

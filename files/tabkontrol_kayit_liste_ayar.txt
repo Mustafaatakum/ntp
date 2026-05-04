@@ -1,0 +1,12 @@
+SORU: TAB KONTROL KAYIT LİSTE AYAR
+
+TabControl ile kayıt, listeleme ve ayarlar sekmeleri.
+
+GÖREV:
+- Sekme 1: Yeni Kayıt (form doldurma)
+- Sekme 2: Liste (DataGridView veya ListBox)
+- Sekme 3: Ayarlar (tercihler)
+
+SORULAR:
+1. Kayıt sekmesindeki veriyi liste sekmesine nasıl aktarırsınız?
+2. Sekme değiştirilince (SelectedIndexChanged) neler yapılabilir?

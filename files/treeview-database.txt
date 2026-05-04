@@ -1,0 +1,12 @@
+SORU: TREEVIEW DATABASE BAĞLANTISI
+
+Veritabanı verilerini TreeView'da kategorize gösterin.
+
+GÖREV:
+- SQL'den kategori ve alt kategori verileri
+- TreeView'a hiyerarşik ekleme
+- Seçilen node'un detaylarını DataGridView'de göster
+
+SORULAR:
+1. Veritabanından hiyerarşik veri nasıl çekilir?
+2. TreeView.Nodes.Add() ile node nasıl eklenir?

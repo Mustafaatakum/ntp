@@ -1,0 +1,14 @@
+SORU: BÜYÜK/KÜÇÜK HARF DEĞİŞTİRME (TextChange)
+
+İki TextBox ve iki RadioButton içeren uygulama yapınız.
+Kullanıcı yazarken seçili RadioButton'a göre metin büyük veya küçük harfe çevrilsin.
+
+GÖREV:
+- TextChanged olayını kullanınız
+- ToUpper() ve ToLower() metodlarını kullanınız
+- RadioButton.Checked ile seçimi kontrol ediniz
+
+SORULAR:
+1. TextChanged olayı ne zaman tetiklenir?
+2. ToUpper() ve ToLower() ne işe yarar?
+3. Döngüsel güncellemeyi (TextChanged içinde Text değiştirince tekrar tetikleme) nasıl önlersiniz?

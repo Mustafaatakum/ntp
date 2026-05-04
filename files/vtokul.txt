@@ -1,0 +1,14 @@
+SORU: OKUL ÖĞRENCİ KAYIT OTOMASYON
+
+Veritabanı bağlantılı öğrenci kayıt sistemi.
+
+GÖREV:
+- SQL Server veya Access veritabanı
+- Öğrenci: Numara, Ad, Soyad, Sınıf, Doğum tarihi
+- CRUD: Ekle, Güncelle, Sil, Listele, Ara
+- DataGridView ile listeleme
+
+SORULAR:
+1. CRUD nedir?
+2. SQL SELECT WHERE koşulu nasıl yazılır?
+3. Arama için LIKE operatörü nasıl kullanılır?

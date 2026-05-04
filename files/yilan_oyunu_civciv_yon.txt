@@ -1,0 +1,13 @@
+SORU: YILAN OYUNU (Civciv - Yön)
+
+Basit yılan oyunu yapınız. Timer ile hareket, yön tuşları ile kontrol.
+
+GÖREV:
+- Yılanı Panel listesi veya dizi ile temsil ediniz
+- Her Timer Tick'te bir adım ilerlesin
+- Yön tuşlarıyla yön değişsin
+- Yem yeyince büyüsün, duvara çarpınca bitsin
+
+SORULAR:
+1. Yılanın gövdesini hangi yapıyla tutarsınız?
+2. Yılan kuyruğu nasıl "kısaltılır"? (List.RemoveAt)

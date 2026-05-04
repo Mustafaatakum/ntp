@@ -1,0 +1,14 @@
+SORU: PROGRESS BAR VE TİMER
+
+ProgressBar, Timer, "Başlat" ve "Durdur" butonu ekleyiniz.
+Timer her tetiklendiğinde ProgressBar 1 artsın. Dolunca mesaj gösterilsin.
+
+GÖREV:
+- timer1.Interval = 100; (100ms)
+- progressBar1.Value += 1;
+- Maximum'a ulaşınca timer durdurulsun
+
+SORULAR:
+1. Timer.Interval ms cinsinden midir?
+2. ProgressBar.Maximum varsayılan değeri nedir?
+3. Timer.Enabled ile Timer.Start() farkı nedir?

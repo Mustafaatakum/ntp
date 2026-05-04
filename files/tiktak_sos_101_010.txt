@@ -1,0 +1,13 @@
+SORU: TİKTAK SOS OYUNU (101, 010)
+
+S-O-S dizisi yapan TikTak oyunu.
+
+GÖREV:
+- 5x5 ızgara
+- Sırayla S veya O koyulur
+- S-O-S dizisi oluşan oyuncu puan kazanır
+- int[,] tahta ile yönetiniz
+
+SORULAR:
+1. S-O-S kontrolü için 8 yönde nasıl kontrol yapılır?
+2. Her yönde ardışık S-O-S pattern'i nasıl aranır?

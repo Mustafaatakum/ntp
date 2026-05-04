@@ -1,0 +1,13 @@
+SORU: YÖN TUŞLARI İLE CİVCİV HAREKETİ
+
+Civciv resmi olan PictureBox'ı yön tuşlarıyla hareket ettirin.
+Yöne göre resim değişsin (sağa/sola bakan civciv).
+
+GÖREV:
+- Yön tuşlarına göre PictureBox konumunu değiştirin
+- Sağa gidince: pictureBox.Image = sağaDoğruImage;
+- Sola gidince: pictureBox.Image = solaDoğruImage;
+
+SORULAR:
+1. PictureBox.Image nasıl değiştirilir?
+2. Image.FromFile() nasıl kullanılır?

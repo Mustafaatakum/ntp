@@ -1,0 +1,14 @@
+SORU: ZAR ATMA UYGULAMASI
+
+"Zar At" butonu ile 1-6 arası rastgele sayı üretilsin ve görsel gösterilsin.
+
+GÖREV:
+- Random rnd = new Random(); (global)
+- int sayi = rnd.Next(1, 7);
+- Zar yüzünü Label veya PictureBox ile gösteriniz
+- Kaç kez 1,2,...6 geldiğini sayınız
+
+SORULAR:
+1. rnd.Next(1,7) neden 7 yazılır? (7 dahil değil)
+2. Random nesnesini neden global tanımlamalısınız?
+3. Global sayaç dizisi nasıl kullanılır?

@@ -1,0 +1,14 @@
+SORU: ŞUANKİ TARİH VE SAATİN FARKLI YAZILIŞLARI
+
+Form yüklendiğinde DateTime.Now kullanarak farklı formatlarda tarih/saat gösteriniz.
+
+GÖREV:
+- DateTime.Now.ToString("dd/MM/yyyy")
+- DateTime.Now.ToString("HH:mm:ss")
+- DateTime.Now.DayOfWeek.ToString()
+- DateTime.Now.ToString("dddd, d MMMM yyyy")
+
+SORULAR:
+1. DateTime.Now ile DateTime.Today farkı nedir?
+2. dd, MM, yyyy, HH, mm, ss kodları ne anlama gelir?
+3. Türkçe gün/ay adları için CultureInfo nasıl kullanılır?

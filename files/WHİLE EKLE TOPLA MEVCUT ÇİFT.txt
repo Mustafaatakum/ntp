@@ -1,0 +1,12 @@
+SORU: WHILE LİSTBOXA EKLE TOPLA MEVCUT ÇİFT
+
+while ile belirli sayıya kadar ÇİFT sayıları listeleyin ve toplayın.
+
+GÖREV:
+- int i = 0;
+- while (i <= n) { if (i%2==0) ekle ve topla; i++; }
+- Toplam ve adet gösterilsin
+
+SORULAR:
+1. Mevcut (kümülatif) toplam ne demektir?
+2. Döngü değişkenini while koşuluyla nasıl ilişkilendirirsiniz?

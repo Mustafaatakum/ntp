@@ -1,0 +1,13 @@
+SORU: YAŞ HESAPLAMA (DateTime.Now)
+
+Doğum tarihi giriş alanı (DateTimePicker) ekleyiniz.
+Kişinin yaşını hesaplayınız.
+
+GÖREV:
+- DateTime bugun = DateTime.Now;
+- int yas = bugun.Year - dogumTarihi.Year;
+- Doğum günü geçmediyse: yas--;
+
+SORULAR:
+1. DateTime.Now.Year ne döndürür?
+2. Doğum günü henüz geçmemişse yası nasıl düzeltirsınız?

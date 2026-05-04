@@ -1,0 +1,15 @@
+SORU: YÖN TUŞLARI İLE HAREKET
+
+PictureBox veya Label nesnesini yön tuşlarıyla hareket ettirin.
+
+GÖREV:
+- Form.KeyPreview = true;
+- KeyDown olayında e.KeyCode kontrol ediniz
+- Keys.Left, Keys.Right, Keys.Up, Keys.Down
+- nesne.Left, nesne.Top ile konumu değiştiriniz
+- Form dışına çıkmasını engelleyiniz
+
+SORULAR:
+1. KeyDown ve KeyPress farkı nedir?
+2. KeyPreview neden gereklidir?
+3. Form sınırlarını nasıl kontrol edersiniz?

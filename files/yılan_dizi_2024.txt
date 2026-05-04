@@ -1,0 +1,13 @@
+SORU: YILAN OYUNU DİZİ 2024
+
+Güncel versiyon yılan oyunu. Dizi veya List ile gövde yönetimi.
+
+GÖREV:
+- List<Point> govde = new List<Point>();
+- Timer Tick'te başa yeni nokta ekle, sona sil
+- Yem yeyince sondan silme (büyüme)
+- Kendine çarpma kontrolü
+
+SORULAR:
+1. List<Point> nedir? Point nedir?
+2. Kendine çarpma nasıl kontrol edilir?

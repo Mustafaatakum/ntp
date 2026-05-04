@@ -1,0 +1,12 @@
+SORU: TREEVIEW PC TOPLAMA
+
+TreeView ile PC parça seçimi ve fiyat hesabı.
+
+GÖREV:
+- Kök düğümler: İşlemci, RAM, Disk, GPU
+- Alt düğümler: modeller ve fiyatları
+- Seçilen parçaların toplamını göster
+
+SORULAR:
+1. TreeView.AfterSelect olayı ne zaman tetiklenir?
+2. TreeNode.Tag ile fiyat nasıl saklanır?

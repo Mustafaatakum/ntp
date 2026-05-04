@@ -1,0 +1,11 @@
+SORU: WHILE LİSTBOXA EKLE TOPLA MEVCUT TEK
+
+while ile belirli sayıya kadar TEK sayıları listeleyin ve toplayın.
+
+GÖREV:
+- int i = 1; (tek sayıdan başla)
+- while (i <= n) { ekle ve topla; i += 2; }
+
+SORULAR:
+1. i+=2 ile i%2!=0 kontrollü yaklaşım farkı?
+2. Başlangıç değeri 1 yerine 0 olsaydı ne değişirdi?

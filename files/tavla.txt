@@ -1,0 +1,13 @@
+SORU: TAVLA ZARLARI UYGULAMASI
+
+İki zar atan, çift kontrolü yapan, sıra sistemi olan uygulama yapınız.
+
+GÖREV:
+- İki zar görsel olarak gösterilsin
+- Çift gelince "ÇİFT! Tekrar at!" mesajı
+- Oynama seçenekleri: 1.zar, 2.zar, toplam, iki katı
+- bool siraBeyaz = true; ile sıra takibi
+
+SORULAR:
+1. İki zarın çift olup olmadığı nasıl kontrol edilir?
+2. bool değişkeni ile sıra nasıl değiştirilir?

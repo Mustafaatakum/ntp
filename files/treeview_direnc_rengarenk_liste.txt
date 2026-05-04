@@ -1,0 +1,12 @@
+SORU: TREEVIEW DİRENÇ RENGARENK LİSTE
+
+TreeView ile direnç değer aralıklarını listeleyin.
+
+GÖREV:
+- Kök: Direnç serisi (E12, E24, ...)
+- Alt: Değer aralıkları
+- Seçilen değere göre renk bantlarını göster
+
+SORULAR:
+1. TreeView'da hangi düğümün seçili olduğu nasıl anlaşılır?
+2. Node.Tag ile değeri nasıl saklarsınız?

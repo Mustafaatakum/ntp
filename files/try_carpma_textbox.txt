@@ -1,0 +1,15 @@
+SORU: TRY-CATCH İLE ÇARPMA (TextBox)
+
+İki sayı TextBox ve "Çarp" butonu ekleyiniz.
+try-catch ile hataları yakalayınız.
+
+GÖREV:
+- try { double a = double.Parse(...); ... }
+- catch (FormatException) { "Sayısal değer giriniz!" }
+- catch (OverflowException) { "Sayı çok büyük!" }
+- finally { textBox1.Focus(); }
+
+SORULAR:
+1. try-catch neden gereklidir?
+2. FormatException ne zaman fırlatılır?
+3. finally bloğu ne zaman çalışır?

@@ -1,0 +1,14 @@
+SORU: VERİTABANI EKLE SİL ARA
+
+Temel veritabanı işlemleri uygulaması.
+
+GÖREV:
+- INSERT: TextBox'lardan veri alıp ekle
+- DELETE: Seçili kaydı sil
+- SELECT WHERE: TextBox'tan arama
+- DataGridView ile listeleme
+
+SORULAR:
+1. SqlCommand.ExecuteNonQuery() ne işe yarar?
+2. SqlCommand.ExecuteReader() ne döndürür?
+3. Parametreli sorgu nasıl yazılır? (@parametre)

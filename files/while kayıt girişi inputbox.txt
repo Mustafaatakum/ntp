@@ -1,0 +1,13 @@
+SORU: WHILE İLE KAYIT GİRİŞİ (InputBox)
+
+while döngüsü ile InputBox'tan isim alın. "iptal" veya boş bırakılana kadar devam edin.
+
+GÖREV:
+- string isim = InputBox("İsim giriniz:");
+- while (isim != "" && isim != "iptal")
+- listBox1.Items.Add(isim);
+- isim = InputBox("...");
+
+SORULAR:
+1. String.IsNullOrEmpty() ne işe yarar?
+2. Döngü ilk çalıştırmada koşul nasıl sağlanır?

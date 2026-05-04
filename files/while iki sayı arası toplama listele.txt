@@ -1,0 +1,11 @@
+SORU: WHILE İKİ SAYI ARASI TOPLAMA LISTELE
+
+İki sayı arasındaki tüm sayıları while ile listeleyin ve toplayın.
+
+GÖREV:
+- int i = a;
+- while (i <= b) { ekle; toplam += i; i++; }
+
+SORULAR:
+1. a > b ise ne yapmalısınız?
+2. Döngü kaç kez çalışır? (b-a+1) kez

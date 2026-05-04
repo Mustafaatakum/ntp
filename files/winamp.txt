@@ -1,0 +1,14 @@
+SORU: WINAMP MÜZİK ÇALAR
+
+Winamp benzeri müzik çalar uygulaması.
+
+GÖREV:
+- WindowsMediaPlayer ile müzik çal
+- Oynat/Duraklat/Durdur/İleri/Geri butonları
+- Ses TrackBar ile ayarla
+- Çalınan şarkı adını göster
+- Oynatma listesi
+
+SORULAR:
+1. Çalınan dosyanın adını nasıl alırsınız?
+2. axWindowsMediaPlayer.Ctlcontrols.play() nasıl çalışır?

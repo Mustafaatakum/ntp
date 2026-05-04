@@ -1,0 +1,12 @@
+SORU: TIMESPAN ZAMAN FARKI
+
+İki tarih/saat arasındaki farkı TimeSpan ile hesaplayınız.
+
+GÖREV:
+- DateTimePicker ile iki tarih seçin
+- TimeSpan fark = tarih2 - tarih1;
+- Gün, saat, dakika, saniye cinsinden gösterin
+
+SORULAR:
+1. TimeSpan.Days, .Hours, .Minutes, .Seconds farkları?
+2. TotalDays ile Days farkı nedir?

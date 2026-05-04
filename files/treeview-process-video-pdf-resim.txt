@@ -1,0 +1,12 @@
+SORU: TREEVIEW PROCESS VIDEO PDF RESİM
+
+TreeView ile medya dosyası gezgini.
+
+GÖREV:
+- Kök düğümler: Video, PDF, Resim
+- Alt düğümler: dosya adları
+- Seçili düğüme çift tıklanınca Process.Start ile aç
+
+SORULAR:
+1. TreeView.NodeMouseDoubleClick olayı nasıl kullanılır?
+2. Dosya türüne göre farklı program nasıl açılır?

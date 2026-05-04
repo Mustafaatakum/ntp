@@ -1,0 +1,13 @@
+SORU: TREEVIEW İNTERNET KAFE 2024
+
+TreeView ile internet kafe yönetimi.
+
+GÖREV:
+- Ana düğümler: Salon A, Salon B
+- Alt düğümler: PC 1, PC 2, ... 
+- Seçili PC'ye tıklanınca oturum başlat/bitir
+- Durum: Boş (yeşil), Meşgul (kırmızı)
+
+SORULAR:
+1. TreeView'a düğüm nasıl eklenir?
+2. Seçili TreeNode'un verisi nasıl alınır? (.Tag)

@@ -1,0 +1,12 @@
+SORU: WHILE İLE TOPLA VE INPUT
+
+InputBox ile kullanıcıdan sayı alın. "iptal" yazılana kadar toplayın.
+
+GÖREV:
+- string giris = "";
+- while (giris != "iptal") { giris = InputBox(); toplam += int.Parse(giris); }
+- Toplam ve adet gösterilsin
+
+SORULAR:
+1. InputBox nasıl kullanılır? (Microsoft.VisualBasic)
+2. Kullanıcı sayı yerine harf girerse ne yapmalısınız?

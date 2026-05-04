@@ -1,0 +1,13 @@
+SORU: TREEVIEW MENÜ SAHİBİNDEN
+
+TreeView ile sahibinden.com benzeri ilan sistemi.
+
+GÖREV:
+- Kök: İl
+- Alt: İlçe
+- Alt alt: İlan kategorisi (Kiralık, Satılık)
+- Seçilen kategoride ilanlar ListBox'ta gösterilsin
+
+SORULAR:
+1. 3 seviyeli TreeView nasıl oluşturulur?
+2. Seçilen node'un üst node'una nasıl erişilir? (.Parent)

@@ -1,0 +1,12 @@
+SORU: TOOLTIP AÇIKLAMA
+
+Kontrollere ToolTip ile açıklama baloncukları ekleyiniz.
+
+GÖREV:
+- ToolTip tt = new ToolTip();
+- tt.SetToolTip(button1, "Bu butona tıklayarak kayıt yapabilirsiniz");
+- Farklı kontrollere farklı açıklamalar ekleyiniz
+
+SORULAR:
+1. ToolTip nasıl oluşturulur?
+2. tt.SetToolTip() parametreleri nelerdir?

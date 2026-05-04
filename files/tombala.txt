@@ -1,0 +1,13 @@
+SORU: TOMBALA OYUNU
+
+1-90 arası sayılar karıştırılıp sırayla çekilsin.
+
+GÖREV:
+- int[] sayilar = {1,2,...,90}; karıştır (shuffle)
+- "Sayı Çek" butonu ile sıradaki sayıyı göster
+- Çekilen sayılar ListBox'a eklensin
+- 90 sayı bitince "Tombala Tamamlandı!"
+
+SORULAR:
+1. Diziyi karıştırma (shuffle) algoritması nasıl yazılır?
+2. Aynı sayının tekrar çekilmemesi nasıl sağlanır?

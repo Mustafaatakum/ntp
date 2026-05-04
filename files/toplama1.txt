@@ -1,0 +1,14 @@
+SORU: TOPLAMA İŞLEMİ (Buton Click)
+
+İki TextBox, bir Label ve "Topla" butonu ekleyiniz.
+Butona basıldığında iki sayının toplamı Label'da gösterilsin.
+
+GÖREV:
+- double sayi1 = double.Parse(textBox1.Text);
+- double sayi2 = double.Parse(textBox2.Text);
+- labelSonuc.Text = (sayi1 + sayi2).ToString();
+
+SORULAR:
+1. int yerine double neden kullandık?
+2. Parse() metodu ne işe yarar?
+3. Kullanıcı harf girerse ne olur? Nasıl önlenebilir?

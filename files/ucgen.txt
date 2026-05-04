@@ -1,0 +1,13 @@
+SORU: EŞKENAR ÜÇGEN ALAN VE ÇEVRE
+
+Kenar uzunluğu TextBox ve "Hesapla" butonu ekleyiniz.
+Alan = (√3/4) × a² ve Çevre = 3×a hesaplayınız.
+
+GÖREV:
+- double alan = (Math.Sqrt(3) / 4) * a * a;
+- double cevre = 3 * a;
+- Sonuçları "F2" formatıyla gösteriniz
+
+SORULAR:
+1. Eşkenar üçgenin tüm kenarları eşit midir?
+2. Math.Sqrt(3) yaklaşık kaçtır?

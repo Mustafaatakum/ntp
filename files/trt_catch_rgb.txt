@@ -1,0 +1,12 @@
+SORU: TRY-CATCH İLE RGB
+
+R, G, B değerleri TextBox ekleyiniz. try-catch ile geçersiz değerleri yakalayınız.
+
+GÖREV:
+- 0-255 aralığı kontrolü
+- Sayısal olmayan giriş kontrolü
+- Geçerli girişte Color.FromArgb() ile renk oluşturunuz
+
+SORULAR:
+1. ArgumentException ne zaman fırlatılır?
+2. Birden fazla catch bloğu nasıl kullanılır?

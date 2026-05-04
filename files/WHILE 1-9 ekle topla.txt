@@ -1,0 +1,12 @@
+SORU: WHILE 1'DEN 9'A EKLE TOPLA
+
+while ile 1-9 arası sayıları listeleyin ve toplayın.
+
+GÖREV:
+- int i = 1; int toplam = 0;
+- while (i <= 9) { listBox1.Items.Add(i); toplam += i; i++; }
+- labelToplam.Text = toplam.ToString();
+
+SORULAR:
+1. Toplam değişkeni döngü dışında mı tanımlanmalı?
+2. 1+2+...+9 = 45 olduğunu doğrulayın.

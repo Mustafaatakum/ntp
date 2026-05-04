@@ -1,0 +1,12 @@
+SORU: YILAN OYUNU (RGB Dizi)
+
+Yılan oyununu RGB renk dizisi ile görselleştirin.
+
+GÖREV:
+- Yılan her büyüdükçe yeni renk segmenti eklensin
+- Color[] ile her segment farklı renklendirilsin
+- Gökkuşağı efekti oluşturunuz
+
+SORULAR:
+1. List<Color> ile yılan segmentlerini nasıl yönetirsiniz?
+2. Gökkuşağı renk geçişi nasıl hesaplanır?

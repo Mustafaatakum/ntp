@@ -1,0 +1,13 @@
+SORU: TREEVIEW RENKLENDİRME FUTBOLCULAR
+
+TreeView ile futbol takımı kadro görünümü.
+
+GÖREV:
+- Kök: Takım adı
+- Alt düğümler: Mevkiler (Kaleci, Defans, ...)
+- Mevki altında: Futbolcu adları
+- Mevkiye göre renk
+
+SORULAR:
+1. TreeView'a iç içe düğüm nasıl eklenir?
+2. Her mevki için farklı renk nasıl atanır?

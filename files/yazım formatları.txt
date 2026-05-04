@@ -1,0 +1,14 @@
+SORU: YAZIM FORMATLARI DOUBLE TOSTRING
+
+double değerleri farklı formatlarda gösteriniz.
+
+GÖREV:
+- sayi.ToString("F2") → 2 ondalık: 3.14
+- sayi.ToString("N0") → binlik ayraç: 1,234
+- sayi.ToString("C2") → para: ₺1.234,00
+- sayi.ToString("E2") → bilimsel: 3.14E+003
+- sayi.ToString("P1") → yüzde: 31.4%
+
+SORULAR:
+1. F, N, C, E, P format kodları ne anlama gelir?
+2. Kültüre göre format nasıl değişir?

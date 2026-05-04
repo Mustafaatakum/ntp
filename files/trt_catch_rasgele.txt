@@ -1,0 +1,12 @@
+SORU: TRY-CATCH İLE RASTGELE SAYI
+
+Min ve Max TextBox ekleyiniz. try-catch ile hataları yakalayınız.
+Min > Max durumu için özel hata fırlatınız.
+
+GÖREV:
+- try { if (min > max) throw new Exception("Min > Max olamaz!"); }
+- catch (Exception ex) { MessageBox.Show(ex.Message); }
+
+SORULAR:
+1. throw new Exception() nasıl kullanılır?
+2. ex.Message ne içerir?

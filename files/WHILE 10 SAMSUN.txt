@@ -1,0 +1,13 @@
+SORU: WHILE İLE 10 DEFA SAMSUN YAZMA
+
+ListBox ve "Ekle" butonu ekleyiniz.
+WHILE döngüsü ile "Samsun" 10 kez eklensin.
+
+GÖREV:
+- int sayac = 0;
+- while (sayac < 10) { listBox1.Items.Add("Samsun"); sayac++; }
+
+SORULAR:
+1. while döngüsünün yapısı nedir?
+2. Sayacı artırmayı unutsaydınız ne olurdu?
+3. Bu görevi for ile de yazabilir misiniz?

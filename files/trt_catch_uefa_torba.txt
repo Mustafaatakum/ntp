@@ -1,0 +1,13 @@
+SORU: TRY-CATCH İLE UEFA TORBA
+
+UEFA kura çekimi simülasyonu yapınız. Aynı torbadan iki takım çekilemez.
+
+GÖREV:
+- 4 torba, her torbada 8 takım
+- Rastgele eşleştirme
+- try-catch ile aynı grup kontrolü
+- Geçersiz eşleşmede yeniden çekiş
+
+SORULAR:
+1. List<string> ile torba nasıl oluşturulur?
+2. Aynı gruptan iki takımı engelleyen kuralı try ile nasıl uygularsınız?

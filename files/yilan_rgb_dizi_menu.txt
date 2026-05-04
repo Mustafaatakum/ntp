@@ -1,0 +1,12 @@
+SORU: YILAN OYUNU (RGB Dizi - Menü)
+
+Yılan oyununa MenuStrip ile seçenekler ekleyiniz.
+
+GÖREV:
+- Oyun: Yeni Oyun, Duraklat, Çıkış
+- Ayarlar: Hız (Yavaş/Orta/Hızlı), Renk Teması
+- Yardım: Nasıl Oynanır?
+
+SORULAR:
+1. MenuStrip nasıl oluşturulur?
+2. Menü tıklamada Timer.Interval nasıl değiştirilir?

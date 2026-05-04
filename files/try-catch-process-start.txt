@@ -1,0 +1,12 @@
+SORU: TRY-CATCH İLE PROCESS START
+
+Process.Start() ile program açarken try-catch kullanınız.
+
+GÖREV:
+- try { Process.Start("program.exe"); }
+- catch (FileNotFoundException) { "Program bulunamadı!" }
+- catch (Win32Exception) { "Erişim reddedildi!" }
+
+SORULAR:
+1. Process.Start() hangi Exception'ları fırlatabilir?
+2. FileNotFoundException ne anlama gelir?
