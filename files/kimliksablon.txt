@@ -1,0 +1,13 @@
+SORU: GÖSTER GİZLE FARKLI YÖNTEMLER (Kimlik Kartı)
+
+Kimlik kartı tasarımı yapınız. Farklı bilgileri göster/gizle.
+
+GÖREV:
+- Visible özelliği ile göster/gizle
+- Height = 0 ile gizle
+- Opacity ile saydamlık
+- CheckBox ile hangi bilgilerin gösterileceğini kontrol ediniz
+
+SORULAR:
+1. Visible, Height=0 ve Opacity'nin farkları nelerdir?
+2. Panel ile GroupBox gizlenince içindeki kontroller ne olur?

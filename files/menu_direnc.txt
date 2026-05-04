@@ -1,0 +1,12 @@
+SORU: MENÜ DİRENÇ HESAPLAMA
+
+MenuStrip ile direnç hesaplama uygulaması.
+
+GÖREV:
+- Menü: Bant Sayısı (3 bantlı / 4 bantlı / 5 bantlı)
+- Seçime göre form güncellenir (kaç ComboBox gösterilir)
+- Menü: Hesapla, Temizle, Yardım
+
+SORULAR:
+1. Menü seçimine göre kontrollerin görünürlüğü nasıl değiştirilir?
+2. 3, 4, 5 bantlı direnç formülleri nelerdir?

@@ -1,0 +1,12 @@
+SORU: FOREACH İLE RENK DEĞİŞİMİ VE FOCUS
+
+TextBox'lara odak gelince foreach ile diğerlerini soluklaştırın.
+
+GÖREV:
+- Enter olayında: foreach ile tüm TextBox'ları soluklaştır
+- Aktif olanı parlat
+- Leave olayında: hepsini normale döndür
+
+SORULAR:
+1. foreach içinde "aktif" TextBox nasıl atlanır?
+2. sender ile foreach'i nasıl birlikte kullanırsınız?

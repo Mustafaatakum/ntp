@@ -1,0 +1,13 @@
+SORU: FOR EACH İLE NESNELERE ULAŞMA
+
+Form üzerindeki tüm TextBox'ları temizleme, Button'ları renklendirme.
+
+GÖREV:
+- foreach (Control ctrl in this.Controls)
+- if (ctrl is TextBox) ((TextBox)ctrl).Clear();
+- if (ctrl is Button) ((Button)ctrl).BackColor = Color.LightBlue;
+
+SORULAR:
+1. foreach ile for farkı nedir?
+2. is operatörü ne işe yarar?
+3. this.Controls tüm kontrolleri içerir mi? (GroupBox içindekiler?)

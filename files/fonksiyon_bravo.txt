@@ -1,0 +1,13 @@
+SORU: BRAVO FONKSİYONU (Parametreli - return)
+
+Not parametresi alan, değerlendirme string'i döndüren fonksiyon yazınız.
+
+GÖREV:
+- private string Degerlendir(int not)
+- if (not >= 90) return "BRAVO!";
+- else if (not >= 70) return "İYİ!";
+- ...
+
+SORULAR:
+1. return değeri olan fonksiyon nasıl tanımlanır?
+2. void ile string döndüren fonksiyon farkı nedir?

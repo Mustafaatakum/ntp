@@ -1,0 +1,12 @@
+SORU: FAKTÖRİYEL (Parametresiz Fonksiyon)
+
+Parametresiz faktöriyel fonksiyonu yazınız. TextBox'tan değeri fonksiyon içinde okusun.
+
+GÖREV:
+- private void HesaplaFaktoriyel() { ... }
+- Fonksiyon TextBox'tan okumalı, Label'a yazmalı
+- for döngüsü ile n! hesaplayınız
+
+SORULAR:
+1. Parametresiz fonksiyon ne anlama gelir?
+2. Bu yaklaşımın dezavantajı nedir?

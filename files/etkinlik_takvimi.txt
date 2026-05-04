@@ -1,0 +1,12 @@
+SORU: ETKİNLİK TAKVİMİ
+
+Etkinlik planlama takvimi uygulaması.
+
+GÖREV:
+- MonthCalendar veya DateTimePicker ile tarih seçimi
+- Seçilen tarihe etkinlik ekle (TextBox + Ekle butonu)
+- O tarihin etkinliklerini ListBox'ta göster
+
+SORULAR:
+1. MonthCalendar.DateSelected olayı ne zaman tetiklenir?
+2. Etkinlikleri Dictionary<DateTime, List<string>> ile nasıl saklarsınız?

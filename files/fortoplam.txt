@@ -1,0 +1,13 @@
+SORU: LİSTEYE SAYI EKLEYIP TOPLAMAK (For)
+
+Başlangıç ve bitiş değerleri TextBox ekleyiniz.
+İki değer arasındaki sayıları for döngüsüyle listeleyin ve toplayın.
+
+GÖREV:
+- for (int i=baslangic; i<=bitis; i++)
+- listBox1.Items.Add(i);
+- toplam += i;
+
+SORULAR:
+1. Başlangıç > Bitiş girilirse ne yapmalısınız?
+2. Ortalama nasıl hesaplanır?

@@ -1,0 +1,11 @@
+SORU: FORM KAPATMA VE ÇIKIŞ
+
+Form kapatılırken onay isteyiniz.
+
+GÖREV:
+- FormClosing olayı
+- if (MessageBox.Show(...) == DialogResult.No) e.Cancel = true;
+
+SORULAR:
+1. FormClosing ile FormClosed farkı?
+2. e.Cancel = true ne yapar?

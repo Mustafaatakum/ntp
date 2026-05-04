@@ -1,0 +1,13 @@
+SORU: KREDİ HESAPLAMA
+
+Kredi tutarı, faiz oranı (yıllık %) ve vade (ay) giriş alanları ekleyiniz.
+Aylık taksit, toplam ödeme ve toplam faiz hesaplansın.
+
+GÖREV:
+- Aylık faiz = yıllık / 12 / 100
+- Taksit = Anapara × (AylıkFaiz × (1+AylıkFaiz)^Vade) / ((1+AylıkFaiz)^Vade - 1)
+- Math.Pow() kullanınız
+
+SORULAR:
+1. Math.Pow(1+r, n) ne hesaplar?
+2. Aylık faiz nasıl hesaplanır?

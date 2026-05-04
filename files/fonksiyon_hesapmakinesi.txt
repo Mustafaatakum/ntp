@@ -1,0 +1,12 @@
+SORU: FONKSİYON HESAP MAKİNESİ
+
+Hesaplama işlemlerini fonksiyonlara ayırınız.
+
+GÖREV:
+- private double Topla(double a, double b) { return a + b; }
+- private double Cikar(double a, double b) { return a - b; }
+- Her işlem için ayrı fonksiyon yazınız
+
+SORULAR:
+1. Fonksiyonlara ayırmanın avantajı nedir?
+2. Sıfıra bölme için fonksiyon ne döndürmeli?

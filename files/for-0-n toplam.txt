@@ -1,0 +1,11 @@
+SORU: 0'DAN N'E KADAR TOPLAM (For)
+
+N değeri giriş alanı ekleyiniz. 0'dan N'e kadar tüm sayıların toplamını hesaplayınız.
+
+GÖREV:
+- for (int i=0; i<=n; i++) toplam += i;
+- Gauss formülü ile karşılaştırınız: n*(n+1)/2
+
+SORULAR:
+1. Gauss formülü ne işe yarar?
+2. Döngü sonucu ile Gauss formülü aynı sonucu veriyor mu?

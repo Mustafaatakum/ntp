@@ -1,0 +1,13 @@
+SORU: DÜĞÜN ORGANİZASYON
+
+Düğün organizasyon uygulaması.
+
+GÖREV:
+- Davetli listesi (CheckedListBox)
+- Masa düzeni (kaç masa, kaç kişi)
+- Yemek seçenekleri
+- Toplam bütçe hesabı
+
+SORULAR:
+1. CheckedListBox.CheckedItems.Count nedir?
+2. Masa başına düşen kişi sayısı nasıl hesaplanır?

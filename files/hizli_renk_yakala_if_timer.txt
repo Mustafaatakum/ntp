@@ -1,0 +1,15 @@
+SORU: HIZLI RENK YAKALA (if - Timer)
+
+Timer ile form rengi hızla değişsin. Kullanıcı doğru rengi seçince puan kazansın.
+
+GÖREV:
+- Timer ile her 500ms'de bir renk değişsin
+- Hedef renk Label'da yazılı olsun (örn: "KIRMIZI")
+- "Yakala!" butonuna basınca: o anki renk hedefle eşleşiyor mu?
+- if (this.BackColor == hedefRenk) puan++; else puan--;
+- Süre azaldıkça hız artsın (Timer.Interval-=10)
+
+SORULAR:
+1. Anlık form rengini nasıl alırsınız? (this.BackColor)
+2. İki Color değeri nasıl karşılaştırılır?
+3. Timer.Interval minimum kaç olabilir?

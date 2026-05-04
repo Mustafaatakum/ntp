@@ -1,0 +1,12 @@
+SORU: EMLAK TAKİP SİSTEMİ
+
+Emlak ilanları veritabanı uygulaması.
+
+GÖREV:
+- İlanlar: İl, İlçe, Tip (kiralık/satılık), Fiyat, m²
+- Filtreleme: İl, tip, fiyat aralığı
+- m² başına fiyat hesabı
+
+SORULAR:
+1. Fiyat aralığı için SQL BETWEEN nasıl kullanılır?
+2. m² başına fiyat hesabı SELECT sorgusuna nasıl eklenir?

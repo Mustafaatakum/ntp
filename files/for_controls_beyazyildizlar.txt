@@ -1,0 +1,13 @@
+SORU: FOR İLE BEYAZ YILDIZLAR
+
+for döngüsü ile form üzerine yıldız şeklinde Label'lar ekleyiniz.
+
+GÖREV:
+- for ile rastgele konumda, beyaz ★ Label'lar oluşturunuz
+- Farklı boyutlar ve opaklık değerleri kullanınız
+- "Temizle" butonu ile tümünü kaldırınız (Controls.Clear())
+
+SORULAR:
+1. Label.Text = "★" nasıl yazılır?
+2. Label.ForeColor = Color.White nasıl ayarlanır?
+3. Tüm dinamik kontrolleri nasıl temizlersiniz?

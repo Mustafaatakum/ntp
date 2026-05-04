@@ -1,0 +1,14 @@
+SORU: LABELE YAZI AKTARMA (Buton Click)
+
+Bir TextBox, bir Label ve bir Button içeren uygulama yapınız.
+Butona tıklandığında TextBox'taki metin Label'a aktarılmalı, TextBox temizlenmelidir.
+
+GÖREV:
+- label1.Text = textBox1.Text; kodunu kullanınız
+- textBox1.Clear(); ile TextBox'ı temizleyiniz
+- textBox1.Focus(); ile odağı geri veriniz
+
+SORULAR:
+1. Label ile TextBox arasındaki fark nedir?
+2. .Clear() ile .Text="" arasındaki fark nedir?
+3. Focus() ne işe yarar?

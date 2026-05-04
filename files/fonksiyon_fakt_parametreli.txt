@@ -1,0 +1,11 @@
+SORU: FAKTÖRİYEL (Parametreli Fonksiyon)
+
+Parametreli faktöriyel fonksiyonu yazınız ve çağırınız.
+
+GÖREV:
+- private long Faktoriyel(int n)
+- { long sonuc = 1; for (int i=1; i<=n; i++) sonuc *= i; return sonuc; }
+
+SORULAR:
+1. Neden long kullandık? int yetmez miydi?
+2. Negatif sayı girilirse ne yapılmalı?

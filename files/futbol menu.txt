@@ -1,0 +1,12 @@
+SORU: MENÜ FUTBOL LİGLER ALT LİGLER
+
+Futbol ligi hiyerarşisi için iç içe menü oluşturunuz.
+
+GÖREV:
+- Menü: Avrupa Ligleri → Premier League / La Liga / Bundesliga
+- Her lig tıklandığında takımlar listelenir
+- Alt menü (ToolStripMenuItem ekle)
+
+SORULAR:
+1. İç içe menü (alt menü) nasıl oluşturulur?
+2. Dinamik menü öğesi nasıl eklenir?

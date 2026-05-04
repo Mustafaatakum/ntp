@@ -1,0 +1,11 @@
+SORU: FONKSİYON QKLAVYE
+
+Sanal Q klavye oluşturmayı fonksiyon ile yapınız.
+
+GÖREV:
+- private void TusEkle(string harf, int x, int y) { ... yeni Button oluştur ... }
+- QWERTY sıralamasına göre fonksiyonu çağırınız
+
+SORULAR:
+1. Fonksiyon ile kod tekrarı nasıl azaltılır?
+2. ref veya out parametresi ne işe yarar?

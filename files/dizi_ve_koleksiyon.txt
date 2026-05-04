@@ -1,0 +1,13 @@
+SORU: DİZİ VE KOLEKSİYON KARŞILAŞTIRMA
+
+Dizi (int[]) ve ArrayList'i karşılaştıran uygulama yapınız.
+
+GÖREV:
+- Aynı işlemi (ekleme, silme, sıralama) iki yapıyla yapınız
+- Performans ve esneklik farkını gösteriniz
+- Hangisinin ne zaman tercih edildiğini tartışınız
+
+SORULAR:
+1. Sabit boyutlu veri için hangisi? Dinamik için?
+2. ArrayList'in type safety sorunu nedir?
+3. List<int> daha mı güvenli? Neden?

@@ -1,0 +1,13 @@
+SORU: LABELE YAZI AKTARMA (Text Change)
+
+Bir TextBox ve bir Label ekleyiniz.
+Kullanıcı TextBox'a yazarken Label anlık olarak güncellenmelidir (butona gerek yok).
+
+GÖREV:
+- TextChanged olayını kullanınız
+- TextBox boşken Label'da "Lütfen bir şey yazınız..." gösteriniz
+- Yazı varken Label'a aktarınız
+
+SORULAR:
+1. TextChanged ile Click olayı arasındaki fark nedir?
+2. Anlık güncelleme hangi uygulamalarda kullanışlıdır?

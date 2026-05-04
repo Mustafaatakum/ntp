@@ -1,0 +1,13 @@
+SORU: KULLANICI GİRİŞ ŞİFRE (Veritabanı)
+
+Veritabanı ile kullanıcı giriş sistemi.
+
+GÖREV:
+- Kullanıcılar tablosu (UserName, Password, Role)
+- Giriş formunda kullanıcı adı ve şifre kontrolü
+- SELECT sorgusu ile doğrulama
+- Rol'e göre farklı form açılsın
+
+SORULAR:
+1. Şifreyi veritabanında düz metin mi saklamalısınız?
+2. SQL Injection nedir ve nasıl önlenir? (Parametreli sorgu)

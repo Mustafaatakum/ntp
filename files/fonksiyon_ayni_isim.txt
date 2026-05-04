@@ -1,0 +1,12 @@
+SORU: FONKSİYON AYNI İSİM (Overloading)
+
+Aynı isimde farklı parametreli fonksiyonlar (overloading) yazınız.
+
+GÖREV:
+- private int Topla(int a, int b) { return a + b; }
+- private double Topla(double a, double b) { return a + b; }
+- private string Topla(string a, string b) { return a + b; }
+
+SORULAR:
+1. Method overloading nedir?
+2. Aynı isimli fonksiyonlar nasıl ayrılır?

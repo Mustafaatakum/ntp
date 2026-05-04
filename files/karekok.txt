@@ -1,0 +1,14 @@
+SORU: KAREKÖK ALMA
+
+Sayı giriş TextBox ve "Hesapla" butonu ekleyiniz.
+Karekök, küp kök hesaplayınız. Negatif sayıda uyarı verin.
+
+GÖREV:
+- Math.Sqrt(sayi) ile karekök alınız
+- Math.Pow(sayi, 1.0/3.0) ile küp kök alınız
+- Negatif sayı kontrolü yapınız
+
+SORULAR:
+1. Math.Sqrt() negatif sayı için ne döndürür? (NaN)
+2. NaN ne demektir? (Not a Number)
+3. Math.Pow() ile karekök nasıl hesaplanır?

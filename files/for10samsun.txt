@@ -1,0 +1,12 @@
+SORU: LİSTEYE 10 DEFA SAMSUN YAZMAK (For)
+
+ListBox ve "Ekle" butonu ekleyiniz.
+for döngüsü ile "Samsun" 10 kez ListBox'a eklensin.
+
+GÖREV:
+- for (int i = 0; i < 10; i++) { listBox1.Items.Add("Samsun"); }
+
+SORULAR:
+1. for döngüsünün 3 bileşeni nedir?
+2. i=0 yerine i=1 başlasaydık ne olurdu?
+3. i < 10 yerine i <= 9 kullansak aynı sonuç mu?

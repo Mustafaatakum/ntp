@@ -1,0 +1,15 @@
+SORU: İL TAHMİNİ LİSTE RADIO HARİTA
+
+Türkiye illerini ListBox'ta listeleyin. RadioButton ile bölge filtresi yapın.
+
+GÖREV:
+- 81 il ListBox'ta
+- RadioButton ile bölge filtresi (Ege, Marmara, ...)
+- Tahmin TextBox ve "Kontrol Et" butonu
+- Doğruysa Google Maps'te il konumunu aç
+- Process.Start("https://maps.google.com/?q=" + il);
+
+SORULAR:
+1. ListBox'u RadioButton seçimine göre nasıl filtrelersiniz?
+2. Google Maps URL'si nasıl oluşturulur?
+3. Türkçe karakter içeren URL nasıl encode edilir?

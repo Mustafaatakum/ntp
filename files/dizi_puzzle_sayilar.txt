@@ -1,0 +1,13 @@
+SORU: DİZİ İLE PUZZLE SAYILAR
+
+int[] dizi kullanarak sayı puzzlesi yapınız.
+
+GÖREV:
+- int[] dizi = {1,2,...,15,0}; (0: boş)
+- 4x4 ızgara ile gösteriniz
+- 0'ın komşusuna tıklanınca yer değiştirsin
+- Kazanma kontrolü yapınız
+
+SORULAR:
+1. 4x4 ızgara için dizi index hesabı nasıldır? (satir*4+sutun)
+2. İki eleman yer değiştirme (swap) nasıl yapılır?

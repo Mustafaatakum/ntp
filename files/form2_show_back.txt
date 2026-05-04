@@ -1,0 +1,11 @@
+SORU: FORM2 GÖSTER VE GERİ DÖN
+
+Form1'den Form2'yi açın. Form2'den geri dönün ve veri aktarın.
+
+GÖREV:
+- Form2 frm = new Form2(); frm.Show(); this.Hide();
+- Form2'de public string Sonuc; ile veri aktarımı
+
+SORULAR:
+1. Show() ile ShowDialog() farkı nedir?
+2. Formlar arası veri nasıl aktarılır?

@@ -1,0 +1,12 @@
+SORU: FORM ENTER VE ESC TUŞU
+
+Login formu tasarlayınız. Enter giriş yapsın, ESC temizlesin.
+
+GÖREV:
+- Form.AcceptButton = btnGiris;
+- Form.CancelButton = btnIptal;
+- veya KeyDown olayıyla e.KeyCode == Keys.Enter
+
+SORULAR:
+1. AcceptButton özelliği ne işe yarar?
+2. CancelButton özelliği ne işe yarar?

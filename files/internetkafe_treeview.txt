@@ -1,0 +1,13 @@
+SORU: İNTERNET KAFE TREEVIEW
+
+TreeView ile internet kafe yönetimi (gelişmiş).
+
+GÖREV:
+- Salonlar ve PC'ler hiyerarşisi
+- Oturum başlat/bitir
+- TreeView'da renk ile durum gösterimi (boş/dolu)
+- Gelir raporu
+
+SORULAR:
+1. TreeView düğümünün rengini nasıl değiştirirsiniz?
+2. Tüm aktif oturumları nasıl listelersiniz?

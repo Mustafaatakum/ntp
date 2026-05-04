@@ -1,0 +1,13 @@
+SORU: KDV HESAPLAMA
+
+Ürün fiyatı TextBox ve KDV oranı ComboBox (%8, %18, %20) ekleyiniz.
+KDV tutarı ve toplam fiyat hesaplansın.
+
+GÖREV:
+- KDV Tutarı = Fiyat × (Oran / 100)
+- Toplam = Fiyat + KDV Tutarı
+- ComboBox.SelectedItem ile oran alınız
+
+SORULAR:
+1. ComboBox'tan seçilen değeri nasıl alırsınız?
+2. Sonucu TL formatında nasıl gösterirsiniz?

@@ -1,0 +1,14 @@
+SORU: İNTERNET CAFE TİMESPAN DATETİME
+
+Giriş ve çıkış saati alınıp süre ve ücret hesaplansın.
+
+GÖREV:
+- DateTime giris, cikis;
+- TimeSpan sure = cikis - giris;
+- Ücret = sure.TotalHours × saatlikUcret
+- 1 saatten az: minimum ücret uygulansın
+
+SORULAR:
+1. TimeSpan nedir?
+2. TimeSpan.TotalHours ile TotalMinutes farkı?
+3. DateTime.Parse() nasıl kullanılır?

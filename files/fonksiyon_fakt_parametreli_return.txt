@@ -1,0 +1,11 @@
+SORU: FAKTÖRİYEL (Parametreli - return)
+
+Parametreli, değer döndüren faktöriyel fonksiyonu yazınız.
+
+GÖREV:
+- long sonuc = Faktoriyel(n);
+- labelSonuc.Text = sonuc.ToString();
+
+SORULAR:
+1. Fonksiyonun dönüş değerini nasıl kullanırsınız?
+2. Fonksiyon içinde return ne zaman yazılır?

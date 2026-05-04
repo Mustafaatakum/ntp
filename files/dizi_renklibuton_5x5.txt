@@ -1,0 +1,12 @@
+SORU: DİZİ RENKLİ BUTON 5x5
+
+5x5 Button matrisi oluşturunuz. Renkleri dizi ile yönetiniz.
+
+GÖREV:
+- Button[,] butonlar = new Button[5,5];
+- for ile oluştur, renklendir
+- Tıklananın rengini değiştir
+
+SORULAR:
+1. 2 boyutlu dizi nasıl tanımlanır? (Button[,])
+2. butonlar[i,j] nasıl erişilir?

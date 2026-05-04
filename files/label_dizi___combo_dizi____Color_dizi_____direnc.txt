@@ -1,0 +1,13 @@
+SORU: LABEL DİZİSİ, COMBO DİZİSİ, COLOR DİZİSİ, DİRENÇ
+
+Label[], ComboBox[] ve Color[] dizilerini birlikte kullanınız.
+
+GÖREV:
+- Label[] labels = {label1, label2, label3};
+- ComboBox[] combos = {comboBox1, comboBox2, comboBox3};
+- Color[] colors = {Color.Black, Color.Brown,...};
+- Dizi indeksleri ile senkron çalışınız
+
+SORULAR:
+1. Kontrol dizisi nasıl tanımlanır? (Label[])
+2. Kontrol dizisi ile normal dizi farkı nedir?

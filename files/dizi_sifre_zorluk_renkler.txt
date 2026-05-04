@@ -1,0 +1,12 @@
+SORU: DİZİ ŞİFRE ZORLUK VE RENKLER
+
+Şifre güçlülüğünü renk dizisi ile gösteriniz.
+
+GÖREV:
+- Color[] zorlukRenkleri = {Color.Red, Color.Orange, Color.Yellow, Color.LightGreen, Color.Green};
+- Şifre uzunluğu ve karakter çeşitliliğine göre renk atayınız
+- ProgressBar ile güçlülük gösteriniz
+
+SORULAR:
+1. Güçlü şifre kriterleri nelerdir?
+2. Dizi ile renk seçimi nasıl yapılır?

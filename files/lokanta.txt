@@ -1,0 +1,14 @@
+SORU: LOKANTA HESABI
+
+En az 5 yemeklik menü oluşturunuz. Her yemek için fiyat ve adet girilsin.
+Toplam tutar, KDV ve genel toplam hesaplansın.
+
+GÖREV:
+- Yemek adı Label, fiyat Label, adet NumericUpDown
+- %10 KDV hesaplayınız
+- Toplam = Yemekler toplamı × (1 + KDV oranı)
+
+SORULAR:
+1. KDV hesabı nasıl yapılır?
+2. NumericUpDown neden TextBox'tan daha uygun olabilir?
+3. Sonucu para formatında nasıl gösterirsiniz? (ToString("C2"))

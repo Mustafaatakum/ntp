@@ -1,0 +1,14 @@
+SORU: 3 BOYUTLU ŞEKİLLERİN HACİMLERİ
+
+ComboBox'tan şekil seçilsin. Seçilen şeklin hacmi hesaplansın.
+Küp, dikdörtgenler prizması, silindir, küre, koni.
+
+GÖREV:
+- Küp: V = a³  → Math.Pow(a,3)
+- Silindir: V = Math.PI * r * r * h
+- Küre: V = (4.0/3) * Math.PI * Math.Pow(r,3)
+- Seçime göre ilgili TextBox'ları aktif/pasif yapınız
+
+SORULAR:
+1. Seçime göre TextBox aktif/pasif nasıl yapılır? (.Enabled)
+2. Math.Pow(a,3) ne işe yarar?

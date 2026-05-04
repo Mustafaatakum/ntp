@@ -1,0 +1,13 @@
+SORU: İNDİRİM HESAPLAMA
+
+Ürün fiyatı ve indirim oranı TextBox ekleyiniz.
+İndirim tutarı, indirimli fiyat ve KDV'li son fiyat hesaplansın.
+
+GÖREV:
+- İndirim Tutarı = Fiyat × (Oran / 100)
+- İndirimli Fiyat = Fiyat - İndirim Tutarı
+- Son Fiyat = İndirimli Fiyat × 1.18 (%18 KDV)
+
+SORULAR:
+1. Ardışık iki indirim nasıl uygulanır?
+2. Sonuçları para formatında nasıl gösterirsiniz?

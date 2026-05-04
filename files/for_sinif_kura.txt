@@ -1,0 +1,15 @@
+SORU: SINIF KURA ÇEKİMİ (For Döngüsü)
+
+Sınıf öğrenci listesinden kura çekimi yapınız.
+
+GÖREV:
+- ListBox'a öğrenci isimleri ekleyiniz
+- "Kura Çek" butonu ile rastgele bir öğrenci seçilsin
+- Seçilen öğrenci listeden çıkarılsın
+- Seçilenler ayrı ListBox'ta listelensin
+- for döngüsü ile tüm öğrenciler kura çekiminden geçsin
+
+SORULAR:
+1. ListBox'tan rastgele eleman nasıl seçilir?
+2. Seçilen elemanı listeden nasıl çıkarırsınız?
+3. for döngüsünde her adımda liste boyutu değişirse ne olur?

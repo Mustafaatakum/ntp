@@ -1,0 +1,14 @@
+SORU: 4 İŞLEM VE MOD
+
+İki TextBox ve 5 buton (+, -, *, /, %) ekleyiniz.
+Her butona basıldığında ilgili işlem sonucu gösterilsin.
+
+GÖREV:
+- Her işlem için ayrı buton ve Click olayı
+- Bölmede sıfır kontrolü yapınız
+- Mod (%) işlemini de ekleyiniz: 17 % 5 = 2
+
+SORULAR:
+1. Mod (%) operatörü ne işe yarar? Örnek veriniz.
+2. Sıfıra bölme hatası nasıl önlenir?
+3. int bölme ile double bölme farkı nedir? (7/2=3 mü 3.5 mi?)

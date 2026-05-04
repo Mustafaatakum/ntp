@@ -1,0 +1,13 @@
+SORU: FOR İLE DAMA TAHTASI
+
+for döngüsü (iç içe) ile 8x8 dama tahtası oluşturunuz.
+
+GÖREV:
+- for (int satir=0; satir<8; satir++)
+-   for (int sutun=0; sutun<8; sutun++)
+-     Alternatif siyah/beyaz Panel ekleyiniz
+-     (satir+sutun)%2 == 0 ise beyaz, değilse siyah
+
+SORULAR:
+1. İç içe for döngüsü nasıl çalışır?
+2. (satir+sutun)%2 ile renk nasıl belirlenir?

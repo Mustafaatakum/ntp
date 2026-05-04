@@ -1,0 +1,14 @@
+SORU: MENEKSE SQL BAĞLANTISI
+
+SQL Server veya Access ile temel bağlantı.
+
+GÖREV:
+- SqlConnection veya OleDbConnection oluşturun
+- Bağlantıyı açın ve test edin
+- Basit SELECT sorgusu çalıştırın
+- DataGridView'e veri yükleyin
+
+SORULAR:
+1. Connection string nasıl yazılır?
+2. SqlConnection.Open() ne zaman çağrılır?
+3. try-catch ile bağlantı hatası nasıl yakalanır?

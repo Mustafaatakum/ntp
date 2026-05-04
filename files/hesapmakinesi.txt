@@ -1,0 +1,13 @@
+SORU: HESAP MAKİNESİ UYGULAMASI
+
+Gerçek hesap makinesi arayüzü oluşturunuz.
+
+GÖREV:
+- Rakam butonları (0-9) ve işlem butonları için kod ile nesne oluşturunuz
+- Sürekli hesaplama (zincir işlem) desteklesin
+- TextBox'ta anlık ifadeyi gösteriniz
+- = ile sonuç hesaplansın
+
+SORULAR:
+1. Hesap makinesinde önceki sonuç nasıl tutulur?
+2. Zincir işlem (5+3*2) nasıl uygulanır?

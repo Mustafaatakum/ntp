@@ -1,0 +1,13 @@
+SORU: PROGRESS BAR (Timer Olmadan - For)
+
+ProgressBar ve "Başlat" butonu ekleyiniz.
+for döngüsü ile ProgressBar'ı doldurunuz (Timer olmadan).
+
+GÖREV:
+- for (int i=0; i<=100; i++) { progressBar1.Value = i; Application.DoEvents(); }
+- Application.DoEvents() neden gerekli?
+
+SORULAR:
+1. Application.DoEvents() ne işe yarar?
+2. Timer'lı ve Timer'sız yaklaşım farkı nedir?
+3. Döngü sırasında form donmaması nasıl sağlanır?

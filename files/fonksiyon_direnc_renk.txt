@@ -1,0 +1,12 @@
+SORU: FONKSİYON DİRENÇ RENK
+
+Renk kodu döndüren fonksiyon yazınız.
+
+GÖREV:
+- private int RenkKodu(string renk)
+- switch(renk) { case "Siyah": return 0; ... }
+- Fonksiyonu çağırarak direnç değerini hesaplayınız
+
+SORULAR:
+1. switch içinde return kullanabilir misiniz?
+2. Fonksiyon ne zaman void, ne zaman değer döndürür?

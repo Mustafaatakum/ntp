@@ -1,0 +1,12 @@
+SORU: SELAMLAMA FONKSİYONU
+
+Parametresiz ve parametreli selamlama fonksiyonları yazınız.
+
+GÖREV:
+- private void Selamla() { MessageBox.Show("Merhaba!"); }
+- private void SelamlaKisi(string isim) { MessageBox.Show("Merhaba " + isim); }
+- Her iki fonksiyonu da çağırınız
+
+SORULAR:
+1. Fonksiyon nedir? Neden kullanılır?
+2. Parametreli ve parametresiz fark nedir?

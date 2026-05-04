@@ -1,0 +1,14 @@
+SORU: FOR İLE RENKLİ NESNE EKLEME
+
+for döngüsü ile kod aracılığıyla Button veya Label nesneleri oluşturunuz.
+
+GÖREV:
+- Button btn = new Button();
+- btn.Location = new Point(i * 90, 50);
+- btn.BackColor = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
+- this.Controls.Add(btn);
+
+SORULAR:
+1. Nesne neden kod ile oluşturulur?
+2. Controls.Add() ne işe yarar?
+3. Dinamik oluşturulan nesneye Click olayı nasıl eklenir?

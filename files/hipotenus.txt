@@ -1,0 +1,13 @@
+SORU: HİPOTENÜS HESAPLAMA
+
+Dik üçgenin iki dik kenarı (a,b) TextBox ekleyiniz.
+Pisagor teoremi ile hipotenüs ve üçgen alanını hesaplayınız.
+
+GÖREV:
+- c = Math.Sqrt(Math.Pow(a,2) + Math.Pow(b,2))
+- Alan = (a × b) / 2
+- Sonuçları 2 ondalık basamakla gösteriniz
+
+SORULAR:
+1. Pisagor teoremi nedir?
+2. Math.Pow(a,2) ile a*a arasında fark var mıdır?

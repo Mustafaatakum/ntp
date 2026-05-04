@@ -1,0 +1,12 @@
+SORU: DİZİYE ELEMAN EKLEME (2. Yöntem)
+
+TextBox'tan sayı alıp dinamik diziye ekleyiniz.
+
+GÖREV:
+- Array.Resize(ref dizi, dizi.Length + 1);
+- dizi[dizi.Length - 1] = yeniEleman;
+- veya List<int> kullanınız
+
+SORULAR:
+1. Array.Resize() ne işe yarar?
+2. List<int> ile int[] farkı nedir?

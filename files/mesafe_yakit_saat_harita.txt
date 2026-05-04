@@ -1,0 +1,15 @@
+SORU: MESAFE YAKIT SAAT HESABI VE HARİTA
+
+İki şehir seçimi (ComboBox) ve araç tipi ekleyiniz.
+Mesafe, tahmini yakıt ve süre hesaplansın.
+
+GÖREV:
+- Şehirler arası mesafe tablosu (2 boyutlu dizi veya Dictionary)
+- Yakıt = Mesafe × (lt/100km) / 100
+- Süre = Mesafe / Hız
+- "Haritayı Aç" butonu ile Google Maps açılsın (Process.Start)
+
+SORULAR:
+1. Dictionary<string,int> nasıl kullanılır?
+2. TimeSpan ile süre nasıl formatlanır?
+3. Google Maps URL'si nasıl oluşturulur?

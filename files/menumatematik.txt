@@ -1,0 +1,12 @@
+SORU: MENÜ MATEMATİK
+
+MenuStrip ile matematik işlemleri menüsü oluşturunuz.
+
+GÖREV:
+- Menü: Temel İşlemler (Topla, Çıkar, Çarp, Böl)
+- Menü: Gelişmiş (Karekök, Üs, Logaritma)
+- Seçilen işleme göre form güncellenir
+
+SORULAR:
+1. MenuStrip alt menü (DropDown) nasıl eklenir?
+2. Menü öğesi tıklandığında olayı nasıl yazarsınız?

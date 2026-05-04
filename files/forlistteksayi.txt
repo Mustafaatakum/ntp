@@ -1,0 +1,12 @@
+SORU: LİSTEYE TEK SAYILARI EKLEME (For)
+
+for döngüsü ile 1-100 arası TEK sayıları ListBox'a ekleyiniz.
+
+GÖREV:
+- Yöntem 1: for (int i=1; i<=100; i+=2)
+- Yöntem 2: for + if (i%2!=0)
+- Toplam kaç tek sayı olduğunu gösteriniz
+
+SORULAR:
+1. i+=2 ile i%2!=0 yaklaşımlarının farkı nedir?
+2. 1-100 arası kaç tek sayı var?

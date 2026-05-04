@@ -1,0 +1,12 @@
+SORU: EŞLEŞTİRME BULMACASI (Foreach)
+
+Eşleştirme bulmacası oyunu yapınız.
+
+GÖREV:
+- Çiftler halinde 8 kart (4 çift) ekleyiniz
+- Tıklanan 2 kart eşleşirse açık kalsın, eşleşmezse kapansın
+- foreach ile tüm açık kartları kontrol ediniz
+
+SORULAR:
+1. Eşleşme kontrolü nasıl yapılır?
+2. Kart "kapalı" durumunu nasıl gösterirsiniz?

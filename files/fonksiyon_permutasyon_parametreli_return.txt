@@ -1,0 +1,11 @@
+SORU: PERMÜTASYON (Parametreli - return)
+
+Parametreli, değer döndüren permütasyon fonksiyonu yazınız.
+
+GÖREV:
+- private long Permutasyon(int n, int r) { return Faktoriyel(n) / Faktoriyel(n-r); }
+- Faktöriyel fonksiyonunu yeniden kullanınız
+
+SORULAR:
+1. Bir fonksiyon başka bir fonksiyonu çağırabilir mi?
+2. n < r durumunda ne yapılmalı?

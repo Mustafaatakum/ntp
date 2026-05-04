@@ -1,0 +1,12 @@
+SORU: MENÜ KISAYOL TUŞLARI
+
+MenuStrip ile menü ve klavye kısayolları oluşturunuz.
+
+GÖREV:
+- MenuStrip: Dosya, Düzen, Görünüm
+- Her menü öğesine ShortcutKeys atayınız
+- Ctrl+N, Ctrl+S, Ctrl+Z gibi
+
+SORULAR:
+1. ShortcutKeys nasıl ayarlanır?
+2. ShowShortcutKeys özelliği ne işe yarar?

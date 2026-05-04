@@ -1,0 +1,13 @@
+SORU: KRONOMETRE PROGRESSBAR TİMER (Global Değişken)
+
+Timer, ProgressBar ve Label ekleyiniz. Global sayaç değişkeni kullanınız.
+Kronometre çalışırken saniyeler gösterilsin.
+
+GÖREV:
+- int saniye = 0; (global değişken)
+- Timer Tick olayında saniye++;
+- ProgressBar ve Label'ı güncelleyiniz
+
+SORULAR:
+1. Global değişken neden gerekli? Neden Tick olayında tanımlamayız?
+2. Timer.Interval = 1000 ne anlama gelir?

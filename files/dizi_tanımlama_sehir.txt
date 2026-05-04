@@ -1,0 +1,12 @@
+SORU: ŞEHİR TANIMLAMA (String Dizisi)
+
+Türkiye illerini string dizisinde saklayınız.
+
+GÖREV:
+- string[] iller = {"Ankara","İstanbul","İzmir",...};
+- ListBox'ta gösteriniz
+- TextBox ile arama yapınız (Array.IndexOf)
+
+SORULAR:
+1. string[] nasıl tanımlanır?
+2. Array.IndexOf() ne döndürür? Bulamazsa?

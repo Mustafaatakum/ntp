@@ -1,0 +1,13 @@
+SORU: FOR İLE RENKLİ NOKTALAR
+
+for döngüsü ile rastgele konumda renkli Panel'ler (nokta görünümünde) ekleyiniz.
+
+GÖREV:
+- Panel pnl = new Panel();
+- pnl.Size = new Size(10, 10);
+- pnl.BackColor = rastgeleRenk;
+- pnl.Location = rastgeleKonum;
+
+SORULAR:
+1. Panel'i daire görünümüne getirmek için ne yapılabilir?
+2. Çok fazla nesne eklemek performansı nasıl etkiler?

@@ -1,0 +1,13 @@
+SORU: F16 KEYCODE - IF - TIMER
+
+F-16 uçağı görselini klavye ve Timer ile hareket ettirin.
+
+GÖREV:
+- Timer ile sürekli hareket
+- KeyDown ile hız/yön değişimi
+- if ile tuş kontrolü
+- Form sınırı içinde kalma kontrolü
+
+SORULAR:
+1. e.KeyCode ile hangi tuşlar kontrol edilir?
+2. Timer.Tick ile KeyDown nasıl birlikte çalışır?

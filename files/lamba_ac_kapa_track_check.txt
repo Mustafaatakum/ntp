@@ -1,0 +1,12 @@
+SORU: LAMBA AÇ KAPA (TrackBar ve CheckBox)
+
+Lamba simülasyonu yapınız. TrackBar ile parlaklık, CheckBox ile açık/kapalı.
+
+GÖREV:
+- CheckBox ile lamba görünür/gizli
+- TrackBar ile parlaklık (BackColor ton değişimi)
+- Timer ile yanıp sönme efekti seçeneği
+
+SORULAR:
+1. TrackBar ve CheckBox birlikte nasıl çalışır?
+2. Renk tonu nasıl ayarlanır? (FromArgb ile)

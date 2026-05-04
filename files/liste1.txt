@@ -1,0 +1,14 @@
+SORU: LİSTEYE YAZI EKLEME
+
+Bir TextBox, bir ListBox, "Ekle" ve "Sil" butonları ekleyiniz.
+Ekle: TextBox'taki metni listeye eklesin. Sil: seçili elemanı silsin.
+
+GÖREV:
+- listBox1.Items.Add(textBox1.Text);
+- listBox1.Items.Remove(listBox1.SelectedItem);
+- TextBox boşken eklemeye izin vermeyiniz
+
+SORULAR:
+1. Items.Add() ile Items.Insert() arasındaki fark?
+2. SelectedItem ile SelectedIndex farkı nedir?
+3. Seçili eleman yokken Sil basılırsa ne yapmalısınız?

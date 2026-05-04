@@ -1,0 +1,14 @@
+SORU: LİSTEDEN RASTGELE SEÇ
+
+ListBox'a isimler ekleyiniz. "Rastgele Seç" butonu ile listeden rastgele bir eleman seçilsin.
+
+GÖREV:
+- Random rnd = new Random();
+- int index = rnd.Next(listBox1.Items.Count);
+- listBox1.SelectedIndex = index;
+- Seçilen elemanı Label'da büyük puntolu gösteriniz
+
+SORULAR:
+1. rnd.Next(listBox1.Items.Count) hangi değerleri üretir?
+2. Liste boşken butona basılırsa ne yapmalısınız?
+3. Ardışık aynı elemanın seçilmemesi için ne yapılabilir?

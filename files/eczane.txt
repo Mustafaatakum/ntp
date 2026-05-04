@@ -1,0 +1,13 @@
+SORU: ECZANE TAKİP SİSTEMİ
+
+Eczane stok takip uygulaması.
+
+GÖREV:
+- İlaçlar tablosu (Barkod, Ad, Stok, Fiyat)
+- Satış işlemi
+- Stok güncelleme
+- Düşük stok uyarısı
+
+SORULAR:
+1. Stok azaldığında otomatik uyarı nasıl oluşturulur?
+2. Satış kaydı hangi tablolarda güncelleme gerektirir?

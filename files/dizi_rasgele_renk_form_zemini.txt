@@ -1,0 +1,12 @@
+SORU: DİZİ RASTGELE RENK FORM ZEMİNİ
+
+Color[] dizi ile rastgele renk animasyonu yapınız.
+
+GÖREV:
+- Color[] renkler = new Color[20]; rastgele doldur
+- Timer ile sırayla renkleri forma ata
+- Döngüsel çalışsın (i = (i+1) % renkler.Length)
+
+SORULAR:
+1. Döngüsel sayaç için modulo nasıl kullanılır?
+2. Timer her Tick'te bir renk mi, rastgele mi seçer?

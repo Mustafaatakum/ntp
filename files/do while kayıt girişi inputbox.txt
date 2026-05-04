@@ -1,0 +1,11 @@
+SORU: DO-WHILE İLE KAYIT GİRİŞİ
+
+do-while döngüsü ile kayıt girişi yapınız.
+
+GÖREV:
+- do { isim = InputBox(...); listBox.Add(isim); } while (isim != "iptal");
+- En az bir kez girilmesi zorunlu
+
+SORULAR:
+1. do-while ile while'ın temel farkı nedir?
+2. do-while hangi durumlarda tercih edilir?

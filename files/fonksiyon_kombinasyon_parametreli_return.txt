@@ -1,0 +1,12 @@
+SORU: KOMBİNASYON (Parametreli - return)
+
+Parametreli, değer döndüren kombinasyon fonksiyonu yazınız.
+
+GÖREV:
+- C(n,r) = n! / (r! * (n-r)!)
+- private long Kombinasyon(int n, int r) { return ...; }
+- Faktöriyel fonksiyonunu tekrar kullanınız
+
+SORULAR:
+1. return değeri olan fonksiyon nasıl tanımlanır?
+2. Kombinasyon nerede kullanılır? (loto vs)

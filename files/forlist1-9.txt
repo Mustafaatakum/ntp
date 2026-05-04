@@ -1,0 +1,10 @@
+SORU: LİSTEYE 1'DEN 9'A KADAR SAYI (For)
+
+for döngüsü ile 1-9 arası sayıları ListBox'a ekleyiniz. Toplamı da gösteriniz.
+
+GÖREV:
+- for (int i = 1; i <= 9; i++) { listBox1.Items.Add(i); toplam += i; }
+
+SORULAR:
+1. Toplam değişkeni döngü dışında mı tanımlanmalı?
+2. Sayıları tersten listelemek için ne değişir?

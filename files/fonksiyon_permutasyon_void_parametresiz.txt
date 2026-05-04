@@ -1,0 +1,12 @@
+SORU: PERMÜTASYON (void - Parametresiz)
+
+void, parametresiz permütasyon fonksiyonu yazınız.
+
+GÖREV:
+- P(n,r) = n! / (n-r)!
+- Faktöriyel hesabı için ayrı fonksiyon yazınız
+
+SORULAR:
+1. void fonksiyon ne döndürür?
+2. Permütasyon formülü nedir?
+3. n < r olursa ne yapılmalı?

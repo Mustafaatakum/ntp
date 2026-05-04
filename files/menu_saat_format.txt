@@ -1,0 +1,13 @@
+SORU: MENÜ SAAT FORMAT
+
+Menüden saat formatı seçilen dijital saat uygulaması.
+
+GÖREV:
+- Timer ile her saniye güncelleme
+- Menü: 12 saat / 24 saat formatı
+- Menü: Saat rengi seçimi
+- Menü: Büyük/Küçük yazı boyutu
+
+SORULAR:
+1. DateTime.Now.ToString("h:mm:ss tt") 12 saatlik format mı?
+2. Menü seçimine göre format nasıl değiştirilir?

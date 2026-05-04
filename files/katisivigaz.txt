@@ -1,0 +1,13 @@
+SORU: KATI SIVI GAZ HAL KONTROLÜ
+
+Sıcaklık girişine göre suyun halini belirleyiniz.
+
+GÖREV:
+- <0°C: KATI (mavi)
+- 0-100°C: SIVI (açık mavi)
+- >100°C: GAZ (gri/beyaz)
+- Görsel termometre göstergesi ekleyiniz
+
+SORULAR:
+1. 0°C tam olarak hangi hal?
+2. Farklı maddeler için eşik değerleri nasıl değiştirilir?

@@ -1,0 +1,14 @@
+SORU: SEÇİLEN RESMİ BÜYÜTME SWAP (Galeri)
+
+Bir büyük PictureBox ve 4 küçük PictureBox ekleyiniz.
+Küçük resme tıklandığında büyük PictureBox'ta gösterilsin ve yer değiştirsin (SWAP).
+
+GÖREV:
+- Image temp = pictureBoxBuyuk.Image;
+- pictureBoxBuyuk.Image = pictureBox1.Image;
+- pictureBox1.Image = temp;
+
+SORULAR:
+1. SWAP (yer değiştirme) mantığı nedir?
+2. PictureBox.Image özelliği nedir?
+3. SizeMode = Zoom ne yapar?

@@ -1,0 +1,13 @@
+SORU: KİBRİT OYUNU (Nim Oyunu)
+
+Kibrit oyunu: Başlangıçta N kibrit var. Sırayla 1-3 kibrit alınır. Son kibriti alan kaybeder.
+
+GÖREV:
+- Kibrit sayısını görsel olarak gösteriniz
+- Kullanıcı 1, 2 veya 3 kibrit alabilir
+- Bilgisayar stratejik hamle yapsın
+- if ile kazanan belirlenmeli
+
+SORULAR:
+1. Bilgisayar stratejisi: (N-1) % 4 == 0 ise kazanma garantisi var. Bunu if ile nasıl kullanırsınız?
+2. Kibrit sayısı 0'a ulaşınca oyun nasıl biter?

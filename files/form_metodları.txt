@@ -1,0 +1,14 @@
+SORU: FORM METODLARI
+
+Form metodlarını (Show, Hide, Close, Activate) test ediniz.
+
+GÖREV:
+- Show(): formu göster
+- Hide(): formu gizle
+- Close(): formu kapat
+- Activate(): odağa getir
+- WindowState: Normal, Maximized, Minimized
+
+SORULAR:
+1. Hide() ile Close() farkı nedir?
+2. WindowState nasıl değiştirilir?

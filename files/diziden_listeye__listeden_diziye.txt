@@ -1,0 +1,12 @@
+SORU: DİZİDEN LİSTEYE, LİSTEDEN DİZİYE
+
+Dizi ve List<T> arasında dönüşüm yapınız.
+
+GÖREV:
+- int[] dizi = {1,2,3,4,5};
+- List<int> liste = new List<int>(dizi); // diziden listeye
+- int[] geriDizi = liste.ToArray(); // listeden diziye
+
+SORULAR:
+1. Array ile List<T> farkı nedir?
+2. ToArray() ne işe yarar?

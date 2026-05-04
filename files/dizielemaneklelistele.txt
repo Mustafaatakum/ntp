@@ -1,0 +1,12 @@
+SORU: DİZİYE ELEMAN EKLEME VE LİSTELEME
+
+Kullanıcıdan N adet sayı alıp diziye ekleyin ve listeleyin.
+
+GÖREV:
+- int n = int.Parse(textBoxN.Text);
+- int[] dizi = new int[n];
+- for (int i=0; i<n; i++) dizi[i] = int.Parse(InputBox(...));
+
+SORULAR:
+1. Dizi boyutu önceden bilinmiyorsa ne yapılır?
+2. InputBox yerine TextBox kullanmak için ne değişir?

@@ -1,0 +1,12 @@
+SORU: EV BOYAMA (ColorDialog)
+
+Ev çizimini ColorDialog ile boyayan uygulama.
+
+GÖREV:
+- Panel üzerinde ev çizimi (çatı, duvar, pencere, kapı)
+- Her bölüme tıklandığında ColorDialog açılsın
+- Seçilen renkle o bölüm boyansın
+
+SORULAR:
+1. Hangi bölüme tıklandığı nasıl anlaşılır?
+2. Panel.Paint olayında bölümler nasıl çizilir?

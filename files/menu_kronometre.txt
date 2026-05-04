@@ -1,0 +1,12 @@
+SORU: MENÜ KRONOMETTRE
+
+Menüden kontrol edilen kronometre uygulaması.
+
+GÖREV:
+- MenuStrip: Başlat, Durdur, Sıfırla, Kaydet
+- Timer ile süre sayılsın
+- Kaydet: ara süreleri ListBox'a eklesin (lap time)
+
+SORULAR:
+1. Menü ile Timer kontrolü nasıl yapılır?
+2. Ara süre (lap time) nasıl hesaplanır?

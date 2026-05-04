@@ -1,0 +1,12 @@
+SORU: KOD İLE NESNE EKLEME (Controls.Add)
+
+Kod ile runtime'da form üzerine nesne ekleyiniz.
+
+GÖREV:
+- Button btn = new Button(); btn.Text = "Yeni"; btn.Location = new Point(10,10);
+- this.Controls.Add(btn);
+- btn.Click += new EventHandler(DinamikButon_Click);
+
+SORULAR:
+1. Controls.Add() ne işe yarar?
+2. Lambda ile Click olayı nasıl eklenir? (btn.Click += (s,e) => { ... })

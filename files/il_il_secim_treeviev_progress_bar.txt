@@ -1,0 +1,12 @@
+SORU: İL İL SEÇİM TREEVIEW PROGRESSBAR
+
+İl bazlı seçim sonuçları TreeView ve ProgressBar ile.
+
+GÖREV:
+- 81 il TreeView'da listeli
+- Seçilen ilde parti oy oranları ProgressBar ile gösterilsin
+- Renk kodlaması ile parti görsel ayrımı
+
+SORULAR:
+1. ProgressBar değeri 0-100 arasında mı olmalı?
+2. Birden fazla ProgressBar nasıl sıralanır?

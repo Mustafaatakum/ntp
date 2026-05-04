@@ -1,0 +1,14 @@
+SORU: DİZİ MAK-MİN-LENGTH-RANK-SUM-AVERAGE
+
+Dizi üzerinde tüm temel istatistikleri hesaplayınız.
+
+GÖREV:
+- Max: dizi.Max() veya for ile
+- Min: dizi.Min() veya for ile
+- Toplam: dizi.Sum()
+- Ortalama: dizi.Average()
+- Sıralama içindeki yeri (rank)
+
+SORULAR:
+1. LINQ metodları (Max, Min, Sum, Average) nasıl kullanılır?
+2. Rank hesabı için dizi nasıl sıralanır?

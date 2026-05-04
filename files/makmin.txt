@@ -1,0 +1,14 @@
+SORU: LİSTEYE SAYI EKLEYİP EN BÜYÜK EN KÜÇÜK BULMA
+
+Sayı girişi, "Ekle" butonu ve ListBox ekleyiniz.
+ListBox'taki sayıların max, min, toplam, ortalamasını bulunuz.
+
+GÖREV:
+- Döngü ile ListBox elemanlarını dolaşınız
+- if ile max/min karşılaştırması yapınız
+- İlk eleman başlangıç değeri olarak alınız
+
+SORULAR:
+1. İlk karşılaştırma değeri ne olmalıdır?
+2. Liste boşken hesaplama yapılırsa ne olur?
+3. ListBox'taki string'leri double'a nasıl çevirirsiniz?

@@ -1,0 +1,14 @@
+SORU: LİSTE1 LİSTE2 EKLE ÇIKAR HEPSİNİ AKTAR TEMİZLE
+
+İki ListBox, aralarında çift yönlü aktarım butonları ekleyiniz.
+
+GÖREV:
+- ">" : Seçili elemanı sola/sağa aktar
+- ">>" : Tümünü aktar
+- "<" : Seçili elemanı geri al
+- "<<" : Tümünü geri al
+- "Temizle" : Seçili listeyi temizle
+
+SORULAR:
+1. Tümünü aktarmak için foreach nasıl kullanılır?
+2. Aktarırken kaynak listeden silmek nasıl yapılır?

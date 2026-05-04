@@ -1,0 +1,12 @@
+SORU: DİZİ SIRALAMA TERS ÇEVİRME
+
+Dizi üzerinde sıralama ve ters çevirme işlemleri yapınız.
+
+GÖREV:
+- Array.Sort(dizi);
+- Array.Reverse(dizi);
+- Karıştırma (shuffle): Fisher-Yates algoritması
+
+SORULAR:
+1. Fisher-Yates shuffle algoritması nedir?
+2. Array.Reverse() in-place mi çalışır?

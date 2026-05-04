@@ -1,0 +1,12 @@
+SORU: İNTERNET KAFE (Dizisiz)
+
+İnternet kafe sistemini dizi kullanmadan ListBox ve Timer ile yapınız.
+
+GÖREV:
+- ListBox: oturum listesi (PC, giriş, süre, ücret)
+- Timer: aktif oturumları güncelle
+- Ücret hesabı: dakika başı
+
+SORULAR:
+1. ListBox'a nesne yerine string nasıl eklenir? (ToString() override)
+2. Timer ile tüm aktif oturumları nasıl güncellersiniz?

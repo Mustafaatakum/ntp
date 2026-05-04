@@ -1,0 +1,11 @@
+SORU: FORM SHOWDIALOG KULLANIMI
+
+ShowDialog ile modal form açıp DialogResult alınız.
+
+GÖREV:
+- Form2 frm = new Form2();
+- if (frm.ShowDialog() == DialogResult.OK) { ... frm.Sonuc ... }
+
+SORULAR:
+1. Modal form nedir?
+2. DialogResult.OK nasıl ayarlanır? (this.DialogResult = DialogResult.OK)

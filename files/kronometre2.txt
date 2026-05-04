@@ -1,0 +1,13 @@
+SORU: KRONOMETRE BAŞLA-DUR-DEVAM (Timer - Global Değişken)
+
+Başlat, Durdur, Devam Et, Sıfırla butonları ekleyiniz.
+Süreyi "00:00:00" formatında gösteriniz.
+
+GÖREV:
+- Timer ile saniye/dakika/saat sayacı
+- Durdurulunca kalıp, devam edince kaldığı yerden sürsün
+- labelSure.Text = $"{saat:D2}:{dakika:D2}:{saniye:D2}";
+
+SORULAR:
+1. Durdur/Devam mantığı nasıl kurulur?
+2. D2 format kodu ne anlama gelir? (En az 2 basamak, soldan sıfır doldurma)

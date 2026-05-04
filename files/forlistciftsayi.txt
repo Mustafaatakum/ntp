@@ -1,0 +1,11 @@
+SORU: LİSTEYE ÇİFT SAYILARI EKLEME (For)
+
+for döngüsü ile 1-100 arası ÇİFT sayıları ListBox'a ekleyiniz.
+
+GÖREV:
+- for (int i=0; i<=100; i+=2)
+- 0 dahil midir? Tartışınız.
+
+SORULAR:
+1. 0 çift sayı mıdır?
+2. Tek ve çift sayıların toplamları farkı nedir?

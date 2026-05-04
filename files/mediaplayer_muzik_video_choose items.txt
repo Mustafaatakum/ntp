@@ -1,0 +1,13 @@
+SORU: MEDIA PLAYER (Müzik/Video - ChooseItems)
+
+Medya oynatıcı uygulaması.
+
+GÖREV:
+- axWindowsMediaPlayer veya SoundPlayer ekleyiniz
+- OpenFileDialog ile dosya seçimi
+- Oynat, Duraklat, Durdur, Ses kontrolü
+- Oynatma listesi (ListBox)
+
+SORULAR:
+1. Windows Media Player kontrolü nasıl eklenir? (ChooseItems)
+2. axWindowsMediaPlayer.URL nasıl ayarlanır?

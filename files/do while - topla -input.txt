@@ -1,0 +1,12 @@
+SORU: DO-WHILE İLE TOPLA VE INPUT
+
+do-while döngüsü ile sayı alın ve toplayın.
+
+GÖREV:
+- do { sayi = InputBox(...); toplam += Convert.ToInt32(sayi); }
+- while (devamEt == true);
+- En az bir sayı girilmesini garantileyin
+
+SORULAR:
+1. Convert.ToInt32() ile int.Parse() farkı nedir?
+2. Do-while'da koşul nerede yazılır?

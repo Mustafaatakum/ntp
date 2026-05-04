@@ -1,0 +1,12 @@
+SORU: MANZARA TOPLU BOYAMA (ColorDialog)
+
+Manzara çizimini toplu boyayan uygulama.
+
+GÖREV:
+- "Gökyüzünü Boya" → ColorDialog → tüm gökyüzü bölümlerine uygula
+- "Doğayı Boya" → ColorDialog → tüm yeşil bölümlere uygula
+- foreach ile seçilen renk gruba uygulanır
+
+SORULAR:
+1. foreach ile aynı tür kontrollere renk nasıl uygulanır?
+2. Kontrolleri gruba nasıl ayırırsınız? (Tag özelliği)

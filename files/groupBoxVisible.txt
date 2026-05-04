@@ -1,0 +1,13 @@
+SORU: GROUPBOX GÖSTER GİZLE (Radio Button)
+
+Bir GroupBox içine çeşitli kontroller koyunuz.
+RadioButton ile GroupBox'ın tamamı gösterilip gizlensin.
+
+GÖREV:
+- groupBox1.Visible = radioButton1.Checked;
+- GroupBox içindeki kontroller de gizlenir mi? Test ediniz.
+
+SORULAR:
+1. GroupBox ne işe yarar?
+2. GroupBox gizlenince içindeki kontroller ne olur?
+3. Panel ile GroupBox farkı nedir?

@@ -1,0 +1,13 @@
+SORU: IF DATAGRID GEÇEN KALAN
+
+DataGridView verilerini if ile değerlendirip renklendirin.
+
+GÖREV:
+- Öğrenci notları DataGridView'de
+- Ortalama >= 50: "Geçti" (yeşil satır)
+- Ortalama < 50: "Kaldı" (kırmızı satır)
+- DataGridView.CellFormatting olayı ile renklendirin
+
+SORULAR:
+1. CellFormatting olayı ne zaman tetiklenir?
+2. Satırı nasıl renklendirilir? (.DefaultCellStyle.BackColor)

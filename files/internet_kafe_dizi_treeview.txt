@@ -1,0 +1,13 @@
+SORU: İNTERNET KAFE DİZİ TREEVIEW 2024
+
+Dizi ve TreeView ile internet kafe yönetim sistemi.
+
+GÖREV:
+- Bilgisayar adları string[] ile saklanıp TreeView'a eklenir
+- Oturum başlatma/bitirme
+- TreeView'da meşgul/boş gösterimi
+- TimeSpan ile süre ve ücret
+
+SORULAR:
+1. TreeView'a Node nasıl eklenir?
+2. Dizi ile TreeView senkronizasyonu nasıl sağlanır?

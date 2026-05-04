@@ -1,0 +1,13 @@
+SORU: İDDAA PROGRESSBAR
+
+İddaa oranlarını ProgressBar ile gösteren uygulama.
+
+GÖREV:
+- Maç seçimi ComboBox
+- Ev sahibi/Beraberlik/Deplasman oranları
+- ProgressBar ile olasılık gösterimi
+- Kupon hesabı
+
+SORULAR:
+1. Oranları ProgressBar değerine nasıl çevirirsiniz?
+2. Çoklu maç seçiminde toplam oran nasıl hesaplanır?

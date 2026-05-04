@@ -1,0 +1,12 @@
+SORU: DİZİ SIRALAMA LİSTBOXA AKTARMA
+
+TextBox'tan sayılar alıp diziye ekleyin. Sıralayıp ListBox'a aktarın.
+
+GÖREV:
+- Array.Sort(dizi); // küçükten büyüğe
+- Array.Reverse(dizi); // büyükten küçüğe
+- Sıralı diziyi ListBox'a ekleyiniz
+
+SORULAR:
+1. Array.Sort() hangi algoritmayı kullanır?
+2. Sıralama öncesi ve sonrasını karşılaştırınız.

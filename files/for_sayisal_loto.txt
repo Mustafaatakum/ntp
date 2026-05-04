@@ -1,0 +1,13 @@
+SORU: SAYISAL LOTO (For)
+
+1-49 arası 6 farklı rastgele sayı seçen uygulama yapınız.
+
+GÖREV:
+- while veya for ile 6 tekrarsız sayı üretin
+- Sayıları sıralayıp gösterin (Array.Sort)
+- "Yeni Çekiliş" butonu ekleyin
+- Kullanıcının seçtiği 6 sayıyla karşılaştırma ekleyin
+
+SORULAR:
+1. Tekrarsız rastgele sayı üretme algoritması nedir?
+2. Array.Sort() nasıl kullanılır?

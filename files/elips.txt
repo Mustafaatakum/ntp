@@ -1,0 +1,13 @@
+SORU: ELİPS TRACKBAR ALAN ÇEVRE
+
+İki TrackBar (a ve b yarı eksenleri) ekleyiniz.
+Elipsin alanı ve yaklaşık çevresi anlık gösterilsin.
+
+GÖREV:
+- Alan = Math.PI * a * b
+- Çevre ≈ 2 × Math.PI × Math.Sqrt((a*a + b*b) / 2)
+- Çembere yakın durumda (a≈b) kontrol ediniz
+
+SORULAR:
+1. Elips nedir? Çemberden farkı nedir?
+2. Yaklaşık çevre formülü neden tam değil?
